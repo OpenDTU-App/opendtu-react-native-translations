@@ -27,7 +27,10 @@
     },
     "aboutApp": {
         "projectHint": "Diese App ist nicht mit dem OpenDTU-Projekt verbunden. Wenn du Fehler findest, melde diesen bitte auf der GitHub-Seite.",
-        "viewOnGithub": "Auf GitHub ansehen"
+        "viewOnGithub": "Auf GitHub ansehen",
+        "licenses": "Lizenzen",
+        "newVersionAvailable": "Neue Version verfügbar!",
+        "viewMore": "Mehr anzeigen"
     },
     "charts": {
         "noDatabaseConfiguredDescription": "Um Diagramme anzuzeigen, konfiguriere deine DTU und weise ihr eine Datenbank zu.",
@@ -59,7 +62,12 @@
         "doYouWantToDeleteThisConfig": "Möchtest du diese Konfiguration löschen?",
         "changeTheServerUrl": "Server-URL ändern?",
         "serverUrl": "Server-URL",
-        "manageDatabase": "Datenbank {{name}} verwalten"
+        "manageDatabase": "Datenbank {{name}} verwalten",
+        "appVersion": "App-Version",
+        "app": "App",
+        "clearGithubCache": "GitHub Fetch-Cache leeren",
+        "advanced": "Erweitert",
+        "newAppRelease": "Neue Version!"
     },
     "device": {
         "deviceName": "Gerätename",
