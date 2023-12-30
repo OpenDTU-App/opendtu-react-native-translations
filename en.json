@@ -36,7 +36,10 @@
     "add": "Add",
     "aboutApp": {
         "projectHint": "This app is not affiliated with the OpenDTU project. If you find any bugs, please report them on the GitHub page.",
-        "viewOnGithub": "View on GitHub"
+        "viewOnGithub": "View on GitHub",
+        "licenses": "Licenses",
+        "newVersionAvailable": "New version available!",
+        "viewMore": "View more"
     },
     "charts": {
         "acPower": "AC Power",
@@ -83,7 +86,12 @@
         "doYouWantToDeleteThisConfig": "Do you want to delete this config?",
         "changeTheServerUrl": "Change the Server URL?",
         "serverUrl": "Server URL",
-        "manageDatabase": "Manage database {{name}}"
+        "manageDatabase": "Manage database {{name}}",
+        "appVersion": "App version",
+        "app": "App",
+        "clearGithubCache": "Clear GitHub fetch Cache",
+        "advanced": "Advanced",
+        "newAppRelease": "New release!"
     },
     "mdns": {
         "scanning": "Scanning…",
