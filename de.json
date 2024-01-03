@@ -29,7 +29,7 @@
         "projectHint": "Diese App ist nicht mit dem OpenDTU-Projekt verbunden. Wenn du Fehler findest, melde diesen bitte auf der GitHub-Seite.",
         "viewOnGithub": "Auf GitHub ansehen",
         "licenses": "Lizenzen",
-        "newVersionAvailable": "Neue Version verfügbar!",
+        "newVersionAvailable": "Neue App-Version verfügbar!",
         "viewMore": "Mehr anzeigen"
     },
     "charts": {
@@ -70,7 +70,8 @@
         "newAppRelease": "Neue Version!",
         "licenses": "Lizenzen",
         "licensesDescription": "Open-Source Lizenzen",
-        "doYouWantToEnableAppUpdates": "Möchtest du Update-Benachrichtigungen für diese App aktivieren?"
+        "doYouWantToEnableAppUpdates": "Möchtest du Update-Benachrichtigungen für diese App aktivieren?",
+        "activateInappUpdates": "In-App-Updates aktivieren"
     },
     "device": {
         "deviceName": "Gerätename",
@@ -146,7 +147,7 @@
         "selectRange": "Wähle Zeitspanne",
         "notAccordingToDateFormat": "Das Format sollte {{inputFormat}} sein",
         "mustBeHigherThan": "Muss nach dem {{date}} sein",
-        "mustBeLowerThan": "Muss vor dem ${date} sein",
+        "mustBeLowerThan": "Muss vor dem {{date}} sein",
         "mustBeBetween": "Muss in dieser Zeitspanne liegen {{startDate}} - {{endDate}}",
         "dateIsDisabled": "Datum nicht wählbar",
         "previous": "Vorheriges",
