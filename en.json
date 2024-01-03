@@ -38,7 +38,7 @@
         "projectHint": "This app is not affiliated with the OpenDTU project. If you find any bugs, please report them on the GitHub page.",
         "viewOnGithub": "View on GitHub",
         "licenses": "Licenses",
-        "newVersionAvailable": "New version available!",
+        "newVersionAvailable": "New app-release available!",
         "viewMore": "View more"
     },
     "charts": {
@@ -79,7 +79,7 @@
         "language": "Language",
         "languageDescription": "Change the language of the app",
         "aboutApp": "About the App",
-        "aboutDescription": "Licenses • Version",
+        "aboutDescription": "Version • App Updates",
         "selectDatabase": "Select Database",
         "changeTheTheme": "Change the Theme?",
         "changeTheLanguage": "Change the Language?",
@@ -91,7 +91,11 @@
         "app": "App",
         "clearGithubCache": "Clear GitHub fetch Cache",
         "advanced": "Advanced",
-        "newAppRelease": "New release!"
+        "newAppRelease": "New release!",
+        "licenses": "Licenses",
+        "licensesDescription": "Open Source Licenses",
+        "doYouWantToEnableAppUpdates": "Do you want to enable update-notifications for this app?",
+        "activateInappUpdates": "Activate In-App updates"
     },
     "mdns": {
         "scanning": "Scanning…",
@@ -268,5 +272,7 @@
     "unavailable": "Unavailable",
     "synced": "Synced",
     "notSynced": "Not synced",
-    "n_seconds": "{{n}} seconds"
+    "n_seconds": "{{n}} seconds",
+    "enable": "Enable",
+    "disable": "Disable"
 }

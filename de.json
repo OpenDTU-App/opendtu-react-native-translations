@@ -56,7 +56,7 @@
         "themeDescription": "App-Theme ändern",
         "language": "Sprache",
         "aboutApp": "Über die App",
-        "aboutDescription": "Lizenzen • Version • Sonstige Informationen",
+        "aboutDescription": "Version • App-Updates",
         "selectDatabase": "Datenbank auswählen",
         "changeTheLanguage": "App-Sprache ändern?",
         "doYouWantToDeleteThisConfig": "Möchtest du diese Konfiguration löschen?",
@@ -67,7 +67,10 @@
         "app": "App",
         "clearGithubCache": "GitHub Fetch-Cache leeren",
         "advanced": "Erweitert",
-        "newAppRelease": "Neue Version!"
+        "newAppRelease": "Neue Version!",
+        "licenses": "Lizenzen",
+        "licensesDescription": "Open-Source Lizenzen",
+        "doYouWantToEnableAppUpdates": "Möchtest du Update-Benachrichtigungen für diese App aktivieren?"
     },
     "device": {
         "deviceName": "Gerätename",
@@ -268,5 +271,7 @@
     "unavailable": "Nicht verfügbar",
     "synced": "Synchronisiert",
     "notSynced": "Nicht synchronisiert",
-    "n_seconds": "{{n}} Sekunden"
+    "n_seconds": "{{n}} Sekunden",
+    "enable": "Aktivieren",
+    "disable": "Deaktivieren"
 }
