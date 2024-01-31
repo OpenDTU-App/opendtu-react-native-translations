@@ -65,10 +65,16 @@
         },
         "password": "Password",
         "login": "Login",
+        "anonymous": "Continue anonymously",
         "addOpendtuInstance": "Add OpenDTU Instance",
         "opendtuAddress": "OpenDTU Address",
         "instancesInYourNetwork": "Instances in your network",
-        "connect": "Connect"
+        "connect": "Connect",
+        "errors": {
+            "invalidAddress": "Invalid address",
+            "invalidCredentials": "Invalid credentials",
+            "genericError": "Something went wrong! Please try again."
+        }
     },
     "settings": {
         "seconds": "Seconds",
