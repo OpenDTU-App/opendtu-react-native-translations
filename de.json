@@ -101,7 +101,13 @@
         "addOpendtuInstance": "OpenDTU-Instanz hinzufügen",
         "opendtuAddress": "OpenDTU-Adresse",
         "instancesInYourNetwork": "Instanzen im Netzwerk",
-        "connect": "Verbinden"
+        "connect": "Verbinden",
+        "anonymous": "Anonym fortfahren",
+        "errors": {
+            "invalidAddress": "Ungültige Adresse",
+            "invalidCredentials": "Ungültige Anmeldeinformationen",
+            "genericError": "Etwas ist schief gelaufen! Bitte versuche es erneut."
+        }
     },
     "manageDatabases": {
         "noDatabasesConfiguredHint": "Anscheinend hast du noch keine Datenbanken konfiguriert. Klicke auf die Plus-Schaltfläche, um eine hinzuzufügen!",
