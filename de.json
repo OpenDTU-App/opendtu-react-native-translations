@@ -71,7 +71,8 @@
         "licenses": "Lizenzen",
         "licensesDescription": "Open-Source Lizenzen",
         "doYouWantToEnableAppUpdates": "Möchtest du Update-Benachrichtigungen für diese App aktivieren?",
-        "activateInappUpdates": "In-App-Updates aktivieren"
+        "activateInappUpdates": "In-App-Updates aktivieren",
+        "debug": "Debug"
     },
     "device": {
         "deviceName": "Gerätename",
@@ -281,5 +282,13 @@
     "notSynced": "Nicht synchronisiert",
     "n_seconds": "{{n}} Sekunden",
     "enable": "Aktivieren",
-    "disable": "Deaktivieren"
+    "disable": "Deaktivieren",
+    "version": "Version",
+    "debug": {
+        "cache": "Cache",
+        "disableDebugMode": "Debug-Modus deaktivieren",
+        "latestAppReleaseCacheCreated": "App-Release-Cache von",
+        "latestOpenDtuReleaseCacheCreated": "OpenDTU-Release-Cache von",
+        "other": "Andere"
+    }
 }
