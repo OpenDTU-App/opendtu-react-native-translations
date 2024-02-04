@@ -144,7 +144,8 @@
     },
     "navigation": {
         "livedata": "Livedaten",
-        "settings": "Einstellungen"
+        "settings": "Einstellungen",
+        "graph": "Graphen"
     },
     "RNPaperDates": {
         "save": "Speichern",
