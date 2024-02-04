@@ -101,7 +101,8 @@
         "licenses": "Licenses",
         "licensesDescription": "Open Source Licenses",
         "doYouWantToEnableAppUpdates": "Do you want to enable update-notifications for this app?",
-        "activateInappUpdates": "Activate In-App updates"
+        "activateInappUpdates": "Activate In-App updates",
+        "debug": "Debug"
     },
     "mdns": {
         "scanning": "Scanning…",
@@ -281,5 +282,13 @@
     "notSynced": "Not synced",
     "n_seconds": "{{n}} seconds",
     "enable": "Enable",
-    "disable": "Disable"
+    "disable": "Disable",
+    "version": "Version",
+    "debug": {
+        "cache": "Cache",
+        "disableDebugMode": "Disable Debug Mode",
+        "latestAppReleaseCacheCreated": "App release cache from",
+        "latestOpenDtuReleaseCacheCreated": "OpenDTU release cache from",
+        "other": "Other"
+    }
 }
