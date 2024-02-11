@@ -290,5 +290,9 @@
         "latestAppReleaseCacheCreated": "App release cache from",
         "latestOpenDtuReleaseCacheCreated": "OpenDTU release cache from",
         "other": "Other"
+    },
+    "offlineModal": {
+        "title": "Offline",
+        "description": "Your device does not have a connection via WiFi or mobile data. Please check your connection."
     }
 }
