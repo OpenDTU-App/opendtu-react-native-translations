@@ -290,5 +290,9 @@
         "latestAppReleaseCacheCreated": "App-Release-Cache von",
         "latestOpenDtuReleaseCacheCreated": "OpenDTU-Release-Cache von",
         "other": "Andere"
+    },
+    "offlineModal": {
+        "title": "Offline",
+        "description": "Dein Gerät verfügt über keine Verbindung über WLAN oder mobile Daten. Bitte überprüfe deine Verbindung."
     }
 }
