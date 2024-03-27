@@ -289,7 +289,8 @@
         "disableDebugMode": "Debug-Modus deaktivieren",
         "latestAppReleaseCacheCreated": "App-Release-Cache von",
         "latestOpenDtuReleaseCacheCreated": "OpenDTU-Release-Cache von",
-        "other": "Andere"
+        "other": "Andere",
+        "websocket": "WebSocket"
     },
     "offlineModal": {
         "title": "Offline",
