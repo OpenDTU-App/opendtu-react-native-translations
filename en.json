@@ -211,7 +211,13 @@
             "nrf24ChipStatus": "nRF24 Chip Status",
             "nrf24ChipType": "nRF24 Chip Type",
             "cmt2300aStatus": "CMT2300A Status",
-            "cmt2300aChipStatus": "CMT2300A Chip Status"
+            "cmt2300aChipStatus": "CMT2300A Chip Status",
+            "psram": "PSRAM",
+            "heapDetails": "Heap Details",
+            "totalFree": "Total free",
+            "biggestBlock": "Biggest contiguous free block",
+            "fragmentation": "Level of fragmentation",
+            "maxUsage": "Maximum usage since start"
         },
         "networkInformation": "Network Information",
         "networkInformationDescription": "WiFi • Ethernet • mDNS",
