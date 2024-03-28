@@ -209,7 +209,13 @@
             "cmt2300aStatus": "CMT2300A-Status",
             "cmt2300aChipStatus": "CMT2300A-Chipstatus",
             "configVersion": "Konfigurationsversion",
-            "hardwareInformation": "Hardwareinformationen"
+            "hardwareInformation": "Hardwareinformationen",
+            "psram": "PSRAM",
+            "heapDetails": "Heap-Details",
+            "totalFree": "Total Frei",
+            "biggestBlock": "Größter verwendeter Block",
+            "fragmentation": "Grad der Fragmentierung",
+            "maxUsage": "Maximale Nutzung seit Start"
         },
         "systemInformation": "Systeminformationen",
         "networkInformationScreen": {
