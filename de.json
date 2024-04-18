@@ -297,7 +297,8 @@
         "latestAppReleaseCacheCreated": "App-Release-Cache von",
         "latestOpenDtuReleaseCacheCreated": "OpenDTU-Release-Cache von",
         "other": "Andere",
-        "websocket": "WebSocket"
+        "websocket": "WebSocket",
+        "openDtuReleasesCacheCreated": "OpenDTU-Release-Cache von"
     },
     "offlineModal": {
         "title": "Offline",
