@@ -159,7 +159,8 @@
     "navigation": {
         "livedata": "Livedata",
         "settings": "Settings",
-        "graph": "Graphs"
+        "graph": "Graphs",
+        "inverterList": "Inverter"
     },
     "RNPaperDates": {
         "save": "Save",
@@ -296,7 +297,8 @@
         "latestAppReleaseCacheCreated": "App release cache from",
         "latestOpenDtuReleaseCacheCreated": "OpenDTU release cache from",
         "other": "Other",
-        "websocket": "WebSocket"
+        "websocket": "WebSocket",
+        "openDtuReleasesCacheCreated": "OpenDTU releases cache from"
     },
     "offlineModal": {
         "title": "Offline",
