@@ -146,7 +146,8 @@
     "navigation": {
         "livedata": "Livedaten",
         "settings": "Einstellungen",
-        "graph": "Graphen"
+        "graph": "Graphen",
+        "inverterList": "Inverter"
     },
     "RNPaperDates": {
         "save": "Speichern",
