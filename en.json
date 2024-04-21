@@ -102,7 +102,10 @@
         "licensesDescription": "Open Source Licenses",
         "doYouWantToEnableAppUpdates": "Do you want to enable update-notifications for this app?",
         "activateInappUpdates": "Activate In-App updates",
-        "debug": "Debug"
+        "debug": "Debug",
+        "newOpenDtuRelease": "New release!",
+        "doYouWantToEnableOpenDtuUpdates": "Do you want to enable update-notifications for OpenDTU releases?",
+        "thisWillMakeRequestsToGithub": "This will make requests to api.github.com"
     },
     "mdns": {
         "scanning": "Scanning…",
@@ -218,7 +221,9 @@
             "totalFree": "Total free",
             "biggestBlock": "Biggest contiguous free block",
             "fragmentation": "Level of fragmentation",
-            "maxUsage": "Maximum usage since start"
+            "maxUsage": "Maximum usage since start",
+            "activateFetchFromGithub": "Activate fetch from Github",
+            "activateFetchFromGithubDescription": "This will make requests to api.github.com"
         },
         "networkInformation": "Network Information",
         "networkInformationDescription": "WiFi • Ethernet • mDNS",
@@ -276,6 +281,10 @@
             "individualPanels": "Individual Panels",
             "runtimeSummary": "Runtime Summary",
             "connectionStatus": "Connection Status"
+        },
+        "changelog": {
+            "updatesChangelog": "Updates & Changelog",
+            "updatesChangelogDescription": "View the changelog and update your OpenDTU from the app"
         }
     },
     "connected": "Connected",
