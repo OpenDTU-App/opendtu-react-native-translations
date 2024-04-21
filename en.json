@@ -105,7 +105,8 @@
         "debug": "Debug",
         "newOpenDtuRelease": "New release!",
         "doYouWantToEnableOpenDtuUpdates": "Do you want to enable update-notifications for OpenDTU releases?",
-        "thisWillMakeRequestsToGithub": "This will make requests to api.github.com"
+        "thisWillMakeRequestsToGithub": "This will make requests to api.github.com",
+        "changeOpendtuCredentials": "Change OpenDTU Credentials?"
     },
     "mdns": {
         "scanning": "Scanning…",
@@ -151,7 +152,9 @@
         "details": "Details",
         "configureDeviceName": "Device name",
         "configureServerUrl": "Server URL",
-        "configureDatabase": "Database Config"
+        "configureDatabase": "Database Config",
+        "opendtuCredentials": "OpenDTU Credentials",
+        "none": "None"
     },
     "manageDatabases": {
         "databases": "Databases",
@@ -319,5 +322,6 @@
             "noEvents": "No events",
             "noEventsDescription": "No events have been logged yet."
         }
-    }
+    },
+    "clear": "Clear"
 }
