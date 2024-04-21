@@ -303,5 +303,12 @@
     "offlineModal": {
         "title": "Offline",
         "description": "Your device does not have a connection via WiFi or mobile data. Please check your connection."
+    },
+    "inverter": {
+        "eventLog": {
+            "title": "Event Log",
+            "noEvents": "No events",
+            "noEventsDescription": "No events have been logged yet."
+        }
     }
 }
