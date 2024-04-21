@@ -23,7 +23,8 @@
         "details": "Details",
         "configureDeviceName": "Gerätename",
         "configureServerUrl": "Server-URL",
-        "configureDatabase": "Datenbank Konfiguration"
+        "configureDatabase": "Datenbank Konfiguration",
+        "opendtuCredentials": "OpenDTU-Anmeldeinformationen"
     },
     "aboutApp": {
         "projectHint": "Diese App ist nicht mit dem OpenDTU-Projekt verbunden. Wenn du Fehler findest, melde diesen bitte auf der GitHub-Seite.",
@@ -75,7 +76,8 @@
         "debug": "Debug",
         "newOpenDtuRelease": "Neue Version!",
         "doYouWantToEnableOpenDtuUpdates": "Möchtest du Update-Benachrichtigungen für OpenDTU-Releases aktivieren?",
-        "thisWillMakeRequestsToGithub": "Dadurch werden Anfragen an api.github.com gesendet"
+        "thisWillMakeRequestsToGithub": "Dadurch werden Anfragen an api.github.com gesendet",
+        "changeOpendtuCredentials": "OpenDTU-Anmeldeinformationen ändern?"
     },
     "device": {
         "deviceName": "Gerätename",
