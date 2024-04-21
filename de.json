@@ -322,5 +322,6 @@
             "noEvents": "Keine Ereignisse",
             "noEventsDescription": "Keine Ereignisse wurden bis jetzt gemeldet."
         }
-    }
+    },
+    "clear": "Löschen"
 }
