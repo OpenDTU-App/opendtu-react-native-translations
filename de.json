@@ -73,7 +73,9 @@
         "doYouWantToEnableAppUpdates": "Möchtest du Update-Benachrichtigungen für diese App aktivieren?",
         "activateInappUpdates": "In-App-Updates aktivieren",
         "debug": "Debug",
-        "newOpenDtuRelease": "Neue Version!"
+        "newOpenDtuRelease": "Neue Version!",
+        "doYouWantToEnableOpenDtuUpdates": "Möchtest du Update-Benachrichtigungen für OpenDTU-Releases aktivieren?",
+        "thisWillMakeRequestsToGithub": "Dadurch werden Anfragen an api.github.com gesendet"
     },
     "device": {
         "deviceName": "Gerätename",
@@ -217,7 +219,9 @@
             "totalFree": "Total Frei",
             "biggestBlock": "Größter verwendeter Block",
             "fragmentation": "Grad der Fragmentierung",
-            "maxUsage": "Maximale Nutzung seit Start"
+            "maxUsage": "Maximale Nutzung seit Start",
+            "activateFetchFromGithub": "Aktiviere Datenabfrage an Github",
+            "activateFetchFromGithubDescription": "Dadurch werden Anfragen an api.github.com gesendet"
         },
         "systemInformation": "Systeminformationen",
         "networkInformationScreen": {
@@ -277,7 +281,11 @@
         "mqttInformation": "MQTT-Informationen",
         "mqttInformationDescription": "MQTT-Konfiguration • MQTT-Status",
         "ntpInformation": "NTP-Informationen",
-        "ntpInformationDescription": "NTP-Konfiguration • NTP-Status"
+        "ntpInformationDescription": "NTP-Konfiguration • NTP-Status",
+        "changelog": {
+            "updatesChangelog": "Updates und Änderungsprotokoll",
+            "updatesChangelogDescription": "Sieh dir das Änderungsprotokoll an und aktualisiere deine OpenDTU über die App"
+        }
     },
     "connected": "Verbunden",
     "notConnected": "Nicht verbunden",
