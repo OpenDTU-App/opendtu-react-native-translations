@@ -24,7 +24,8 @@
         "configureDeviceName": "Gerätename",
         "configureServerUrl": "Server-URL",
         "configureDatabase": "Datenbank Konfiguration",
-        "opendtuCredentials": "OpenDTU-Anmeldeinformationen"
+        "opendtuCredentials": "OpenDTU-Anmeldeinformationen",
+        "none": "Keine"
     },
     "aboutApp": {
         "projectHint": "Diese App ist nicht mit dem OpenDTU-Projekt verbunden. Wenn du Fehler findest, melde diesen bitte auf der GitHub-Seite.",
