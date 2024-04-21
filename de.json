@@ -72,7 +72,8 @@
         "licensesDescription": "Open-Source Lizenzen",
         "doYouWantToEnableAppUpdates": "Möchtest du Update-Benachrichtigungen für diese App aktivieren?",
         "activateInappUpdates": "In-App-Updates aktivieren",
-        "debug": "Debug"
+        "debug": "Debug",
+        "newOpenDtuRelease": "Neue Version!"
     },
     "device": {
         "deviceName": "Gerätename",
