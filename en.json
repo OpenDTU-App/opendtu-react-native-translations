@@ -332,6 +332,9 @@
         "latestFirmware": "Latest Firmware",
         "installedFirmware": "Installed Firmware",
         "view_on_github": "View on GitHub",
-        "install_firmware_on_device": "Install firmware on device"
+        "install_firmware_on_device": "Install firmware on device",
+        "newReleases": "New releases",
+        "outdatedReleases": "Outdated releases",
+        "noReleases": "No releases available"
     }
 }
