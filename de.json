@@ -326,5 +326,10 @@
             "noEventsDescription": "Keine Ereignisse wurden bis jetzt gemeldet."
         }
     },
-    "clear": "Löschen"
+    "clear": "Löschen",
+    "firmwares": {
+        "title": "Firmwares",
+        "latestFirmware": "Neueste Firmware",
+        "installedFirmware": "Installierte Firmware"
+    }
 }
