@@ -335,6 +335,7 @@
         "install_firmware_on_device": "Install firmware on device",
         "newReleases": "New releases",
         "outdatedReleases": "Outdated releases",
-        "noReleases": "No releases available"
+        "noReleases": "No releases available",
+        "publishedAgo": "Published {{timeAgo}}"
     }
 }

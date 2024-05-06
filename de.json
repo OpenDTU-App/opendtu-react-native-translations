@@ -335,6 +335,7 @@
         "install_firmware_on_device": "Firmware auf Gerät installieren",
         "outdatedReleases": "Veraltete Releases",
         "noReleases": "Keine Releases verfügbar",
-        "newReleases": "Neue Releases"
+        "newReleases": "Neue Releases",
+        "publishedAgo": "{{timeAgo}} veröffentlicht"
     }
 }
