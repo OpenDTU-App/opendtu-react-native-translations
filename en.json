@@ -336,6 +336,7 @@
         "newReleases": "New releases",
         "outdatedReleases": "Outdated releases",
         "noReleases": "No releases available",
-        "publishedAgo": "Published {{timeAgo}}"
+        "publishedAgo": "Published {{timeAgo}}",
+        "install": "Install selected firmware"
     }
 }
