@@ -182,7 +182,9 @@
         "next": "Next",
         "typeInDate": "Type in date",
         "pickDateFromCalendar": "Pick date from calendar",
-        "close": "Close"
+        "close": "Close",
+        "hour": "Hour",
+        "minute": "Minute"
     },
     "time_range": {
         "from": "From {{value}}",
@@ -247,7 +249,8 @@
             "gateway": "Gateway",
             "dns1": "DNS 1",
             "dns2": "DNS 2",
-            "macAddress": "MAC Address"
+            "macAddress": "MAC Address",
+            "dBm": "{{rssi}} dBm"
         },
         "ntpInformation": "NTP Information",
         "ntpInformationDescription": "NTP Configuration • NTP Status",
@@ -323,5 +326,12 @@
             "noEventsDescription": "No events have been logged yet."
         }
     },
-    "clear": "Clear"
+    "clear": "Clear",
+    "firmwares": {
+        "title": "Firmwares",
+        "latestFirmware": "Latest Firmware",
+        "installedFirmware": "Installed Firmware",
+        "view_on_github": "View on GitHub",
+        "install_firmware_on_device": "Install firmware on device"
+    }
 }
