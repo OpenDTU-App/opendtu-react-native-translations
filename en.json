@@ -337,7 +337,14 @@
         "outdatedReleases": "Outdated releases",
         "noReleases": "No releases available",
         "publishedAgo": "Published {{timeAgo}}",
-        "install": "Install selected firmware",
-        "download": "Download selected firmware"
+        "install": "Install firmware",
+        "installing": "Installing firmware…",
+        "download_with_size": "Download firmware ({{size}})",
+        "waitingForReconnect": "Waiting for OpenDTU to reconnect…",
+        "downloadProgress": "Download progress",
+        "installProgress": "Install progress",
+        "installFirmware": "Install firmware {{name}}?",
+        "successfullyInstalledTheFirmware": "Successfully installed the firmware!",
+        "installAsset": "Install asset {{name}}?"
     }
 }
