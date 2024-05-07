@@ -347,6 +347,7 @@
         "installFirmware": "Firmware {{name}} installieren?",
         "successfullyInstalledTheFirmware": "Die Firmware wurde erfolgreich installiert!",
         "installAsset": "Asset {{name}} installieren?",
+        "recommendedFirmware": "Mindestens empfohlene Firmware",
         "installProgress": "Installations-Fortschritt"
     }
 }

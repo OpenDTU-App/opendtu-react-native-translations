@@ -347,6 +347,7 @@
         "installProgress": "Install progress",
         "installFirmware": "Install firmware {{name}}?",
         "successfullyInstalledTheFirmware": "Successfully installed the firmware!",
-        "installAsset": "Install asset {{name}}?"
+        "installAsset": "Install asset {{name}}?",
+        "recommendedFirmware": "Minimum recommended firmware"
     }
 }
