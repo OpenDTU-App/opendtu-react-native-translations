@@ -193,7 +193,7 @@
     "opendtu": {
         "title": "OpenDTU",
         "systemInformation": "System Information",
-        "systemInformationDescription": "Firmware • Hardware • Memory • Radio",
+        "systemInformationDescription": "Firmware • Updates • Hardware • Memory • Radio",
         "systemInformationScreen": {
             "firmwareInformation": "Firmware Information",
             "hostname": "Hostname",
@@ -335,10 +335,12 @@
         "install_firmware_on_device": "Install firmware on device",
         "newReleases": "New releases",
         "outdatedReleases": "Outdated releases",
+        "releases": "Releases",
         "noReleases": "No releases available",
         "publishedAgo": "Published {{timeAgo}}",
         "install": "Install firmware",
         "installing": "Installing firmware…",
+        "downloading": "Downloading firmware…",
         "download_with_size": "Download firmware ({{size}})",
         "waitingForReconnect": "Waiting for OpenDTU to reconnect…",
         "downloadProgress": "Download progress",

@@ -191,7 +191,7 @@
         "presets": "Voreinstellungen"
     },
     "opendtu": {
-        "systemInformationDescription": "Firmware • Hardware • Speicher • Radio",
+        "systemInformationDescription": "Firmware • Updates • Hardware • Speicher • Radio",
         "systemInformationScreen": {
             "firmwareInformation": "Firmware-Informationen",
             "hostname": "Hostname",
@@ -334,11 +334,13 @@
         "view_on_github": "Auf GitHub ansehen",
         "install_firmware_on_device": "Firmware auf Gerät installieren",
         "outdatedReleases": "Veraltete Releases",
+        "releases": "Releases",
         "noReleases": "Keine Releases verfügbar",
         "newReleases": "Neue Releases",
         "publishedAgo": "{{timeAgo}} veröffentlicht",
         "install": "Firmware installieren",
         "installing": "Installiere Firmware…",
+        "downloading": "Lade Firmware herunter…",
         "download_with_size": "Firmware herunterladen ({{size}})",
         "waitingForReconnect": "Warte auf Verbindung mit deiner OpenDTU…",
         "downloadProgress": "Download-Fortschritt",
