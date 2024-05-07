@@ -339,6 +339,12 @@
         "publishedAgo": "{{timeAgo}} veröffentlicht",
         "install": "Firmware installieren",
         "installing": "Installiere Firmware…",
-        "download_with_size": "Firmware herunterladen ({{size}})"
+        "download_with_size": "Firmware herunterladen ({{size}})",
+        "waitingForReconnect": "Warte auf Verbindung mit deiner OpenDTU…",
+        "downloadProgress": "Download-Fortschritt",
+        "installFirmware": "Firmware {{name}} installieren?",
+        "successfullyInstalledTheFirmware": "Die Firmware wurde erfolgreich installiert!",
+        "installAsset": "Asset {{name}} installieren?",
+        "installProgress": "Installations-Fortschritt"
     }
 }
