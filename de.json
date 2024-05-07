@@ -337,6 +337,7 @@
         "noReleases": "Keine Releases verfügbar",
         "newReleases": "Neue Releases",
         "publishedAgo": "{{timeAgo}} veröffentlicht",
-        "install": "Ausgewählte Firmware installieren"
+        "install": "Ausgewählte Firmware installieren",
+        "download": "Ausgewählte Firmware herunterladen"
     }
 }
