@@ -349,5 +349,6 @@
         "installAsset": "Asset {{name}} installieren?",
         "recommendedFirmware": "Mindestens empfohlene Firmware",
         "installProgress": "Installations-Fortschritt"
-    }
+    },
+    "confirm": "Confirm"
 }

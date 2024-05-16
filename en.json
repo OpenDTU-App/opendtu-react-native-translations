@@ -348,6 +348,11 @@
         "installFirmware": "Install firmware {{name}}?",
         "successfullyInstalledTheFirmware": "Successfully installed the firmware!",
         "installAsset": "Install asset {{name}}?",
-        "recommendedFirmware": "Minimum recommended firmware"
-    }
+        "recommendedFirmware": "Minimum recommended firmware",
+        "refreshModal": {
+            "title": "Refresh the firmware releases?",
+            "warningText": "If you refresh too often, the GitHub API rate limit of 60 requests per hour may be reached. The app will automatically refresh the releases every 10 minutes."
+        }
+    },
+    "confirm": "Confirm"
 }
