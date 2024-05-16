@@ -39,7 +39,11 @@
         "viewOnGithub": "View on GitHub",
         "licenses": "Licenses",
         "newVersionAvailable": "New app-release available!",
-        "viewMore": "View more"
+        "viewMore": "View more",
+        "refreshModal": {
+            "title": "Refresh newest app release?",
+            "warningText": "If you refresh too often, the GitHub API rate limit of 60 requests per hour may be reached. The app will automatically get the latest release every 10 minutes."
+        }
     },
     "charts": {
         "acPower": "AC Power",
