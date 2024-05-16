@@ -120,8 +120,8 @@
     },
     "change": "Change",
     "languages": {
-        "english": "English",
-        "german": "Deutsch"
+        "en": "English",
+        "de": "Deutsch"
     },
     "delete": "Delete",
     "deviceOfflineWrapper": {

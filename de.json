@@ -134,8 +134,8 @@
     },
     "change": "Ändern",
     "languages": {
-        "english": "English",
-        "german": "Deutsch"
+        "en": "English",
+        "de": "Deutsch"
     },
     "delete": "Löschen",
     "deviceOfflineWrapper": {
