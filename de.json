@@ -25,7 +25,8 @@
         "configureServerUrl": "Server-URL",
         "configureDatabase": "Datenbank Konfiguration",
         "opendtuCredentials": "OpenDTU-Anmeldeinformationen",
-        "none": "Keine"
+        "none": "Keine",
+        "connect": "Verbinden"
     },
     "aboutApp": {
         "projectHint": "Diese App ist nicht mit dem OpenDTU-Projekt verbunden. Wenn du Fehler findest, melde diesen bitte auf der GitHub-Seite.",
