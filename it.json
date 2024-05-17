@@ -1,1 +1,45 @@
-{}
+{
+    "configureGraphs": {
+        "title": "Configura Grafici",
+        "save": "Salva periodo temporale",
+        "changeDateRange": "Cambia date",
+        "changeStartTimestamp": "Cambia tempo d’inizio",
+        "changeEndTimestamp": "Cambia tempo di fine",
+        "setEndToNow": "Imposta fine ad ora",
+        "setLastNSeconds": "Ultimi N secondi",
+        "changeRefreshInterval": "Cambia intervallo di refresh",
+        "presets": "Preimpostazioni",
+        "changeTimeRange": "Cambia periodo temporale",
+        "changeRefreshIntervalDescription": "Cambia intervallo di refresh del grafico. Questo è l’intervallo tra due richieste dati."
+    },
+    "livedata": {
+        "configureGraphs": "Configura grafici",
+        "changeTimerangeAndRefreshInterval": "Modifica l'intervallo di tempo e l'intervallo di aggiornamento",
+        "todaysYield": "Produzione di oggi",
+        "power": "Potenza",
+        "hintsWarning": "Ci sono alcuni problemi con il tuo OpenDTU! Clicca qui per visualizzarli."
+    },
+    "device": {
+        "deviceName": "Nome Dispositivo",
+        "changeTheDeviceName": "Cambia il Nome del Dispositivo?"
+    },
+    "reset": "Reimposta",
+    "cancel": "Annulla",
+    "rename": "Rinomina",
+    "database": {
+        "name": "Nome",
+        "baseUrl": "URL di base",
+        "username": "Nome utente",
+        "addANewDatabase": "Aggiungi un nuovo database",
+        "password": "Password"
+    },
+    "add": "Aggiungi",
+    "aboutApp": {
+        "viewOnGithub": "Visualizza su Github",
+        "licenses": "Licenze",
+        "newVersionAvailable": "Nuova release dell'app disponibile!",
+        "latestAppRelease": "Ultima release app",
+        "viewMore": "Visualizza di più",
+        "projectHint": "Questa app non è affiliata con il progetto OpenDTU. Se riscontri problemi, per favore segnalali sulla pagina GitHub."
+    }
+}
