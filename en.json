@@ -159,7 +159,9 @@
         "configureServerUrl": "Server URL",
         "configureDatabase": "Database Config",
         "opendtuCredentials": "OpenDTU Credentials",
-        "none": "None"
+        "none": "None",
+        "connect": "Connect",
+        "alreadyConnected": "Already connected"
     },
     "manageDatabases": {
         "databases": "Databases",
@@ -360,5 +362,7 @@
         }
     },
     "confirm": "Confirm",
-    "fetchedWithTime": "Fetched {{time}}"
+    "fetchedWithTime": "Fetched {{time}}",
+    "producing": "Producing {{power}}",
+    "notProducing": "Not producing"
 }
