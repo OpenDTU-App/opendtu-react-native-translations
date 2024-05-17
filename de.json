@@ -359,6 +359,6 @@
             "warningText": "Wenn du zu oft aktualisierst, kann das GitHub-API-Ratelimit von 60 Anfragen pro Stunde erreicht werden. Die App aktualisiert die Releases automatisch alle 10 Minuten."
         }
     },
-    "confirm": "Confirm",
+    "confirm": "Bestätigen",
     "fetchedWithTime": "Aktualisiert {{time}}"
 }
