@@ -364,5 +364,6 @@
     "confirm": "Bestätigen",
     "fetchedWithTime": "Aktualisiert {{time}}",
     "producing": "{{power}} produziert",
-    "notProducing": "Nicht produziert"
+    "notProducing": "Nicht produziert",
+    "producedToday": "Heute produziert: {{energy}}"
 }

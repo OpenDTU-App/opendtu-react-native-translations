@@ -331,6 +331,15 @@
             "title": "Event Log",
             "noEvents": "No events",
             "noEventsDescription": "No events have been logged yet."
+        },
+        "gridProfile": {
+            "title": "Grid Profile"
+        },
+        "limits": {
+            "title": "Limits"
+        },
+        "control": {
+            "title": "Control"
         }
     },
     "clear": "Clear",
@@ -364,5 +373,6 @@
     "confirm": "Confirm",
     "fetchedWithTime": "Fetched {{time}}",
     "producing": "Producing {{power}}",
-    "notProducing": "Not producing"
+    "notProducing": "Not producing",
+    "producedToday": "Produced today: {{energy}}"
 }
