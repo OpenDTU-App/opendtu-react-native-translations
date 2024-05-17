@@ -26,7 +26,8 @@
         "configureDatabase": "Datenbank Konfiguration",
         "opendtuCredentials": "OpenDTU-Anmeldeinformationen",
         "none": "Keine",
-        "connect": "Verbinden"
+        "connect": "Verbinden",
+        "alreadyConnected": "Bereits verbunden"
     },
     "aboutApp": {
         "projectHint": "Diese App ist nicht mit dem OpenDTU-Projekt verbunden. Wenn du Fehler findest, melde diesen bitte auf der GitHub-Seite.",
@@ -361,5 +362,7 @@
         }
     },
     "confirm": "Bestätigen",
-    "fetchedWithTime": "Aktualisiert {{time}}"
+    "fetchedWithTime": "Aktualisiert {{time}}",
+    "producing": "{{power}} produziert",
+    "notProducing": "Nicht produziert"
 }
