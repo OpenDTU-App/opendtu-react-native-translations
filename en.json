@@ -38,7 +38,8 @@
         "projectHint": "This app is not affiliated with the OpenDTU project. If you find any bugs, please report them on the GitHub page.",
         "viewOnGithub": "View on GitHub",
         "licenses": "Licenses",
-        "newVersionAvailable": "New app-release available!",
+        "newVersionAvailable": "New app release available!",
+        "latestAppRelease": "Latest app release",
         "viewMore": "View more",
         "refreshModal": {
             "title": "Refresh newest app release?",
@@ -358,5 +359,6 @@
             "warningText": "If you refresh too often, the GitHub API rate limit of 60 requests per hour may be reached. The app will automatically refresh the releases every 10 minutes."
         }
     },
-    "confirm": "Confirm"
+    "confirm": "Confirm",
+    "fetchedWithTime": "Fetched {{time}}"
 }
