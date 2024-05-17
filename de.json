@@ -331,6 +331,15 @@
             "title": "Event-Log",
             "noEvents": "Keine Ereignisse",
             "noEventsDescription": "Keine Ereignisse wurden bis jetzt gemeldet."
+        },
+        "gridProfile": {
+            "title": "Grid-Profil"
+        },
+        "limits": {
+            "title": "Limits"
+        },
+        "control": {
+            "title": "Steuerung"
         }
     },
     "clear": "Löschen",
