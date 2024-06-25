@@ -41,5 +41,30 @@
         "latestAppRelease": "Ultima release app",
         "viewMore": "Visualizza di più",
         "projectHint": "Questa app non è affiliata con il progetto OpenDTU. Se riscontri problemi, per favore segnalali sulla pagina GitHub."
+    },
+    "setup": {
+        "username": "Nome utente",
+        "password": "Password"
+    },
+    "settings": {
+        "licenses": "Licenze"
+    },
+    "firmwares": {
+        "view_on_github": "Visualizza su Github"
+    },
+    "opendtu": {
+        "mqttInformationScreen": {
+            "username": "Nome utente"
+        }
+    },
+    "inverter": {
+        "gridProfile": {
+            "name": "Nome"
+        },
+        "livedata": {
+            "dataKeys": {
+                "Power": "Potenza"
+            }
+        }
     }
 }
