@@ -121,7 +121,8 @@
     "themes": {
         "light": "Light",
         "dark": "Dark",
-        "system": "System"
+        "system": "System",
+        "allowMaterialYou": "Use adaptive theme"
     },
     "change": "Change",
     "languages": {
@@ -320,7 +321,8 @@
         "latestOpenDtuReleaseCacheCreated": "OpenDTU release cache from",
         "other": "Other",
         "websocket": "WebSocket",
-        "openDtuReleasesCacheCreated": "OpenDTU releases cache from"
+        "openDtuReleasesCacheCreated": "OpenDTU releases cache from",
+        "debugColors": "Debug Colors"
     },
     "offlineModal": {
         "title": "Offline",
@@ -329,17 +331,47 @@
     "inverter": {
         "eventLog": {
             "title": "Event Log",
+            "description": "View the event log of the inverter",
             "noEvents": "No events",
             "noEventsDescription": "No events have been logged yet."
         },
         "gridProfile": {
-            "title": "Grid Profile"
+            "title": "Grid Profile",
+            "description": "View the grid profile of the inverter",
+            "name": "Name",
+            "noData": "No data",
+            "noDataDescription": "No grid profile data available.",
+            "version": "Version",
+            "rawGridProfileData": "Raw grid profile data"
         },
         "limits": {
-            "title": "Limits"
+            "title": "Limits",
+            "description": "Change the power limits of the inverter"
         },
         "control": {
-            "title": "Control"
+            "title": "Control",
+            "description": "Start, stop or restart the inverter"
+        },
+        "livedata": {
+            "INV": "Inverter",
+            "AC": "Phases (AC)",
+            "DC": "Strings (DC)",
+            "string": "String {{stringNumber}}",
+            "phase": "Phase {{phaseNumber}}",
+            "dataKeys": {
+                "Power":  "Power",
+                "Voltage": "Voltage",
+                "Current":  "Current",
+                "Power DC": "Power DC",
+                "YieldDay":  "Yield Today",
+                "YieldTotal": "Yield Total",
+                "Frequency":  "Frequency",
+                "Temperature": "Temperature",
+                "PowerFactor":  "Power Factor",
+                "ReactivePower": "Reactive Power",
+                "Efficiency":  "Efficiency",
+                "Irradiation": "Irradiation"
+            }
         }
     },
     "clear": "Clear",
@@ -368,11 +400,62 @@
         "refreshModal": {
             "title": "Refresh the firmware releases?",
             "warningText": "If you refresh too often, the GitHub API rate limit of 60 requests per hour may be reached. The app will automatically refresh the releases every 10 minutes."
-        }
+        },
+        "updateNote": "Although the app should work with older firmwares, it is recommended to always use the latest firmware version. Support for old versions especially ones before {{minimumVersion}} is not guaranteed."
     },
     "confirm": "Confirm",
     "fetchedWithTime": "Fetched {{time}}",
     "producing": "Producing {{power}}",
     "notProducing": "Not producing",
-    "producedToday": "Produced today: {{energy}}"
+    "producedToday": "Today {{energy}} produced",
+    "powerStatus": {
+        "powerOn": "Power on",
+        "powerOff": "Power off",
+        "restart": "Restart",
+        "lastTransmittedStatus": "Last transmitted status:",
+        "title": "Inverter Power Control",
+        "unknown": "Unknown",
+        "ok": "OK",
+        "failure": "Failure",
+        "pending": "Pending",
+        "error": "Error setting power status"
+    },
+    "limitStatus": {
+        "lastTransmittedStatus": "Last transmitted status:",
+        "title": "Inverter Limit Control",
+        "error": "Error setting limit status",
+        "limits": "Limits:",
+        "setPermanentLimit": "Set permanent limit",
+        "setTemporaryLimit": "Set temporary limit",
+        "absolute": "Absolute (W)",
+        "relative": "Relative (%)",
+        "limitValue": "Limit Value ({{unit}})",
+        "valueError": "Invalid value",
+        "valueRangeError": "Value must be between 0 and {{max}}"
+    },
+    "units": {
+        "watt": "{{value}} W",
+        "percent": "{{value}} %"
+    },
+    "inverterInfo": {
+        "lastUpdateWas": "Last update was {{ago}}",
+        "serial": "Serial: {{serial}}",
+        "limits": "Limits: {{absolute}} W / {{relative}} %"
+    },
+    "inverterDeviceInfo": {
+        "hardwareVersion": "Hardware version",
+        "hardwarePartNumber": "Hardware part number",
+        "firmwareBuildDate": "Firmware build date",
+        "firmwareVersion": "Firmware version",
+        "bootloaderVersion": "Bootloader version",
+        "detectedMaxPower": "Detected maximum power",
+        "unknownModel": "Unknown model",
+        "model": "Inverter model",
+        "productionWeek": "Production week",
+        "productionYear": "Production year",
+        "serial": "Serial number",
+        "invalidData": "Invalid data received",
+        "noData": "No data received"
+    },
+    "copy": "Copy"
 }

@@ -372,7 +372,7 @@
     },
     "confirm": "Bestätigen",
     "fetchedWithTime": "Aktualisiert {{time}}",
-    "producing": "{{power}} produziert",
-    "notProducing": "Nicht produziert",
-    "producedToday": "Heute produziert: {{energy}}"
+    "producing": "Produziert {{power}}",
+    "notProducing": "Produziert nicht",
+    "producedToday": "Heute {{energy}} produziert"
 }
