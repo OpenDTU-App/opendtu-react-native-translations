@@ -137,7 +137,8 @@
     "themes": {
         "light": "Hell",
         "dark": "Dunkel",
-        "system": "System"
+        "system": "System",
+        "allowMaterialYou": "Adaptives Design verwenden"
     },
     "change": "Ändern",
     "languages": {
@@ -320,7 +321,8 @@
         "latestOpenDtuReleaseCacheCreated": "OpenDTU-Release-Cache von",
         "other": "Andere",
         "websocket": "WebSocket",
-        "openDtuReleasesCacheCreated": "OpenDTU-Releases-Cache von"
+        "openDtuReleasesCacheCreated": "OpenDTU-Releases-Cache von",
+        "debugColors": "Farben debuggen"
     },
     "offlineModal": {
         "title": "Offline",
@@ -330,10 +332,12 @@
         "eventLog": {
             "title": "Event-Log",
             "noEvents": "Keine Ereignisse",
-            "noEventsDescription": "Keine Ereignisse wurden bis jetzt gemeldet."
+            "noEventsDescription": "Keine Ereignisse wurden bis jetzt gemeldet.",
+            "description": "Ereignisprotokoll des Wechselrichters ansehen"
         },
         "gridProfile": {
-            "title": "Grid-Profil"
+            "title": "Grid-Profil",
+            "description": "Netzprofil des Wechselrichters ansehen"
         },
         "limits": {
             "title": "Limits"
