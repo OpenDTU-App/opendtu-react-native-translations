@@ -386,5 +386,8 @@
     "fetchedWithTime": "Aktualisiert {{time}}",
     "producing": "Produziert {{power}}",
     "notProducing": "Produziert nicht",
-    "producedToday": "Heute {{energy}} produziert"
+    "producedToday": "Heute {{energy}} produziert",
+    "limitStatus": {
+        "limits": "Limits"
+    }
 }
