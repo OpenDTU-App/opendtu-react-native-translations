@@ -339,19 +339,39 @@
             "title": "Grid-Profil",
             "description": "Netzprofil des Wechselrichters ansehen",
             "name": "Name",
-            "version": "Version"
+            "version": "Version",
+            "noData": "Keine Daten",
+            "noDataDescription": "Keine Netzprofil-Daten verfügbar.",
+            "rawGridProfileData": "Netzprofil-Rohdaten anzeigen"
         },
         "limits": {
-            "title": "Limits"
+            "title": "Limits",
+            "description": "Leistungsgrenzen des Wechselrichters ändern"
         },
         "control": {
-            "title": "Steuerung"
+            "title": "Steuerung",
+            "description": "Wechselrichter starten, stoppen oder neu starten"
         },
         "livedata": {
-            "INV": "Inverter",
+            "INV": "Wechselrichter",
             "dataKeys": {
-                "Power": "Leistung"
-            }
+                "Power": "Leistung",
+                "Voltage": "Spannung",
+                "Current": "Strom",
+                "Power DC": "DC-Leistung",
+                "YieldDay": "Heutiger Ertrag",
+                "YieldTotal": "Gesamter Ertrag",
+                "Frequency": "Frequenz",
+                "Temperature": "Temperatur",
+                "PowerFactor": "Leistungsfaktor",
+                "ReactivePower": "Blindleistung",
+                "Efficiency": "Effizienz",
+                "Irradiation": "Einstrahlung"
+            },
+            "AC": "Phasen (AC)",
+            "DC": "Strings (DC)",
+            "string": "String {{stringNumber}}",
+            "phase": "Phase {{phaseNumber}}"
         }
     },
     "clear": "Löschen",
@@ -380,7 +400,8 @@
         "refreshModal": {
             "title": "Liste der Firmware-Versionen aktualisieren?",
             "warningText": "Wenn du zu oft aktualisierst, kann das GitHub-API-Ratelimit von 60 Anfragen pro Stunde erreicht werden. Die App aktualisiert die Releases automatisch alle 10 Minuten."
-        }
+        },
+        "updateNote": "Obwohl die App mit älteren Firmwares funktionieren sollte, wird empfohlen, immer die neueste Firmware-Version zu verwenden. Unterstützung für alte Versionen, insbesondere solche vor {{minimumVersion}}, kann nicht garantiert werden."
     },
     "confirm": "Bestätigen",
     "fetchedWithTime": "Aktualisiert {{time}}",
@@ -388,6 +409,53 @@
     "notProducing": "Produziert nicht",
     "producedToday": "Heute {{energy}} produziert",
     "limitStatus": {
-        "limits": "Limits"
-    }
+        "limits": "Limits:",
+        "setPermanentLimit": "Permanentes Limit festlegen",
+        "absolute": "Absolut (W)",
+        "lastTransmittedStatus": "Zuletzt übermittelter Status:",
+        "title": "Wechselrichter-Grenzwertregelung",
+        "error": "Fehler beim Einstellen der Grenzwertregelung",
+        "setTemporaryLimit": "Temporäres Limit festlegen",
+        "relative": "Relativ (%)",
+        "limitValue": "Grenzwert ({{unit}})",
+        "valueError": "Ungültiger Wert",
+        "valueRangeError": "Der Wert muss zwischen 0 und {{max}} liegen"
+    },
+    "inverterDeviceInfo": {
+        "bootloaderVersion": "Bootloader-Version",
+        "hardwareVersion": "Hardware-Version",
+        "hardwarePartNumber": "Hardware-Teilenummer",
+        "firmwareBuildDate": "Firmware-Build-Datum",
+        "firmwareVersion": "Firmware-Version",
+        "detectedMaxPower": "Erkannte maximale Leistung",
+        "unknownModel": "Unbekanntes Modell",
+        "model": "Wechselrichter-Modell",
+        "productionWeek": "Produktionswoche",
+        "productionYear": "Produktionsjahr",
+        "serial": "Seriennummer",
+        "invalidData": "Ungültige Daten empfangen",
+        "noData": "Keine Daten empfangen"
+    },
+    "inverterInfo": {
+        "lastUpdateWas": "Letzte Aktualisierung war {{ago}}",
+        "serial": "Seriennummer: {{serial}}",
+        "limits": "Grenzwerte: {{absolute}} W / {{relative}} %"
+    },
+    "powerStatus": {
+        "powerOn": "Einschalten",
+        "powerOff": "Ausschalten",
+        "restart": "Neustarten",
+        "lastTransmittedStatus": "Zuletzt übermittelter Status:",
+        "title": "Wechselrichter-Leistungssteuerung",
+        "unknown": "Unbekannt",
+        "ok": "OK",
+        "failure": "Fehler",
+        "pending": "Ausstehend",
+        "error": "Fehler beim Einstellen der Leistungssteuerung"
+    },
+    "units": {
+        "watt": "{{value}} W",
+        "percent": "{{value}} %"
+    },
+    "copy": "Kopieren"
 }
