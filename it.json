@@ -66,5 +66,8 @@
                 "Power": "Potenza"
             }
         }
+    },
+    "deviceSettings": {
+        "configureDeviceName": "Nome Dispositivo"
     }
 }
