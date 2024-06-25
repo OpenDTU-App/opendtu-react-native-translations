@@ -337,13 +337,21 @@
         },
         "gridProfile": {
             "title": "Grid-Profil",
-            "description": "Netzprofil des Wechselrichters ansehen"
+            "description": "Netzprofil des Wechselrichters ansehen",
+            "name": "Name",
+            "version": "Version"
         },
         "limits": {
             "title": "Limits"
         },
         "control": {
             "title": "Steuerung"
+        },
+        "livedata": {
+            "INV": "Inverter",
+            "dataKeys": {
+                "Power": "Leistung"
+            }
         }
     },
     "clear": "Löschen",
