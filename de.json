@@ -374,6 +374,10 @@
             "DC": "Strings (DC)",
             "string": "String {{stringNumber}}",
             "phase": "Phase {{phaseNumber}}"
+        },
+        "inverterInfoSections": {
+            "livedata": "Livedaten",
+            "controls": "Steuerung"
         }
     },
     "clear": "Löschen",

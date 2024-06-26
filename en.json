@@ -374,6 +374,10 @@
                 "Efficiency":  "Efficiency",
                 "Irradiation": "Irradiation"
             }
+        },
+        "inverterInfoSections": {
+            "livedata": "Livedata",
+            "controls": "Controls"
         }
     },
     "clear": "Clear",
