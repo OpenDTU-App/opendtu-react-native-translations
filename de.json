@@ -85,7 +85,9 @@
         "newOpenDtuRelease": "Neue Version!",
         "doYouWantToEnableOpenDtuUpdates": "Möchtest du Update-Benachrichtigungen für OpenDTU-Releases aktivieren?",
         "thisWillMakeRequestsToGithub": "Dadurch werden Anfragen an api.github.com gesendet",
-        "changeOpendtuCredentials": "OpenDTU-Anmeldeinformationen ändern?"
+        "changeOpendtuCredentials": "OpenDTU-Anmeldeinformationen ändern?",
+        "weblateInfo": "Diese App wird von Freiwilligen auf Weblate übersetzt. Du kannst helfen, die Übersetzungen zu verbessern oder neue Sprachen hinzuzufügen, indem du auf den Button klickst!",
+        "openWeblate": "Weblate besuchen"
     },
     "device": {
         "deviceName": "Gerätename",

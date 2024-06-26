@@ -111,7 +111,9 @@
         "newOpenDtuRelease": "New release!",
         "doYouWantToEnableOpenDtuUpdates": "Do you want to enable update-notifications for OpenDTU releases?",
         "thisWillMakeRequestsToGithub": "This will make requests to api.github.com",
-        "changeOpendtuCredentials": "Change OpenDTU Credentials?"
+        "changeOpendtuCredentials": "Change OpenDTU Credentials?",
+        "weblateInfo": "This app is translated by volunteers on Weblate. You can help improving the translations or adding new languages by clicking the button below!",
+        "openWeblate": "Go to Weblate"
     },
     "mdns": {
         "scanning": "Scanning…",
