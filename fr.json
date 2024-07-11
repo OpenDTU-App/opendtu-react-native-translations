@@ -1,1 +1,10 @@
-{}
+{
+    "configureGraphs": {
+        "changeDateRange": "Changer la plage de date",
+        "changeStartTimestamp": "Changer l'heure de depart",
+        "changeEndTimestamp": "Changer l'heure de fin",
+        "setEndToNow": "Régler la fin à maintenant",
+        "title": "Configurer le graphique",
+        "changeTimeRange": "Changer la plage de temps"
+    }
+}
