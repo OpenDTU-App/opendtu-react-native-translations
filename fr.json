@@ -6,5 +6,8 @@
         "setEndToNow": "Régler la fin à maintenant",
         "title": "Configurer le graphique",
         "changeTimeRange": "Changer la plage de temps"
+    },
+    "livedata": {
+        "configureGraphs": "Configurer le graphique"
     }
 }
