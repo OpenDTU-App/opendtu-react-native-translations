@@ -47,7 +47,12 @@
         "password": "Password"
     },
     "settings": {
-        "licenses": "Licenze"
+        "licenses": "Licenze",
+        "networkSettings": {
+            "wifiStation": {
+                "password": "Password"
+            }
+        }
     },
     "firmwares": {
         "view_on_github": "Visualizza su Github"
