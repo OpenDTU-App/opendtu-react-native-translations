@@ -51,6 +51,33 @@
         "networkSettings": {
             "wifiStation": {
                 "password": "Password"
+            },
+            "changeApTimeout": {
+                "description": ""
+            },
+            "changeStaticGateway": {
+                "description": ""
+            },
+            "changeHostname": {
+                "description": ""
+            },
+            "changeSsid": {
+                "description": ""
+            },
+            "changePassword": {
+                "description": ""
+            },
+            "changeStaticNetmask": {
+                "description": ""
+            },
+            "changeStaticIpAddress": {
+                "description": ""
+            },
+            "changeStaticDns1": {
+                "description": ""
+            },
+            "changeStaticDns2": {
+                "description": ""
             }
         }
     },
