@@ -87,7 +87,19 @@
         "thisWillMakeRequestsToGithub": "Dadurch werden Anfragen an api.github.com gesendet",
         "changeOpendtuCredentials": "OpenDTU-Anmeldeinformationen ändern?",
         "weblateInfo": "Diese App wird von Freiwilligen auf Weblate übersetzt. Du kannst helfen, die Übersetzungen zu verbessern oder neue Sprachen hinzuzufügen, indem du auf den Button klickst!",
-        "openWeblate": "Weblate besuchen"
+        "openWeblate": "Weblate besuchen",
+        "title": "Einstellungen",
+        "networkSettings": {
+            "wifiStation": {
+                "ssid": "SSID",
+                "password": "Passwort",
+                "hostname": "Hostname"
+            },
+            "staticIp": {
+                "ipAddress": "IP-Adresse",
+                "gateway": "Gateway"
+            }
+        }
     },
     "device": {
         "deviceName": "Gerätename",
