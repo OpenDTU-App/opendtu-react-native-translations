@@ -144,15 +144,15 @@
             },
             "changeSsid": {
                 "title": "Change SSID of WiFi Station",
-                "description": "Enter the new SSID of the WiFi Station."
+                "description": "Enter a new SSID of the WiFi Station."
             },
             "changePassword": {
                 "title": "Change Password of WiFi Station",
-                "description": "Enter the new password of the WiFi Station."
+                "description": "Enter a new password of the WiFi Station."
             },
             "changeHostname": {
                 "title": "Change Hostname for your OpenDTU",
-                "description": "Enter the new hostname for your OpenDTU. The text \"%06X\" will be replaced with the last 6 digits of the MAC address."
+                "description": "Enter a new hostname for your OpenDTU. The text \"%06X\" will be replaced with the last 6 digits of the MAC address."
             },
             "changeDhcpEnabled": {
                 "title": "Change DHCP Enabled",
@@ -160,23 +160,23 @@
             },
             "changeStaticIpAddress": {
                 "title": "Change Static IP Address",
-                "description": "Enter the new static IP address for your OpenDTU."
+                "description": "Enter a new static IP address for your OpenDTU."
             },
             "changeStaticNetmask": {
                 "title": "Change Static Netmask",
-                "description": "Enter the new static netmask for your OpenDTU."
+                "description": "Enter a new static netmask for your OpenDTU."
             },
             "changeStaticGateway": {
                 "title": "Change Static Gateway",
-                "description": "Enter the new static gateway for your OpenDTU."
+                "description": "Enter a new static gateway for your OpenDTU."
             },
             "changeStaticDns1": {
                 "title": "Change Static DNS 1",
-                "description": "Enter the new static DNS 1 for your OpenDTU."
+                "description": "Enter a new static DNS 1 for your OpenDTU."
             },
             "changeStaticDns2": {
                 "title": "Change Static DNS 2",
-                "description": "Enter the new static DNS 2 for your OpenDTU."
+                "description": "Enter a new static DNS 2 for your OpenDTU."
             },
             "changeMdnsEnabled": {
                 "title": "Change mDNS Enabled",
@@ -184,7 +184,7 @@
             },
             "changeApTimeout": {
                 "title": "Change AP Timeout",
-                "description": "Enter the new timeout in seconds for the AP mode of your OpenDTU. Enter 0 to disable the AP mode."
+                "description": "Enter a new timeout in seconds for the AP mode of your OpenDTU. Enter 0 to disable the AP mode."
             }
         },
         "ntpSettings": {
@@ -463,17 +463,17 @@
             "string": "String {{stringNumber}}",
             "phase": "Phase {{phaseNumber}}",
             "dataKeys": {
-                "Power":  "Power",
+                "Power": "Power",
                 "Voltage": "Voltage",
-                "Current":  "Current",
+                "Current": "Current",
                 "Power DC": "Power DC",
-                "YieldDay":  "Yield Today",
+                "YieldDay": "Yield Today",
                 "YieldTotal": "Yield Total",
-                "Frequency":  "Frequency",
+                "Frequency": "Frequency",
                 "Temperature": "Temperature",
-                "PowerFactor":  "Power Factor",
+                "PowerFactor": "Power Factor",
                 "ReactivePower": "Reactive Power",
-                "Efficiency":  "Efficiency",
+                "Efficiency": "Efficiency",
                 "Irradiation": "Irradiation"
             }
         },
