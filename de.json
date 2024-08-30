@@ -463,5 +463,12 @@
         "watt": "{{value}} W",
         "percent": "{{value}} %"
     },
-    "copy": "Kopieren"
+    "copy": "Kopieren",
+    "invalidValue": "Ungültiger Wert",
+    "errors": {
+        "noLeadingOrTrailingSpaces": "Keine führenden oder abschließenden Leerzeichen",
+        "minLength": "Mindestlänge: {{n}}",
+        "maxLength": "Maximale Länge: {{n}}",
+        "required": "Wert erforderlich"
+    }
 }

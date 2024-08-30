@@ -82,6 +82,7 @@
         }
     },
     "settings": {
+        "title": "Settings",
         "seconds": "Seconds",
         "milliseconds": "Milliseconds",
         "general": "General",
@@ -113,7 +114,107 @@
         "thisWillMakeRequestsToGithub": "This will make requests to api.github.com",
         "changeOpendtuCredentials": "Change OpenDTU Credentials?",
         "weblateInfo": "This app is translated by volunteers on Weblate. You can help improving the translations or adding new languages by clicking the button below!",
-        "openWeblate": "Go to Weblate"
+        "openWeblate": "Go to Weblate",
+        "networkSettings": {
+            "title": "Network Settings",
+            "description": "WiFi • Ethernet • DHCP • mDNS",
+            "wifiStation": {
+                "title": "WiFi Station Settings",
+                "ssid": "SSID",
+                "password": "Password",
+                "hostname": "Hostname",
+                "dhcpEnabled": "DHCP enabled"
+            },
+            "staticIp": {
+                "title": "Static IP",
+                "ipAddress": "IP Address",
+                "netmask": "Netmask",
+                "gateway": "Gateway",
+                "dns1": "DNS Server 1",
+                "dns2": "DNS Server 2"
+            },
+            "mdns": {
+                "title": "mDNS Settings",
+                "enabled": "mDNS enabled"
+            },
+            "ap": {
+                "title": "Access Point Settings",
+                "timeout": "Timeout",
+                "timeoutHint": "The time in seconds after which the access point will be disabled if no device is connected. Zero means never."
+            },
+            "changeSsid": {
+                "title": "Change SSID of WiFi Station",
+                "description": "Enter the new SSID of the WiFi Station."
+            },
+            "changePassword": {
+                "title": "Change Password of WiFi Station",
+                "description": "Enter the new password of the WiFi Station."
+            },
+            "changeHostname": {
+                "title": "Change Hostname for your OpenDTU",
+                "description": "Enter the new hostname for your OpenDTU. The text \"%06X\" will be replaced with the last 6 digits of the MAC address."
+            },
+            "changeDhcpEnabled": {
+                "title": "Change DHCP Enabled",
+                "description": "Enable or disable DHCP for the WiFi Station."
+            },
+            "changeStaticIpAddress": {
+                "title": "Change Static IP Address",
+                "description": "Enter the new static IP address for your OpenDTU."
+            },
+            "changeStaticNetmask": {
+                "title": "Change Static Netmask",
+                "description": "Enter the new static netmask for your OpenDTU."
+            },
+            "changeStaticGateway": {
+                "title": "Change Static Gateway",
+                "description": "Enter the new static gateway for your OpenDTU."
+            },
+            "changeStaticDns1": {
+                "title": "Change Static DNS 1",
+                "description": "Enter the new static DNS 1 for your OpenDTU."
+            },
+            "changeStaticDns2": {
+                "title": "Change Static DNS 2",
+                "description": "Enter the new static DNS 2 for your OpenDTU."
+            },
+            "changeMdnsEnabled": {
+                "title": "Change mDNS Enabled",
+                "description": "Enable or disable mDNS for your OpenDTU."
+            },
+            "changeApTimeout": {
+                "title": "Change AP Timeout",
+                "description": "Enter the new timeout in seconds for the AP mode of your OpenDTU. Enter 0 to disable the AP mode."
+            }
+        },
+        "ntpSettings": {
+            "title": "NTP Settings",
+            "description": "Timezone • NTP Server • Location • Time Sync"
+        },
+        "mqttSettings": {
+            "title": "MQTT Settings",
+            "description": "MQTT Broker • Auto-Discovery • Topics"
+        },
+        "inverterSettings": {
+            "title": "Inverter Settings",
+            "description": "Inverters • Strings"
+        },
+        "securitySettings": {
+            "title": "Security Settings",
+            "description": "Admin password • Permissions"
+        },
+        "dtuSettings": {
+            "title": "DTU Settings",
+            "description": "Serial Number • Polling Interval • TX Power"
+        },
+        "hardwareSettings": {
+            "title": "Hardware Settings",
+            "description": "Pinout • Peripherals"
+        },
+        "configManagement": {
+            "title": "Config Management",
+            "description": "Backup • Restore • Reset"
+        }
     },
     "mdns": {
         "scanning": "Scanning…",
@@ -202,6 +303,7 @@
     },
     "opendtu": {
         "title": "OpenDTU",
+        "information": "OpenDTU Information",
         "systemInformation": "System Information",
         "systemInformationDescription": "Firmware • Updates • Hardware • Memory • Radio",
         "systemInformationScreen": {
@@ -463,5 +565,14 @@
         "invalidData": "Invalid data received",
         "noData": "No data received"
     },
-    "copy": "Copy"
+    "copy": "Copy",
+    "invalidValue": "Invalid Value",
+    "errors": {
+        "noLeadingOrTrailingSpaces": "No leading or trailing spaces",
+        "minLength": "Minimum length: {{n}}",
+        "maxLength": "Maximum length: {{n}}",
+        "required": "Required",
+        "invalidNumber": "Invalid number",
+        "invalidIpAddress": "Invalid IP address"
+    }
 }
