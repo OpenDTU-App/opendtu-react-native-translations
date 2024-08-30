@@ -93,12 +93,101 @@
             "wifiStation": {
                 "ssid": "SSID",
                 "password": "Passwort",
-                "hostname": "Hostname"
+                "hostname": "Hostname",
+                "title": "WLAN Station-Einstellungen",
+                "dhcpEnabled": "DHCP aktiviert"
             },
             "staticIp": {
                 "ipAddress": "IP-Adresse",
-                "gateway": "Gateway"
+                "gateway": "Gateway",
+                "title": "Statische IP",
+                "netmask": "Netzmaske",
+                "dns1": "DNS-Server 1",
+                "dns2": "DNS-Server 2"
+            },
+            "changeHostname": {
+                "description": "Gib einen neuen Hostnamen für deine OpenDTU ein. Der Text \"%06X\" wird durch die letzten 6 Ziffern der MAC-Adresse ersetzt.",
+                "title": "Hostnamen für deine OpenDTU ändern"
+            },
+            "changeStaticNetmask": {
+                "title": "Statische Netzmaske ändern",
+                "description": "Gib eine neue statische Netzmaske für deine OpenDTU ein."
+            },
+            "changeApTimeout": {
+                "description": "Gib ein neues Timeout in Sekunden für den AP-Modus deiner OpenDTU ein. Gib 0 ein, um den AP-Modus zu deaktivieren.",
+                "title": "AP-Timeout ändern"
+            },
+            "changeStaticDns2": {
+                "description": "Gib einen neuen statischen DNS-Server 2 für deine OpenDTU ein.",
+                "title": "Statischen DNS-Server 2 ändern"
+            },
+            "title": "Netzwerkeinstellungen",
+            "description": "WLAN • Ethernet • DHCP • mDNS",
+            "mdns": {
+                "title": "mDNS-Einstellungen",
+                "enabled": "mDNS aktiviert"
+            },
+            "ap": {
+                "title": "Zugangspunkt-Einstellungen",
+                "timeout": "Timeout",
+                "timeoutHint": "Die Zeit in Sekunden, nach der der Zugangsspunkt deaktiviert wird, wenn kein Gerät verbunden ist. Null bedeutet nie."
+            },
+            "changeSsid": {
+                "title": "SSID der WLAN-Station ändern",
+                "description": "GIB die neue SSID der WLAN-Station ein."
+            },
+            "changePassword": {
+                "title": "Passwort der WiFi-Station ändern",
+                "description": "Gib das neue Passwort der WiFi-Station ein."
+            },
+            "changeDhcpEnabled": {
+                "title": "DHCP aktivieren / deaktivieren",
+                "description": "Aktiviere oder deaktiviere DHCP für die WLAN-Station."
+            },
+            "changeStaticIpAddress": {
+                "title": "Statische IP-Adresse ändern",
+                "description": "Gib eine neue statische IP-Adresse für deine OpenDTU ein."
+            },
+            "changeStaticGateway": {
+                "title": "Statisches Gateway ändern",
+                "description": "Gib ein neues statisches Gateway für deine OpenDTU ein."
+            },
+            "changeStaticDns1": {
+                "title": "Statischen DNS-Server 1 ändern",
+                "description": "Gib einen neuen statischen DNS-Server 1 für deine OpenDTU ein."
+            },
+            "changeMdnsEnabled": {
+                "title": "mDNS aktivieren / deaktivieren",
+                "description": "Aktiviere oder deaktiviere mDNS für deine OpenDTU."
             }
+        },
+        "configManagement": {
+            "description": "Sichern • Wiederherstellen • Zurücksetzen",
+            "title": "Konfigurationsmanagement"
+        },
+        "ntpSettings": {
+            "title": "NTP-Einstellungen",
+            "description": "Zeitzone • NTP Server • Standort • Zeit-Sync"
+        },
+        "mqttSettings": {
+            "title": "MQTT-Einstellungen",
+            "description": "MQTT Broker • Auto-Discovery • Topics"
+        },
+        "inverterSettings": {
+            "title": "Inverter-Einstellungen",
+            "description": "Inverter • Strings"
+        },
+        "securitySettings": {
+            "title": "Sicherheitseinstellungen",
+            "description": "Admin-Password • Berechtigungen"
+        },
+        "dtuSettings": {
+            "title": "DTU-Einstellungen",
+            "description": "Seriennummer • Polling-Interval • Sendeleistung"
+        },
+        "hardwareSettings": {
+            "title": "Hardware-Einstellungen",
+            "description": "Pinbelegung • Peripheriegeräte"
         }
     },
     "device": {
@@ -313,7 +402,8 @@
         "changelog": {
             "updatesChangelog": "Updates und Änderungsprotokoll",
             "updatesChangelogDescription": "Sieh dir das Änderungsprotokoll an und aktualisiere deine OpenDTU über die App"
-        }
+        },
+        "information": "OpenDTU-Informationen"
     },
     "connected": "Verbunden",
     "notConnected": "Nicht verbunden",
@@ -481,6 +571,8 @@
         "noLeadingOrTrailingSpaces": "Keine führenden oder abschließenden Leerzeichen",
         "minLength": "Mindestlänge: {{n}}",
         "maxLength": "Maximale Länge: {{n}}",
-        "required": "Wert erforderlich"
+        "required": "Wert erforderlich",
+        "invalidNumber": "Ungültige Nummer",
+        "invalidIpAddress": "Ungültige IP-Adresse"
     }
 }
