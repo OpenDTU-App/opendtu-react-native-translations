@@ -5,9 +5,149 @@
         "changeEndTimestamp": "Changer l'heure de fin",
         "setEndToNow": "Régler la fin à maintenant",
         "title": "Configurer le graphique",
-        "changeTimeRange": "Changer la plage de temps"
+        "changeTimeRange": "Changer la plage de temps",
+        "save": "Sauvegarder la plage de temps",
+        "changeRefreshInterval": "Changer le temps de rafraîchissement",
+        "presets": "Préréglages",
+        "changeRefreshIntervalDescription": "Changer le temps d'actualisation du graphique. C'est le temps entre deux mises à jour de données."
     },
     "livedata": {
-        "configureGraphs": "Configurer le graphique"
+        "configureGraphs": "Configurer les graphiques",
+        "changeTimerangeAndRefreshInterval": "Changer la plage de temps et l'intervalle d'actualisation",
+        "hintsWarning": "Il y a actuellement des problèmes avec votre OpenDTU ! Cliquez-ici pour en savoir plus.",
+        "todaysYield": "Rendement du jour",
+        "power": "Puissance"
+    },
+    "settings": {
+        "networkSettings": {
+            "changePassword": {
+                "description": "Saisissez un nouveau mot de passe pour le réseau WiFi.",
+                "title": "Changer le mot de passe du réseau WiFi"
+            },
+            "changeSsid": {
+                "description": "Saisir le nouveau SSID du réseau WiFi.",
+                "title": "Changer le SSID du réseau WiFi"
+            },
+            "ap": {
+                "title": "Paramètres du point d'accès",
+                "timeoutHint": "Le temps en secondes après lequel le point d'accès sera désactivé si aucun appareil n'est connecté. Zéro signifie jamais."
+            },
+            "title": "Paramètres réseau",
+            "description": "WiFi • Ethernet • DHCP • mDNS",
+            "wifiStation": {
+                "ssid": "SSID",
+                "password": "Mot de passe",
+                "hostname": "Nom d'hôte",
+                "dhcpEnabled": "DHCP activé"
+            },
+            "staticIp": {
+                "title": "IP statique",
+                "ipAddress": "Adresse IP",
+                "netmask": "Masque de sous-réseau",
+                "gateway": "Passerelle",
+                "dns1": "Serveur DNS 1",
+                "dns2": "Serveur DNS 2"
+            },
+            "mdns": {
+                "title": "Paramètres mDNS",
+                "enabled": "mDNS activé"
+            },
+            "changeHostname": {
+                "title": "Changer le nom d'hôte de votre OpenDTU"
+            }
+        },
+        "seconds": "Secondes",
+        "milliseconds": "Millisecondes",
+        "general": "Général",
+        "theme": "Thème",
+        "themeDescription": "Changer le thème de l'application",
+        "language": "Langue",
+        "languageDescription": "Changer la langue de l'application",
+        "aboutApp": "À propos de l'application",
+        "aboutDescription": "Version • Mises à jour de l'application",
+        "selectDatabase": "Sélectionnez la base de données",
+        "changeTheTheme": "Changer le thème ?",
+        "changeTheLanguage": "Changer la langue ?",
+        "doYouWantToDeleteThisConfig": "Voulez-vous supprimer cette configuration ?",
+        "changeTheServerUrl": "Changer l'URL du serveur ?",
+        "debug": "Déboguer",
+        "serverUrl": "URL du serveur",
+        "manageDatabase": "Gérer la base de données {{name}}",
+        "appVersion": "Version de l'application",
+        "app": "Application",
+        "clearGithubCache": "Effacer le cache de récupération de GitHub",
+        "advanced": "Avancé",
+        "newAppRelease": "Nouvelle version !",
+        "licenses": "Licences",
+        "licensesDescription": "Licences Open Source",
+        "doYouWantToEnableAppUpdates": "Voulez-vous activer les notifications de mise à jour pour cette application ?",
+        "newOpenDtuRelease": "Nouvelle version !",
+        "doYouWantToEnableOpenDtuUpdates": "Voulez-vous activer les notifications de mise à jour pour les versions d'OpenDTU ?",
+        "thisWillMakeRequestsToGithub": "Cela effectuera des requêtes sur api.github.com",
+        "changeOpendtuCredentials": "Changer les identifiants OpenDTU ?",
+        "weblateInfo": "Cette application est traduite par des volontaires sur Weblate. Vous pouvez améliorer ces traductions ou ajouter de nouvelles langues en cliquant sur le bouton ci-dessous !",
+        "openWeblate": "Aller sur Weblate",
+        "title": "Paramètres"
+    },
+    "device": {
+        "deviceName": "Nom de l'appareil",
+        "changeTheDeviceName": "Changer le nom de l'appareil ?"
+    },
+    "reset": "Réinitialiser",
+    "cancel": "Annuler",
+    "rename": "Renommer",
+    "database": {
+        "addANewDatabase": "Ajouter une nouvelle base de données",
+        "name": "Nom",
+        "baseUrl": "URL de base",
+        "username": "Nom d'utilisateur",
+        "password": "Mot de passe"
+    },
+    "add": "Ajouter",
+    "aboutApp": {
+        "projectHint": "Cette application n'est pas affiliée au projet OpenDTU. Si vous trouvez des bugs, merci de les répertorier sur la page GitHub.",
+        "viewOnGithub": "Voir sur GitHub",
+        "licenses": "Licences",
+        "newVersionAvailable": "Une nouvelle version de l'application est disponible !",
+        "latestAppRelease": "Dernière version de l'application",
+        "viewMore": "Voir plus",
+        "refreshModal": {
+            "warningText": "Si vous actualisez trop souvent, la limite de 60 requêtes par heure de l'API GitHub pourrait être atteinte. L'application récupère automatiquement la dernière version de l'application toutes les 10 minutes."
+        }
+    },
+    "charts": {
+        "acPower": "Puissance AC",
+        "dcVoltage": "Tension DC",
+        "acVoltage": "Tension AC",
+        "acCurrent": "Courant AC",
+        "minMaxAvg": "min : {{min}} {{unit}} max : {{max}} {{unit}} moy : {{avg}} {{unit}}",
+        "noDatabaseConfigured": "Aucune base de données configurée",
+        "noDatabaseConfiguredDescription": "Pour voir les graphiques, configurez et assignez une base de données à votre DTU.",
+        "lastNSeconds": "Dernières {{n}} secondes",
+        "lastNMinutes": "Dernières {{n}} minutes",
+        "lastNHours": "Dernières {{n}} heures",
+        "lastNDays": "Derniers {{n}} jours",
+        "checkDatabase": "Vérifier si la base de données est lancée et accessible."
+    },
+    "setup": {
+        "setupComplete": "Installation terminée ! 🎉",
+        "goToDashboard": "Aller au tableau de bord",
+        "authenticateOpendtuInstance": "Authentifier l'instance OpenDTU",
+        "username": "Nom d'utilisateur",
+        "placeholder": {
+            "username": "admin"
+        },
+        "password": "Mot de passe",
+        "login": "Identifiant",
+        "anonymous": "Continuer anonymement",
+        "addOpendtuInstance": "Ajouter une instance OpenDTU",
+        "opendtuAddress": "Adresse OpenDTU",
+        "instancesInYourNetwork": "Instances sur votre réseau",
+        "connect": "Connecter",
+        "errors": {
+            "invalidAddress": "Adresse invalide",
+            "invalidCredentials": "Identifiants invalides",
+            "genericError": "Quelque chose s'est mal passé ! Merci de réessayer."
+        }
     }
 }
