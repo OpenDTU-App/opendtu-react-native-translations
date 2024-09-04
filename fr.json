@@ -9,7 +9,8 @@
         "save": "Sauvegarder la plage de temps",
         "changeRefreshInterval": "Changer le temps de rafraîchissement",
         "presets": "Préréglages",
-        "changeRefreshIntervalDescription": "Changer le temps d'actualisation du graphique. C'est le temps entre deux mises à jour de données."
+        "changeRefreshIntervalDescription": "Changer le temps d'actualisation du graphique. C'est le temps entre deux mises à jour de données.",
+        "setLastNSeconds": "Définir les N dernières secondes"
     },
     "livedata": {
         "configureGraphs": "Configurer les graphiques",
@@ -38,7 +39,8 @@
                 "ssid": "SSID",
                 "password": "Mot de passe",
                 "hostname": "Nom d'hôte",
-                "dhcpEnabled": "DHCP activé"
+                "dhcpEnabled": "DHCP activé",
+                "title": "Paramètres du WiFi"
             },
             "staticIp": {
                 "title": "IP statique",
@@ -53,7 +55,40 @@
                 "enabled": "mDNS activé"
             },
             "changeHostname": {
-                "title": "Changer le nom d'hôte de votre OpenDTU"
+                "title": "Changer le nom d'hôte de votre OpenDTU",
+                "description": "Saisir un nouveau nom d'hôte pour votre OpenDTU. Le texte \"%06X\" sera remplacé par les 6 derniers caractères de l'adresse MAC."
+            },
+            "changeApTimeout": {
+                "description": "Saisissez un nouveau délai d'attente en secondes pour le mode point d'accès de votre OpenDTU. Entrez 0 pour désactiver le point d'accès.",
+                "title": "Modifier le délai d'expiration du point d'accès"
+            },
+            "changeStaticDns2": {
+                "description": "Saisir une nouvelle adresse pour le serveur DNS 2.",
+                "title": "Changer le serveur DNS 2"
+            },
+            "changeStaticGateway": {
+                "title": "Changer la passerelle de connexion",
+                "description": "Saisir une nouvelle adresse pour la passerelle de votre OpenDTU."
+            },
+            "changeMdnsEnabled": {
+                "title": "Changer l'activation du mDNS",
+                "description": "Activer ou désactiver mDNS pour votre OpenDTU."
+            },
+            "changeDhcpEnabled": {
+                "title": "Changer l'activation du DHCP",
+                "description": "Activer ou désactiver le DHCP pour la connexion WiFi."
+            },
+            "changeStaticIpAddress": {
+                "title": "Changer l'adresse IP statique",
+                "description": "Saisir une nouvelle adresse IP statique pour votre OpenDTU."
+            },
+            "changeStaticNetmask": {
+                "title": "Changer le masque de sous-réseau statique",
+                "description": "Saisir un nouveau masque de sous-réseau pour votre OpenDTU."
+            },
+            "changeStaticDns1": {
+                "title": "Changer le serveur DNS 1",
+                "description": "Saisir une nouvelle adresse pour le serveur DNS 1."
             }
         },
         "seconds": "Secondes",
@@ -87,7 +122,35 @@
         "changeOpendtuCredentials": "Changer les identifiants OpenDTU ?",
         "weblateInfo": "Cette application est traduite par des volontaires sur Weblate. Vous pouvez améliorer ces traductions ou ajouter de nouvelles langues en cliquant sur le bouton ci-dessous !",
         "openWeblate": "Aller sur Weblate",
-        "title": "Paramètres"
+        "title": "Paramètres",
+        "configManagement": {
+            "description": "Sauvegarde • Restauration • Réinitialisation",
+            "title": "Gestion de la configuration"
+        },
+        "activateInappUpdates": "Activer les mises à jour dans l'application",
+        "ntpSettings": {
+            "title": "Paramètres NTP",
+            "description": "Fuseau horaire • Serveur NTP • Localisation • Synchronisation de l'heure"
+        },
+        "mqttSettings": {
+            "title": "Paramètres MQTT"
+        },
+        "inverterSettings": {
+            "title": "Paramètres de l'onduleur",
+            "description": "Onduleurs • Lignes"
+        },
+        "securitySettings": {
+            "title": "Paramètres de sécurité",
+            "description": "Mot de passe administrateur • Permissions"
+        },
+        "dtuSettings": {
+            "title": "Paramètres DTU",
+            "description": "Numéro de série • Intervalle d'interrogation • Puissance d'émission"
+        },
+        "hardwareSettings": {
+            "title": "Paramètres matériel",
+            "description": "Brochage • Périphériques"
+        }
     },
     "device": {
         "deviceName": "Nom de l'appareil",
@@ -112,7 +175,8 @@
         "latestAppRelease": "Dernière version de l'application",
         "viewMore": "Voir plus",
         "refreshModal": {
-            "warningText": "Si vous actualisez trop souvent, la limite de 60 requêtes par heure de l'API GitHub pourrait être atteinte. L'application récupère automatiquement la dernière version de l'application toutes les 10 minutes."
+            "warningText": "Si vous actualisez trop souvent, la limite de 60 requêtes par heure de l'API GitHub pourrait être atteinte. L'application récupère automatiquement la dernière version de l'application toutes les 10 minutes.",
+            "title": "Vérifier la dernière version de l'application ?"
         }
     },
     "charts": {
@@ -149,5 +213,134 @@
             "invalidCredentials": "Identifiants invalides",
             "genericError": "Quelque chose s'est mal passé ! Merci de réessayer."
         }
+    },
+    "deviceSettings": {
+        "hint": {
+            "defaultPassword": "Vous utilisez le mot de passe par défaut pour l'interface web et le point d'accès de secours. Ceci n'est pas très sécurisé.",
+            "timeSync": "L'horloge n'a pas encore été synchronisée. Sans une horloge correctement réglée, aucune requête n'est adressée à l'onduleur. C'est normal juste après le démarrage, mais après une durée d'exécution plus longue (> 1 minute), cela indique que le serveur NTP n'est pas accessible.",
+            "radioProblem": "Impossible de se connecter à un module radio. Merci de vérifier le câblage."
+        },
+        "none": "Aucun",
+        "alreadyConnected": "Déjà connecté",
+        "connect": "Connecter",
+        "title": "Paramètres de l'appareil",
+        "general": "Général",
+        "status": "Statut : {{status}}",
+        "serverUrl": "URL du serveur : {{url}}",
+        "deviceName": "Nom de l'appareil : {{name}}",
+        "serialNumber": "Numéro de série : {{serialNumber}}",
+        "username": "Nom d'utilisateur : {{username}}",
+        "hints": "Astuces",
+        "details": "Détails",
+        "configureDeviceName": "Nom de l'appareil",
+        "configureServerUrl": "URL du serveur",
+        "configureDatabase": "Configuration de la base de données",
+        "opendtuCredentials": "Informations d'identification OpenDTU"
+    },
+    "manageDatabases": {
+        "databases": "Bases de données",
+        "noDatabasesConfigured": "Aucune base de données configurée",
+        "noDatabasesConfiguredHint": "Il semble que vous n'ayez pas encore configuré de base de données. Cliquez-ici pour en ajouter une !",
+        "addDatabase": "Ajouter une base de donnée"
+    },
+    "opendtu": {
+        "systemInformationScreen": {
+            "activateFetchFromGithub": "Activer la récupération depuis Github",
+            "hardwareInformation": "Informations sur le matériel",
+            "radioInformation": "Informations radio",
+            "totalFree": "Total libre",
+            "resetReasonCpu0": "Raison de réinitialisation CPU 0",
+            "firmwareInformation": "Informations sur le firmware",
+            "hostname": "Nom d'hôte",
+            "sdkVersion": "Version du SDK",
+            "configVersion": "Version de configuration",
+            "gitTag": "Tag Git",
+            "gitHash": "Hash Git",
+            "pioEnvironment": "Environnement PIO",
+            "resetReasonCpu1": "Raison de réinitialisation CPU 1",
+            "configSaveCount": "Nombre de sauvegardes de configuration",
+            "uptime": "Temps de disponibilité",
+            "chipModel": "Modèle de puce",
+            "chipRevision": "Révision de la puce",
+            "chipCores": "Cœurs de la puce",
+            "chipFrequency": "Fréquence de la puce",
+            "memoryInformation": "Informations sur la mémoire",
+            "heap": "Heap",
+            "littleFs": "LittleFS",
+            "sketch": "Sketch",
+            "nrf24Status": "Statut nRF24",
+            "nrf24ChipStatus": "Statut de la puce nRF24",
+            "nrf24ChipType": "Type de puce nRF24",
+            "cmt2300aStatus": "Statut CMT2300A",
+            "cmt2300aChipStatus": "Statut de la puce CMT2300A",
+            "psram": "PSRAM",
+            "heapDetails": "Détails du Heap",
+            "biggestBlock": "Plus grand bloc libre contigu",
+            "fragmentation": "Niveau de fragmentation",
+            "maxUsage": "Utilisation maximale depuis le démarrage",
+            "activateFetchFromGithubDescription": "Cela effectuera des requêtes sur api.github.com"
+        },
+        "systemInformationDescription": "Firmware • Mises à jour • Matériel • Mémoire • Radio",
+        "title": "OpenDTU",
+        "information": "Informations sur OpenDTU",
+        "systemInformation": "Informations système",
+        "networkInformation": "Informations réseau",
+        "networkInformationDescription": "WiFi • Ethernet • mDNS"
+    },
+    "RNPaperDates": {
+        "mustBeLowerThan": "Doit être avant le {{date}}",
+        "save": "Sauvegarder",
+        "selectSingle": "Sélectionnez une date",
+        "selectMultiple": "Sélectionnez les dates",
+        "selectRange": "Sélectionnez la période",
+        "notAccordingToDateFormat": "Le format de date doit être {{inputFormat}}",
+        "mustBeHigherThan": "Doit être après le {{date}}",
+        "mustBeBetween": "Doit être entre {{startDate}} - {{endDate}}",
+        "dateIsDisabled": "Le jour n'est pas autorisé",
+        "previous": "Précédent",
+        "next": "Suivant",
+        "typeInDate": "Saisissez la date",
+        "pickDateFromCalendar": "Choisir une date depuis le calendrier",
+        "close": "Fermer",
+        "hour": "Heure",
+        "minute": "Minute"
+    },
+    "time_range": {
+        "from": "À partir de {{value}}",
+        "to": "Jusqu'à {{value}}"
+    },
+    "mdns": {
+        "scanning": "Recherche…",
+        "noDevicesFound": "Aucun appareil trouvé"
+    },
+    "none": "Aucun",
+    "themes": {
+        "light": "Lumière",
+        "dark": "Sombre",
+        "system": "Système",
+        "allowMaterialYou": "Utiliser le thème adaptatif"
+    },
+    "change": "Changer",
+    "languages": {
+        "en": "Anglais",
+        "de": "Allemand"
+    },
+    "delete": "Supprimer",
+    "deviceOfflineWrapper": {
+        "connecting": "Connexion…",
+        "pleaseWait": "Merci de patienter pendant la tentative de connexion à l'appareil.",
+        "openDeviceList": "Ouvrir la liste des appareils",
+        "deviceOffline": "Appareil hors ligne",
+        "checkIfReachable": "Merci de vérifier que l'appareil est accessible. Dès qu'il le sera, il sera automatiquement reconnecté."
+    },
+    "save": "Sauvegarder",
+    "deviceList": {
+        "devices": "Appareils"
+    },
+    "navigation": {
+        "livedata": "Données en direct",
+        "settings": "Paramètres",
+        "graph": "Graphiques",
+        "inverterList": "Onduleur"
     }
 }
