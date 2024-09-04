@@ -6,7 +6,7 @@
         "setEndToNow": "Régler la fin à maintenant",
         "title": "Configurer le graphique",
         "changeTimeRange": "Changer la plage de temps",
-        "save": "Sauvegarder la plage de temps",
+        "save": "Enregistrer la plage de temps",
         "changeRefreshInterval": "Changer le temps de rafraîchissement",
         "presets": "Préréglages",
         "changeRefreshIntervalDescription": "Changer le temps d'actualisation du graphique. C'est le temps entre deux mises à jour de données.",
@@ -16,22 +16,23 @@
         "configureGraphs": "Configurer les graphiques",
         "changeTimerangeAndRefreshInterval": "Changer la plage de temps et l'intervalle d'actualisation",
         "hintsWarning": "Il y a actuellement des problèmes avec votre OpenDTU ! Cliquez-ici pour en savoir plus.",
-        "todaysYield": "Rendement du jour",
+        "todaysYield": "Production du jour",
         "power": "Puissance"
     },
     "settings": {
         "networkSettings": {
             "changePassword": {
                 "description": "Saisissez un nouveau mot de passe pour le réseau WiFi.",
-                "title": "Changer le mot de passe du réseau WiFi"
+                "title": "Modifier le mot de passe du réseau WiFi"
             },
             "changeSsid": {
                 "description": "Saisir le nouveau SSID du réseau WiFi.",
-                "title": "Changer le SSID du réseau WiFi"
+                "title": "Modifier le SSID du réseau WiFi"
             },
             "ap": {
                 "title": "Paramètres du point d'accès",
-                "timeoutHint": "Le temps en secondes après lequel le point d'accès sera désactivé si aucun appareil n'est connecté. Zéro signifie jamais."
+                "timeoutHint": "Le temps en secondes après lequel le point d'accès sera désactivé si aucun appareil n'est connecté. Zéro signifie jamais.",
+                "timeout": "Timeout"
             },
             "title": "Paramètres réseau",
             "description": "WiFi • Ethernet • DHCP • mDNS",
@@ -45,7 +46,7 @@
             "staticIp": {
                 "title": "IP statique",
                 "ipAddress": "Adresse IP",
-                "netmask": "Masque de sous-réseau",
+                "netmask": "Masque réseau",
                 "gateway": "Passerelle",
                 "dns1": "Serveur DNS 1",
                 "dns2": "Serveur DNS 2"
@@ -83,8 +84,8 @@
                 "description": "Saisir une nouvelle adresse IP statique pour votre OpenDTU."
             },
             "changeStaticNetmask": {
-                "title": "Changer le masque de sous-réseau statique",
-                "description": "Saisir un nouveau masque de sous-réseau pour votre OpenDTU."
+                "title": "Changer le masque réseau statique",
+                "description": "Saisir un nouveau masque réseau pour votre OpenDTU."
             },
             "changeStaticDns1": {
                 "title": "Changer le serveur DNS 1",
@@ -133,7 +134,8 @@
             "description": "Fuseau horaire • Serveur NTP • Localisation • Synchronisation de l'heure"
         },
         "mqttSettings": {
-            "title": "Paramètres MQTT"
+            "title": "Paramètres MQTT",
+            "description": "Broker MQTT • Découverte automatique • Sujets"
         },
         "inverterSettings": {
             "title": "Paramètres de l'onduleur",
@@ -275,7 +277,7 @@
             "cmt2300aChipStatus": "Statut de la puce CMT2300A",
             "psram": "PSRAM",
             "heapDetails": "Détails du Heap",
-            "biggestBlock": "Plus grand bloc libre contigu",
+            "biggestBlock": "",
             "fragmentation": "Niveau de fragmentation",
             "maxUsage": "Utilisation maximale depuis le démarrage",
             "activateFetchFromGithubDescription": "Cela effectuera des requêtes sur api.github.com"
@@ -285,7 +287,65 @@
         "information": "Informations sur OpenDTU",
         "systemInformation": "Informations système",
         "networkInformation": "Informations réseau",
-        "networkInformationDescription": "WiFi • Ethernet • mDNS"
+        "networkInformationDescription": "WiFi • Ethernet • mDNS",
+        "mqttInformationScreen": {
+            "username": "Nom d'utilisateur",
+            "loginWithTlsCertificate": "Connexion avec certificat TLS",
+            "configurationSummary": "Résumé de la configuration",
+            "status": "Statut",
+            "server": "Serveur",
+            "cleansessionFlag": "Flag CleanSession",
+            "port": "Port",
+            "baseTopic": "Sujet de base",
+            "publishInterval": "Intervalle de publication",
+            "tls": "TLS",
+            "homeAssistantAutoDiscovery": "Découverte automatique de Home Assistant",
+            "expire": "Expiration",
+            "runtimeSummary": "Résumé de l'exécution",
+            "connectionStatus": "Statut de la connexion"
+        },
+        "changelog": {
+            "updatesChangelogDescription": "Voir les modifications et mettre à jour OpenDTU depuis l'application",
+            "updatesChangelog": "Mises à jour & journal des modifications"
+        },
+        "networkInformationScreen": {
+            "dns2": "DNS 2",
+            "macAddress": "Adresse MAC",
+            "dBm": "{{rssi}} dBm",
+            "gateway": "Passerelle",
+            "dns1": "DNS 1",
+            "wifiStation": "Réseau WiFi",
+            "wifiAccessPoint": "Point d'accès WiFi",
+            "wifiStationInterface": "Interface du réseau WiFi",
+            "wifiAccessPointInterface": "Interface du point d'accès WiFi",
+            "status": "Statut",
+            "ssid": "SSID",
+            "bssid": "BSSID",
+            "quality": "Qualité",
+            "rssi": "Force du signal",
+            "numberOfStations": "Nombre de réseaux",
+            "hostname": "Nom d'hôte",
+            "ipAddress": "Adresse IP",
+            "subnetMask": "Masque de sous-réseau"
+        },
+        "ntpInformation": "Informations NTP",
+        "ntpInformationDescription": "Configuration NTP • Statut NTP",
+        "ntpInformationScreen": {
+            "configurationSummary": "Résumé de la configuration",
+            "ntpServer": "Serveur NTP",
+            "ntpTimezone": "Fuseau horaire NTP",
+            "ntpTimezoneDescription": "Description du fuseau horaire NTP",
+            "status": "Statut",
+            "currentTime": "Heure actuelle",
+            "localTime": "Heure locale",
+            "sunrise": "Lever du soleil",
+            "sunset": "Coucher du soleil",
+            "mode": "Mode",
+            "day": "Jour",
+            "night": "Nuit"
+        },
+        "mqttInformation": "Informations MQTT",
+        "mqttInformationDescription": "Configuration MQTT • Statut MQTT"
     },
     "RNPaperDates": {
         "mustBeLowerThan": "Doit être avant le {{date}}",
@@ -342,5 +402,175 @@
         "settings": "Paramètres",
         "graph": "Graphiques",
         "inverterList": "Onduleur"
+    },
+    "limitStatus": {
+        "error": "Erreur lors de la définition de la limite",
+        "lastTransmittedStatus": "Dernier statut transmis :",
+        "title": "Contrôle de la limite de l'onduleur",
+        "limits": "Limites :",
+        "setPermanentLimit": "Définir une limite permanante",
+        "setTemporaryLimit": "Définir une limite temporaire",
+        "absolute": "Absolue (W)",
+        "relative": "Relative (%)",
+        "limitValue": "Valeur limite ({{unit}}",
+        "valueError": "Valeur invalide",
+        "valueRangeError": "La valeur doit être entre 0 et {{max}}"
+    },
+    "powerStatus": {
+        "pending": "En attente",
+        "error": "Erreur de changement du statut d'alimentation",
+        "powerOn": "Allumer",
+        "powerOff": "Éteindre",
+        "restart": "Redémarrer",
+        "lastTransmittedStatus": "Dernier statut transmis :",
+        "title": "Contrôle de l'alimentation de l'onduleur",
+        "unknown": "Inconnu",
+        "ok": "OK",
+        "failure": "Échec"
+    },
+    "debug": {
+        "latestAppReleaseCacheCreated": "Cache de version d'application au",
+        "cache": "Cache",
+        "disableDebugMode": "Désactiver le mode débogage",
+        "other": "Autre",
+        "latestOpenDtuReleaseCacheCreated": "Cache de version OpenDTU au",
+        "openDtuReleasesCacheCreated": "Cache des versions OpenDTU au",
+        "websocket": "WebSocket",
+        "debugColors": "Couleurs de débogage"
+    },
+    "units": {
+        "watt": "{{value}} W",
+        "percent": "{{value}} %"
+    },
+    "inverterInfo": {
+        "lastUpdateWas": "Dernière mise à jour le {{ago}}",
+        "serial": "Série : {{serial}}",
+        "limits": "Limites : {{absolute}} W / {{relative}} %"
+    },
+    "inverterDeviceInfo": {
+        "hardwareVersion": "Version du matériel",
+        "hardwarePartNumber": "Numéro de série du matériel",
+        "firmwareBuildDate": "Date de compilation du micrologiciel",
+        "firmwareVersion": "Version du micrologiciel",
+        "bootloaderVersion": "Version du bootloader",
+        "detectedMaxPower": "Puissance maximale détectée",
+        "unknownModel": "Modèle inconnu",
+        "model": "Modèle d'onduleur",
+        "productionWeek": "Semaine de production",
+        "productionYear": "Année de production",
+        "serial": "Numéro de série",
+        "invalidData": "Données invalides reçues",
+        "noData": "Aucune donnée reçue"
+    },
+    "inverter": {
+        "control": {
+            "description": "Démarrer, arrêter et redémarrer l'onduleur",
+            "title": "Contrôle"
+        },
+        "inverterInfoSections": {
+            "livedata": "Données en direct",
+            "controls": "Contrôles"
+        },
+        "eventLog": {
+            "noEventsDescription": "Aucun événement n'a encore été enregistré.",
+            "title": "Journal des événements",
+            "description": "Voir le journal d'événements de l'onduleur",
+            "noEvents": "Pas d'événements"
+        },
+        "livedata": {
+            "dataKeys": {
+                "YieldDay": "Production aujourd'hui",
+                "Power": "Puissance",
+                "Voltage": "Tension",
+                "Current": "Courant",
+                "Power DC": "Puissance DC",
+                "Frequency": "Fréquence",
+                "Temperature": "Température",
+                "PowerFactor": "Facteur de puissance",
+                "ReactivePower": "Puissance réactive",
+                "Efficiency": "Efficacité",
+                "Irradiation": "Irradiation",
+                "YieldTotal": "Production totale"
+            },
+            "INV": "Onduleur",
+            "AC": "Phases (AC)",
+            "DC": "Lignes (DC)",
+            "string": "Ligne {{stringNumber}}",
+            "phase": "Phase {{phaseNumber}}"
+        },
+        "gridProfile": {
+            "title": "Profil réseau",
+            "noDataDescription": "Aucune donnée de profil réseau disponible.",
+            "rawGridProfileData": "Données brutes du profil réseau",
+            "description": "Afficher le profil de réseau de l'onduleur",
+            "name": "Nom",
+            "noData": "Pas de données",
+            "version": "Version"
+        },
+        "limits": {
+            "title": "Limites",
+            "description": "Changer la limite de puissance de l'onduleur"
+        }
+    },
+    "firmwares": {
+        "refreshModal": {
+            "warningText": "Si vous actualisez trop souvent, la limite de 60 requêtes par heure de l'API GitHub pourrait être atteinte. L'application rafraîchi automatiquement les versions toutes les 10 minutes.",
+            "title": "Actualiser les versions du firmware ?"
+        },
+        "updateNote": "Bien que l'application puisse fonctionner avec des firmwares plus anciens, il est recommandé d'utiliser la dernière version. La prise en charge des anciennes versions, en particulier celles antérieures à {{minimumVersion}}, n'est pas garantie.",
+        "outdatedReleases": "Versions obsolètes",
+        "installFirmware": "Installer le micrologiciel {{name}} ?",
+        "downloading": "Téléchargement du micrologiciel…",
+        "title": "Micrologiciels",
+        "latestFirmware": "Dernier micrologiciel",
+        "installedFirmware": "Micrologiciel installé",
+        "view_on_github": "Voir sur GitHub",
+        "install_firmware_on_device": "Installer le micrologiciel sur l'appareil",
+        "newReleases": "Nouvelles versions",
+        "releases": "Versions",
+        "noReleases": "Pas de versions disponible",
+        "publishedAgo": "Publié {{timeAgo}}",
+        "install": "Installer le micrologiciel",
+        "installing": "Installation du micrologiciel…",
+        "download_with_size": "Télécharger le micrologiciel ({{size}})",
+        "waitingForReconnect": "Attente de reconnexion d'OpenDTU…",
+        "downloadProgress": "Progression du téléchargement",
+        "installProgress": "Progression de l'installation",
+        "successfullyInstalledTheFirmware": "Le firmware a été installé avec succès !",
+        "installAsset": "Installer l'élément {{name}} ?",
+        "recommendedFirmware": "Micrologiciel minimum recommandé"
+    },
+    "notConnected": "Non connecté",
+    "configured": "Configuré",
+    "notConfigured": "Non configuré",
+    "enabled": "Activé",
+    "disabled": "Désactivé",
+    "unavailable": "Non disponible",
+    "synced": "Synchronisé",
+    "notSynced": "Non synchronisé",
+    "n_seconds": "{{n}} secondes",
+    "enable": "Activer",
+    "disable": "Désactiver",
+    "version": "Version",
+    "notProducing": "Pas de production",
+    "connected": "Connecté",
+    "offlineModal": {
+        "title": "Hors ligne",
+        "description": "Votre appareil ne dispose pas de connexion via WiFi ou données mobiles. Veuillez vérifier votre connexion."
+    },
+    "clear": "Vider",
+    "confirm": "Confirmer",
+    "fetchedWithTime": "Récupéré le {{time}}",
+    "producing": "Produire {{power}}",
+    "producedToday": "Aujourd'hui {{energy}} produit",
+    "copy": "Copie",
+    "invalidValue": "Valeur invalide",
+    "errors": {
+        "noLeadingOrTrailingSpaces": "Pas d'espaces de début ou de fin",
+        "minLength": "Longueur minimale : {{n}}",
+        "maxLength": "Longueur maximale : {{n}}",
+        "required": "Requis",
+        "invalidNumber": "Numéro invalide",
+        "invalidIpAddress": "Adresse IP invalide"
     }
 }
