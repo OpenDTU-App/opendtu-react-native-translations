@@ -591,5 +591,8 @@
         "required": "Wert erforderlich",
         "invalidNumber": "Ungültige Nummer",
         "invalidIpAddress": "Ungültige IP-Adresse"
+    },
+    "logLevels": {
+        "debug": "Debug"
     }
 }
