@@ -134,11 +134,11 @@
             },
             "changeSsid": {
                 "title": "SSID der WLAN-Station ändern",
-                "description": "GIB die neue SSID der WLAN-Station ein."
+                "description": "Gib eine neue SSID der WLAN-Station ein."
             },
             "changePassword": {
                 "title": "Passwort der WiFi-Station ändern",
-                "description": "Gib das neue Passwort der WiFi-Station ein."
+                "description": "Gib ein neues Passwort der WiFi-Station ein."
             },
             "changeDhcpEnabled": {
                 "title": "DHCP aktivieren / deaktivieren",
@@ -188,7 +188,15 @@
         "hardwareSettings": {
             "title": "Hardware-Einstellungen",
             "description": "Pinbelegung • Peripheriegeräte"
-        }
+        },
+        "logs": "Protokolle",
+        "logsDescription": "Protokolle der App ansehen",
+        "logLevel": "Log-Level ändern",
+        "noLogs": "Keine Logs verfügbar",
+        "noLogsDescription": "Ändere das Log-Level um mehr Logs zu sehen.",
+        "shareLogs": "Logs fürs Debugging teilen",
+        "logsShared": "Logs erfolgreich geteilt",
+        "logsNotShared": "Konnte Logs nicht teilen"
     },
     "device": {
         "deviceName": "Gerätename",
@@ -426,7 +434,16 @@
         "other": "Andere",
         "websocket": "WebSocket",
         "openDtuReleasesCacheCreated": "OpenDTU-Releases-Cache von",
-        "debugColors": "Farben debuggen"
+        "debugColors": "Farben debuggen",
+        "showWarningToast": "Zeige Warnungs-Toast",
+        "warningToast": "Das ist eine Warnung",
+        "successToast": "Das ist eine Erfolgsnachricht",
+        "showSuccessToast": "Zeige Erfolgs-Toast",
+        "errorToast": "Das ist eine Fehlermeldung",
+        "showErrorToast": "Zeige Fehler-Toast",
+        "infoToast": "Das ist eine Information",
+        "showInfoToast": "Zeige einen Info-Toast",
+        "toast": "Toast"
     },
     "offlineModal": {
         "title": "Offline",
