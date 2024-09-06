@@ -277,7 +277,7 @@
             "cmt2300aChipStatus": "Statut de la puce CMT2300A",
             "psram": "PSRAM",
             "heapDetails": "Détails du Heap",
-            "biggestBlock": "",
+            "biggestBlock": "Plus grand bloc libre contigu",
             "fragmentation": "Niveau de fragmentation",
             "maxUsage": "Utilisation maximale depuis le démarrage",
             "activateFetchFromGithubDescription": "Cela effectuera des requêtes sur api.github.com"
@@ -572,5 +572,8 @@
         "required": "Requis",
         "invalidNumber": "Numéro invalide",
         "invalidIpAddress": "Adresse IP invalide"
+    },
+    "logLevels": {
+        "debug": "Déboguer"
     }
 }
