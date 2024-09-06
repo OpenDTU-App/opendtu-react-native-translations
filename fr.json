@@ -152,7 +152,15 @@
         "hardwareSettings": {
             "title": "Paramètres matériel",
             "description": "Brochage • Périphériques"
-        }
+        },
+        "logs": "",
+        "logsDescription": "",
+        "logLevel": "",
+        "noLogs": "",
+        "noLogsDescription": "",
+        "shareLogs": "",
+        "logsShared": "",
+        "logsNotShared": ""
     },
     "device": {
         "deviceName": "Nom de l'appareil",
@@ -302,7 +310,9 @@
             "homeAssistantAutoDiscovery": "Découverte automatique de Home Assistant",
             "expire": "Expiration",
             "runtimeSummary": "Résumé de l'exécution",
-            "connectionStatus": "Statut de la connexion"
+            "connectionStatus": "Statut de la connexion",
+            "retain": "",
+            "individualPanels": ""
         },
         "changelog": {
             "updatesChangelogDescription": "Voir les modifications et mettre à jour OpenDTU depuis l'application",
@@ -436,7 +446,16 @@
         "latestOpenDtuReleaseCacheCreated": "Cache de version OpenDTU au",
         "openDtuReleasesCacheCreated": "Cache des versions OpenDTU au",
         "websocket": "WebSocket",
-        "debugColors": "Couleurs de débogage"
+        "debugColors": "Couleurs de débogage",
+        "showWarningToast": "",
+        "warningToast": "",
+        "successToast": "",
+        "showSuccessToast": "",
+        "errorToast": "",
+        "showErrorToast": "",
+        "infoToast": "",
+        "showInfoToast": "",
+        "toast": ""
     },
     "units": {
         "watt": "{{value}} W",
@@ -574,6 +593,9 @@
         "invalidIpAddress": "Adresse IP invalide"
     },
     "logLevels": {
-        "debug": "Déboguer"
+        "debug": "Déboguer",
+        "info": "",
+        "warn": "",
+        "error": ""
     }
 }
