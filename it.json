@@ -40,66 +40,562 @@
         "newVersionAvailable": "Nuova release dell'app disponibile!",
         "latestAppRelease": "Ultima release app",
         "viewMore": "Visualizza di più",
-        "projectHint": "Questa app non è affiliata con il progetto OpenDTU. Se riscontri problemi, per favore segnalali sulla pagina GitHub."
+        "projectHint": "Questa app non è affiliata con il progetto OpenDTU. Se riscontri problemi, per favore segnalali sulla pagina GitHub.",
+        "refreshModal": {
+            "title": "",
+            "warningText": ""
+        }
     },
     "setup": {
         "username": "Nome utente",
-        "password": "Password"
+        "password": "Password",
+        "login": "",
+        "setupComplete": "",
+        "goToDashboard": "",
+        "authenticateOpendtuInstance": "",
+        "placeholder": {
+            "username": ""
+        },
+        "anonymous": "",
+        "addOpendtuInstance": "",
+        "opendtuAddress": "",
+        "instancesInYourNetwork": "",
+        "connect": "",
+        "errors": {
+            "invalidAddress": "",
+            "invalidCredentials": "",
+            "genericError": ""
+        }
     },
     "settings": {
         "licenses": "Licenze",
         "networkSettings": {
             "wifiStation": {
-                "password": "Password"
+                "password": "Password",
+                "title": "",
+                "ssid": "",
+                "hostname": "",
+                "dhcpEnabled": ""
             },
             "changeApTimeout": {
-                "description": ""
+                "description": "",
+                "title": ""
             },
             "changeStaticGateway": {
-                "description": ""
+                "description": "",
+                "title": ""
             },
             "changeHostname": {
-                "description": ""
+                "description": "",
+                "title": ""
             },
             "changeSsid": {
-                "description": ""
+                "description": "",
+                "title": ""
             },
             "changePassword": {
-                "description": ""
+                "description": "",
+                "title": ""
             },
             "changeStaticNetmask": {
-                "description": ""
+                "description": "",
+                "title": ""
             },
             "changeStaticIpAddress": {
-                "description": ""
+                "description": "",
+                "title": ""
             },
             "changeStaticDns1": {
-                "description": ""
+                "description": "",
+                "title": ""
             },
             "changeStaticDns2": {
+                "description": "",
+                "title": ""
+            },
+            "title": "",
+            "description": "",
+            "staticIp": {
+                "title": "",
+                "ipAddress": "",
+                "netmask": "",
+                "gateway": "",
+                "dns1": "",
+                "dns2": ""
+            },
+            "mdns": {
+                "title": "",
+                "enabled": ""
+            },
+            "ap": {
+                "title": "",
+                "timeout": "",
+                "timeoutHint": ""
+            },
+            "changeDhcpEnabled": {
+                "title": "",
+                "description": ""
+            },
+            "changeMdnsEnabled": {
+                "title": "",
                 "description": ""
             }
+        },
+        "themeDescription": "",
+        "language": "",
+        "seconds": "",
+        "milliseconds": "",
+        "general": "",
+        "theme": "",
+        "languageDescription": "",
+        "aboutApp": "",
+        "aboutDescription": "",
+        "selectDatabase": "",
+        "changeTheTheme": "",
+        "changeTheLanguage": "",
+        "doYouWantToDeleteThisConfig": "",
+        "app": "",
+        "clearGithubCache": "",
+        "advanced": "",
+        "newAppRelease": "",
+        "licensesDescription": "",
+        "doYouWantToEnableAppUpdates": "",
+        "activateInappUpdates": "",
+        "debug": "",
+        "newOpenDtuRelease": "",
+        "weblateInfo": "",
+        "openWeblate": "",
+        "logs": "",
+        "logsDescription": "",
+        "logLevel": "",
+        "noLogs": "",
+        "noLogsDescription": "",
+        "shareLogs": "",
+        "logsShared": "",
+        "logsNotShared": "",
+        "title": "",
+        "changeTheServerUrl": "",
+        "serverUrl": "",
+        "manageDatabase": "",
+        "appVersion": "",
+        "doYouWantToEnableOpenDtuUpdates": "",
+        "thisWillMakeRequestsToGithub": "",
+        "changeOpendtuCredentials": "",
+        "ntpSettings": {
+            "title": "",
+            "description": ""
+        },
+        "mqttSettings": {
+            "title": "",
+            "description": ""
+        },
+        "inverterSettings": {
+            "title": "",
+            "description": ""
+        },
+        "securitySettings": {
+            "title": "",
+            "description": ""
+        },
+        "dtuSettings": {
+            "title": "",
+            "description": ""
+        },
+        "hardwareSettings": {
+            "title": "",
+            "description": ""
+        },
+        "configManagement": {
+            "title": "",
+            "description": ""
         }
     },
     "firmwares": {
-        "view_on_github": "Visualizza su Github"
+        "view_on_github": "Visualizza su Github",
+        "title": "",
+        "latestFirmware": "",
+        "installedFirmware": "",
+        "install_firmware_on_device": "",
+        "outdatedReleases": "",
+        "releases": "",
+        "noReleases": "",
+        "publishedAgo": "",
+        "install": "",
+        "installing": "",
+        "downloading": "",
+        "download_with_size": "",
+        "downloadProgress": "",
+        "installProgress": "",
+        "newReleases": "",
+        "waitingForReconnect": "",
+        "installFirmware": "",
+        "successfullyInstalledTheFirmware": "",
+        "installAsset": "",
+        "recommendedFirmware": "",
+        "refreshModal": {
+            "title": "",
+            "warningText": ""
+        },
+        "updateNote": ""
     },
     "opendtu": {
         "mqttInformationScreen": {
-            "username": "Nome utente"
+            "username": "Nome utente",
+            "retain": "",
+            "tls": "",
+            "loginWithTlsCertificate": "",
+            "configurationSummary": "",
+            "status": "",
+            "server": "",
+            "port": "",
+            "baseTopic": "",
+            "publishInterval": "",
+            "cleansessionFlag": "",
+            "homeAssistantAutoDiscovery": "",
+            "expire": "",
+            "individualPanels": "",
+            "runtimeSummary": "",
+            "connectionStatus": ""
+        },
+        "information": "",
+        "title": "",
+        "systemInformation": "",
+        "systemInformationDescription": "",
+        "systemInformationScreen": {
+            "hostname": "",
+            "firmwareInformation": "",
+            "sdkVersion": "",
+            "configVersion": "",
+            "gitHash": "",
+            "gitTag": "",
+            "pioEnvironment": "",
+            "resetReasonCpu0": "",
+            "resetReasonCpu1": "",
+            "configSaveCount": "",
+            "uptime": "",
+            "hardwareInformation": "",
+            "chipModel": "",
+            "chipRevision": "",
+            "chipCores": "",
+            "chipFrequency": "",
+            "memoryInformation": "",
+            "heap": "",
+            "littleFs": "",
+            "sketch": "",
+            "radioInformation": "",
+            "nrf24Status": "",
+            "nrf24ChipStatus": "",
+            "nrf24ChipType": "",
+            "cmt2300aStatus": "",
+            "cmt2300aChipStatus": "",
+            "psram": "",
+            "heapDetails": "",
+            "totalFree": "",
+            "biggestBlock": "",
+            "fragmentation": "",
+            "maxUsage": "",
+            "activateFetchFromGithub": "",
+            "activateFetchFromGithubDescription": ""
+        },
+        "networkInformationScreen": {
+            "wifiStation": "",
+            "wifiAccessPoint": "",
+            "wifiStationInterface": "",
+            "wifiAccessPointInterface": "",
+            "status": "",
+            "ssid": "",
+            "bssid": "",
+            "quality": "",
+            "rssi": "",
+            "numberOfStations": "",
+            "hostname": "",
+            "ipAddress": "",
+            "subnetMask": "",
+            "gateway": "",
+            "dns1": "",
+            "dns2": "",
+            "macAddress": "",
+            "dBm": ""
+        },
+        "ntpInformationScreen": {
+            "night": "",
+            "ntpTimezone": "",
+            "ntpTimezoneDescription": "",
+            "status": "",
+            "currentTime": "",
+            "localTime": "",
+            "sunrise": "",
+            "sunset": "",
+            "mode": "",
+            "day": "",
+            "ntpServer": "",
+            "configurationSummary": ""
+        },
+        "mqttInformation": "",
+        "mqttInformationDescription": "",
+        "networkInformation": "",
+        "networkInformationDescription": "",
+        "ntpInformation": "",
+        "ntpInformationDescription": "",
+        "changelog": {
+            "updatesChangelog": "",
+            "updatesChangelogDescription": ""
         }
     },
     "inverter": {
         "gridProfile": {
-            "name": "Nome"
+            "name": "Nome",
+            "title": "",
+            "description": "",
+            "noData": "",
+            "noDataDescription": "",
+            "version": "",
+            "rawGridProfileData": ""
         },
         "livedata": {
             "dataKeys": {
-                "Power": "Potenza"
-            }
+                "Power": "Potenza",
+                "Voltage": "",
+                "Current": "",
+                "Power DC": "",
+                "YieldDay": "",
+                "YieldTotal": "",
+                "Frequency": "",
+                "Temperature": "",
+                "PowerFactor": "",
+                "ReactivePower": "",
+                "Efficiency": "",
+                "Irradiation": ""
+            },
+            "DC": "",
+            "string": "",
+            "phase": "",
+            "INV": "",
+            "AC": ""
+        },
+        "inverterInfoSections": {
+            "livedata": "",
+            "controls": ""
+        },
+        "eventLog": {
+            "title": "",
+            "description": "",
+            "noEvents": "",
+            "noEventsDescription": ""
+        },
+        "limits": {
+            "title": "",
+            "description": ""
+        },
+        "control": {
+            "title": "",
+            "description": ""
         }
     },
     "deviceSettings": {
-        "configureDeviceName": "Nome Dispositivo"
+        "configureDeviceName": "Nome Dispositivo",
+        "title": "",
+        "general": "",
+        "status": "",
+        "serverUrl": "",
+        "deviceName": "",
+        "serialNumber": "",
+        "username": "",
+        "hints": "",
+        "hint": {
+            "defaultPassword": "",
+            "timeSync": "",
+            "radioProblem": ""
+        },
+        "details": "",
+        "configureServerUrl": "",
+        "configureDatabase": "",
+        "opendtuCredentials": "",
+        "none": "",
+        "connect": "",
+        "alreadyConnected": ""
+    },
+    "RNPaperDates": {
+        "mustBeHigherThan": "",
+        "mustBeLowerThan": "",
+        "mustBeBetween": "",
+        "previous": "",
+        "next": "",
+        "typeInDate": "",
+        "pickDateFromCalendar": "",
+        "close": "",
+        "hour": "",
+        "minute": "",
+        "dateIsDisabled": "",
+        "save": "",
+        "selectSingle": "",
+        "selectMultiple": "",
+        "selectRange": "",
+        "notAccordingToDateFormat": ""
+    },
+    "time_range": {
+        "from": "",
+        "to": ""
+    },
+    "clear": "",
+    "charts": {
+        "acPower": "",
+        "dcVoltage": "",
+        "acVoltage": "",
+        "acCurrent": "",
+        "minMaxAvg": "",
+        "noDatabaseConfigured": "",
+        "noDatabaseConfiguredDescription": "",
+        "lastNSeconds": "",
+        "lastNMinutes": "",
+        "lastNHours": "",
+        "lastNDays": "",
+        "checkDatabase": ""
+    },
+    "none": "",
+    "themes": {
+        "light": "",
+        "dark": "",
+        "system": "",
+        "allowMaterialYou": ""
+    },
+    "change": "",
+    "confirm": "",
+    "inverterDeviceInfo": {
+        "detectedMaxPower": "",
+        "unknownModel": "",
+        "model": "",
+        "productionWeek": "",
+        "productionYear": "",
+        "serial": "",
+        "invalidData": "",
+        "noData": "",
+        "hardwareVersion": "",
+        "hardwarePartNumber": "",
+        "firmwareBuildDate": "",
+        "firmwareVersion": "",
+        "bootloaderVersion": ""
+    },
+    "debug": {
+        "infoToast": "",
+        "cache": "",
+        "disableDebugMode": "",
+        "latestAppReleaseCacheCreated": "",
+        "latestOpenDtuReleaseCacheCreated": "",
+        "other": "",
+        "websocket": "",
+        "openDtuReleasesCacheCreated": "",
+        "debugColors": "",
+        "showWarningToast": "",
+        "warningToast": "",
+        "successToast": "",
+        "showSuccessToast": "",
+        "errorToast": "",
+        "showErrorToast": "",
+        "showInfoToast": "",
+        "toast": ""
+    },
+    "save": "",
+    "powerStatus": {
+        "unknown": "",
+        "ok": "",
+        "failure": "",
+        "pending": "",
+        "powerOn": "",
+        "powerOff": "",
+        "restart": "",
+        "lastTransmittedStatus": "",
+        "title": "",
+        "error": ""
+    },
+    "connected": "",
+    "notConnected": "",
+    "configured": "",
+    "notConfigured": "",
+    "enabled": "",
+    "disabled": "",
+    "unavailable": "",
+    "synced": "",
+    "notSynced": "",
+    "n_seconds": "",
+    "enable": "",
+    "disable": "",
+    "version": "",
+    "offlineModal": {
+        "title": "",
+        "description": ""
+    },
+    "fetchedWithTime": "",
+    "producing": "",
+    "notProducing": "",
+    "producedToday": "",
+    "limitStatus": {
+        "lastTransmittedStatus": "",
+        "title": "",
+        "error": "",
+        "limits": "",
+        "setPermanentLimit": "",
+        "setTemporaryLimit": "",
+        "absolute": "",
+        "relative": "",
+        "limitValue": "",
+        "valueError": "",
+        "valueRangeError": ""
+    },
+    "units": {
+        "watt": "",
+        "percent": ""
+    },
+    "inverterInfo": {
+        "lastUpdateWas": "",
+        "serial": "",
+        "limits": ""
+    },
+    "copy": "",
+    "invalidValue": "",
+    "errors": {
+        "noLeadingOrTrailingSpaces": "",
+        "minLength": "",
+        "maxLength": "",
+        "required": "",
+        "invalidNumber": "",
+        "invalidIpAddress": ""
+    },
+    "logLevels": {
+        "debug": "",
+        "info": "",
+        "warn": "",
+        "error": ""
+    },
+    "languages": {
+        "de": "",
+        "en": ""
+    },
+    "delete": "",
+    "deviceOfflineWrapper": {
+        "connecting": "",
+        "pleaseWait": "",
+        "openDeviceList": "",
+        "deviceOffline": "",
+        "checkIfReachable": ""
+    },
+    "deviceList": {
+        "devices": ""
+    },
+    "navigation": {
+        "livedata": "",
+        "settings": "",
+        "graph": "",
+        "inverterList": ""
+    },
+    "mdns": {
+        "scanning": "",
+        "noDevicesFound": ""
+    },
+    "manageDatabases": {
+        "databases": "",
+        "noDatabasesConfigured": "",
+        "noDatabasesConfiguredHint": "",
+        "addDatabase": ""
     }
 }
