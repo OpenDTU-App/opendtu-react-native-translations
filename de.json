@@ -254,7 +254,9 @@
     "change": "Ändern",
     "languages": {
         "en": "English",
-        "de": "Deutsch"
+        "de": "Deutsch",
+        "fr": "Français",
+        "it": "Italiano"
     },
     "delete": "Löschen",
     "deviceOfflineWrapper": {
