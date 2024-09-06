@@ -214,7 +214,15 @@
         "configManagement": {
             "title": "Config Management",
             "description": "Backup • Restore • Reset"
-        }
+        },
+        "logs": "Logs",
+        "logsDescription": "View logs of the app",
+        "logLevel": "Change log level",
+        "noLogs": "No logs available",
+        "noLogsDescription": "Try to change the log level to see more logs.",
+        "shareLogs": "Share logs for debugging",
+        "logsShared": "Logs shared successfully",
+        "logsNotShared": "Logs could not be shared"
     },
     "mdns": {
         "scanning": "Scanning…",
@@ -426,7 +434,16 @@
         "other": "Other",
         "websocket": "WebSocket",
         "openDtuReleasesCacheCreated": "OpenDTU releases cache from",
-        "debugColors": "Debug Colors"
+        "debugColors": "Debug Colors",
+        "showWarningToast": "Show warning toast",
+        "warningToast": "This is a warning toast",
+        "successToast": "This is a success toast",
+        "showSuccessToast": "Show success toast",
+        "errorToast": "This is an error toast",
+        "showErrorToast": "Show error toast",
+        "infoToast": "This is an info toast",
+        "showInfoToast": "Show info toast",
+        "toast": "Toast"
     },
     "offlineModal": {
         "title": "Offline",
@@ -574,5 +591,11 @@
         "required": "Required",
         "invalidNumber": "Invalid number",
         "invalidIpAddress": "Invalid IP address"
+    },
+    "logLevels": {
+        "debug": "Debug",
+        "info": "Info",
+        "warn": "Warn",
+        "error": "Error"
     }
 }
