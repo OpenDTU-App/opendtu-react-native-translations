@@ -593,6 +593,9 @@
         "invalidIpAddress": "Ungültige IP-Adresse"
     },
     "logLevels": {
-        "debug": "Debug"
+        "debug": "Debug",
+        "info": "Info",
+        "warn": "Warnung",
+        "error": "Fehler"
     }
 }
