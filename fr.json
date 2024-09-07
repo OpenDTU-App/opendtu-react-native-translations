@@ -392,8 +392,10 @@
     },
     "change": "Changer",
     "languages": {
-        "en": "Anglais",
-        "de": "Allemand"
+        "en": "English",
+        "de": "Deutsch",
+        "fr": "Français",
+        "it": "Italiano"
     },
     "delete": "Supprimer",
     "deviceOfflineWrapper": {
