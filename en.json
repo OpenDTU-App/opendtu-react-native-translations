@@ -222,7 +222,11 @@
         "noLogsDescription": "Try to change the log level to see more logs.",
         "shareLogs": "Share logs for debugging",
         "logsShared": "Logs shared successfully",
-        "logsNotShared": "Logs could not be shared"
+        "logsNotShared": "Logs could not be shared",
+        "configureAuth": {
+            "title": "Configure Authentication",
+            "description": "Settings require authentication"
+        }
     },
     "mdns": {
         "scanning": "Scanning…",
