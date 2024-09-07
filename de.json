@@ -196,7 +196,11 @@
         "noLogsDescription": "Ändere das Log-Level um mehr Logs zu sehen.",
         "shareLogs": "Logs fürs Debugging teilen",
         "logsShared": "Logs erfolgreich geteilt",
-        "logsNotShared": "Konnte Logs nicht teilen"
+        "logsNotShared": "Konnte Logs nicht teilen",
+        "configureAuth": {
+            "description": "Einstellungen benötigen authentifizierung",
+            "title": "Authentifizierung konfigurieren"
+        }
     },
     "device": {
         "deviceName": "Gerätename",
