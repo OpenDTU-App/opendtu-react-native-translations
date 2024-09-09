@@ -153,14 +153,18 @@
             "title": "Paramètres matériel",
             "description": "Brochage • Périphériques"
         },
-        "logs": "",
-        "logsDescription": "",
-        "logLevel": "",
-        "noLogs": "",
-        "noLogsDescription": "",
-        "shareLogs": "",
-        "logsShared": "",
-        "logsNotShared": ""
+        "logs": "Journaux",
+        "logsDescription": "Voir les journaux de l'application",
+        "logLevel": "Changer le niveau de journalisation",
+        "noLogs": "Aucun journal disponible",
+        "noLogsDescription": "Essayez de changer le niveau de journalisation pour voir plus de journaux.",
+        "shareLogs": "Partager les journaux pour le débogage",
+        "logsShared": "Journaux partagés avec succès",
+        "logsNotShared": "Les journaux n'ont pas pu être partagés",
+        "configureAuth": {
+            "title": "Configurer l'authentification",
+            "description": "Les paramètres nécessitent une authentification"
+        }
     },
     "device": {
         "deviceName": "Nom de l'appareil",
@@ -312,7 +316,7 @@
             "runtimeSummary": "Résumé de l'exécution",
             "connectionStatus": "Statut de la connexion",
             "retain": "",
-            "individualPanels": ""
+            "individualPanels": "Panneaux individuels"
         },
         "changelog": {
             "updatesChangelogDescription": "Voir les modifications et mettre à jour OpenDTU depuis l'application",
@@ -449,15 +453,15 @@
         "openDtuReleasesCacheCreated": "Cache des versions OpenDTU au",
         "websocket": "WebSocket",
         "debugColors": "Couleurs de débogage",
-        "showWarningToast": "",
-        "warningToast": "",
-        "successToast": "",
-        "showSuccessToast": "",
-        "errorToast": "",
-        "showErrorToast": "",
-        "infoToast": "",
-        "showInfoToast": "",
-        "toast": ""
+        "showWarningToast": "Afficher un toast d'avertissement",
+        "warningToast": "Ceci est un toast d'avertissement",
+        "successToast": "Ceci est un toast de succès",
+        "showSuccessToast": "Afficher un toast de succès",
+        "errorToast": "Ceci est un toast d'erreur",
+        "showErrorToast": "Afficher un toast d'erreur",
+        "infoToast": "Ceci est un toast d'information",
+        "showInfoToast": "Afficher un toast d'information",
+        "toast": "Toast"
     },
     "units": {
         "watt": "{{value}} W",
@@ -596,8 +600,8 @@
     },
     "logLevels": {
         "debug": "Déboguer",
-        "info": "",
-        "warn": "",
-        "error": ""
+        "info": "Information",
+        "warn": "Avertissement",
+        "error": "Erreur"
     }
 }
