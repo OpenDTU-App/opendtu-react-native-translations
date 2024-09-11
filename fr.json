@@ -1,12 +1,12 @@
 {
     "configureGraphs": {
         "changeDateRange": "Changer la plage de date",
-        "changeStartTimestamp": "Changer l'heure de depart",
+        "changeStartTimestamp": "Changer l'heure de début",
         "changeEndTimestamp": "Changer l'heure de fin",
-        "setEndToNow": "Régler la fin à maintenant",
+        "setEndToNow": "Définir la fin à l'heure actuelle",
         "title": "Configurer le graphique",
-        "changeTimeRange": "Changer la plage de temps",
-        "save": "Enregistrer la plage de temps",
+        "changeTimeRange": "Changer la période",
+        "save": "Enregistrer la période",
         "changeRefreshInterval": "Changer le temps de rafraîchissement",
         "presets": "Préréglages",
         "changeRefreshIntervalDescription": "Changer le temps d'actualisation du graphique. C'est le temps entre deux mises à jour de données.",
@@ -14,9 +14,9 @@
     },
     "livedata": {
         "configureGraphs": "Configurer les graphiques",
-        "changeTimerangeAndRefreshInterval": "Changer la plage de temps et l'intervalle d'actualisation",
+        "changeTimerangeAndRefreshInterval": "Changer la période et l'intervalle d'actualisation",
         "hintsWarning": "Il y a actuellement des problèmes avec votre OpenDTU ! Cliquez-ici pour en savoir plus.",
-        "todaysYield": "Production du jour",
+        "todaysYield": "Aujourd'hui",
         "power": "Puissance"
     },
     "settings": {
@@ -194,8 +194,8 @@
         }
     },
     "charts": {
-        "acPower": "Puissance AC",
-        "dcVoltage": "Tension DC",
+        "acPower": "Puissance CA",
+        "dcVoltage": "Tension CC",
         "acVoltage": "Tension AC",
         "acCurrent": "Courant AC",
         "minMaxAvg": "min : {{min}} {{unit}} max : {{max}} {{unit}} moy : {{avg}} {{unit}}",
@@ -249,7 +249,7 @@
         "configureDeviceName": "Nom de l'appareil",
         "configureServerUrl": "URL du serveur",
         "configureDatabase": "Configuration de la base de données",
-        "opendtuCredentials": "Informations d'identification OpenDTU"
+        "opendtuCredentials": "Informations d'authentification OpenDTU"
     },
     "manageDatabases": {
         "databases": "Bases de données",
@@ -262,8 +262,8 @@
             "activateFetchFromGithub": "Activer la récupération depuis Github",
             "hardwareInformation": "Informations sur le matériel",
             "radioInformation": "Informations radio",
-            "totalFree": "Total libre",
-            "resetReasonCpu0": "Raison de réinitialisation CPU 0",
+            "totalFree": "Total disponible",
+            "resetReasonCpu0": "Motif de réinitialisation CPU 0",
             "firmwareInformation": "Informations sur le firmware",
             "hostname": "Nom d'hôte",
             "sdkVersion": "Version du SDK",
@@ -271,7 +271,7 @@
             "gitTag": "Tag Git",
             "gitHash": "Hash Git",
             "pioEnvironment": "Environnement PIO",
-            "resetReasonCpu1": "Raison de réinitialisation CPU 1",
+            "resetReasonCpu1": "Motif de réinitialisation CPU 1",
             "configSaveCount": "Nombre de sauvegardes de configuration",
             "uptime": "Temps de disponibilité",
             "chipModel": "Modèle de puce",
@@ -380,8 +380,8 @@
         "minute": "Minute"
     },
     "time_range": {
-        "from": "À partir de {{value}}",
-        "to": "Jusqu'à {{value}}"
+        "from": "Du {{value}}",
+        "to": "Au {{value}}"
     },
     "mdns": {
         "scanning": "Recherche…",
@@ -389,7 +389,7 @@
     },
     "none": "Aucun",
     "themes": {
-        "light": "Lumière",
+        "light": "Clair",
         "dark": "Sombre",
         "system": "Système",
         "allowMaterialYou": "Utiliser le thème adaptatif"
@@ -417,7 +417,7 @@
         "livedata": "Données en direct",
         "settings": "Paramètres",
         "graph": "Graphiques",
-        "inverterList": "Onduleur"
+        "inverterList": "Onduleurs"
     },
     "limitStatus": {
         "error": "Erreur lors de la définition de la limite",
@@ -468,8 +468,8 @@
         "percent": "{{value}} %"
     },
     "inverterInfo": {
-        "lastUpdateWas": "Dernière mise à jour le {{ago}}",
-        "serial": "Série : {{serial}}",
+        "lastUpdateWas": "Dernière mise à jour : {{ago}}",
+        "serial": "Numéro de série : {{serial}}",
         "limits": "Limites : {{absolute}} W / {{relative}} %"
     },
     "inverterDeviceInfo": {
@@ -504,22 +504,22 @@
         },
         "livedata": {
             "dataKeys": {
-                "YieldDay": "Production aujourd'hui",
+                "YieldDay": "Produit aujourd'hui",
                 "Power": "Puissance",
                 "Voltage": "Tension",
                 "Current": "Courant",
-                "Power DC": "Puissance DC",
+                "Power DC": "Puissance continue",
                 "Frequency": "Fréquence",
                 "Temperature": "Température",
                 "PowerFactor": "Facteur de puissance",
                 "ReactivePower": "Puissance réactive",
-                "Efficiency": "Efficacité",
+                "Efficiency": "Rendement",
                 "Irradiation": "Irradiation",
                 "YieldTotal": "Production totale"
             },
             "INV": "Onduleur",
-            "AC": "Phases (AC)",
-            "DC": "Lignes (DC)",
+            "AC": "Phases (CA)",
+            "DC": "Lignes (CC)",
             "string": "Ligne {{stringNumber}}",
             "phase": "Phase {{phaseNumber}}"
         },
