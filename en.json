@@ -226,7 +226,9 @@
         "configureAuth": {
             "title": "Configure Authentication",
             "description": "Settings require authentication"
-        }
+        },
+        "extension": "Extension",
+        "clearFilter": "Clear filter"
     },
     "mdns": {
         "scanning": "Scanning…",
