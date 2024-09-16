@@ -200,7 +200,9 @@
         "configureAuth": {
             "description": "Einstellungen benötigen authentifizierung",
             "title": "Authentifizierung konfigurieren"
-        }
+        },
+        "clearFilter": "Filter löschen",
+        "extension": "Extension"
     },
     "device": {
         "deviceName": "Gerätename",
