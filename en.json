@@ -605,5 +605,6 @@
         "info": "Info",
         "warn": "Warn",
         "error": "Error"
-    }
+    },
+    "goBack": "Go back"
 }
