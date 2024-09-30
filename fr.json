@@ -7,9 +7,9 @@
         "title": "Configurer le graphique",
         "changeTimeRange": "Changer la période",
         "save": "Enregistrer la période",
-        "changeRefreshInterval": "Changer le temps de rafraîchissement",
+        "changeRefreshInterval": "Changer la fréquence de rafraîchissement",
         "presets": "Préréglages",
-        "changeRefreshIntervalDescription": "Changer le temps d'actualisation du graphique. C'est le temps entre deux mises à jour de données.",
+        "changeRefreshIntervalDescription": "Changer la fréquence d'actualisation du graphique. C'est le délai entre deux mises à jour de données.",
         "setLastNSeconds": "Définir les N dernières secondes"
     },
     "livedata": {
@@ -32,7 +32,7 @@
             "ap": {
                 "title": "Paramètres du point d'accès",
                 "timeoutHint": "Le temps en secondes après lequel le point d'accès sera désactivé si aucun appareil n'est connecté. Zéro signifie jamais.",
-                "timeout": "Timeout"
+                "timeout": "Délai d'expiration"
             },
             "title": "Paramètres réseau",
             "description": "WiFi • Ethernet • DHCP • mDNS",
@@ -40,7 +40,7 @@
                 "ssid": "SSID",
                 "password": "Mot de passe",
                 "hostname": "Nom d'hôte",
-                "dhcpEnabled": "DHCP activé",
+                "dhcpEnabled": "État du DHCP",
                 "title": "Paramètres du WiFi"
             },
             "staticIp": {
@@ -53,7 +53,7 @@
             },
             "mdns": {
                 "title": "Paramètres mDNS",
-                "enabled": "mDNS activé"
+                "enabled": "État du mDNS"
             },
             "changeHostname": {
                 "title": "Changer le nom d'hôte de votre OpenDTU",
@@ -164,7 +164,9 @@
         "configureAuth": {
             "title": "Configurer l'authentification",
             "description": "Les paramètres nécessitent une authentification"
-        }
+        },
+        "clearFilter": "Vider les filtres",
+        "extension": "Extension"
     },
     "device": {
         "deviceName": "Nom de l'appareil",
@@ -259,7 +261,7 @@
     },
     "opendtu": {
         "systemInformationScreen": {
-            "activateFetchFromGithub": "Activer la récupération depuis Github",
+            "activateFetchFromGithub": "Activer la vérification depuis Github",
             "hardwareInformation": "Informations sur le matériel",
             "radioInformation": "Informations radio",
             "totalFree": "Total disponible",
@@ -275,9 +277,9 @@
             "configSaveCount": "Nombre de sauvegardes de configuration",
             "uptime": "Temps de disponibilité",
             "chipModel": "Modèle de puce",
-            "chipRevision": "Révision de la puce",
-            "chipCores": "Cœurs de la puce",
-            "chipFrequency": "Fréquence de la puce",
+            "chipRevision": "Révision",
+            "chipCores": "Nombre de cœurs",
+            "chipFrequency": "Fréquence",
             "memoryInformation": "Informations sur la mémoire",
             "heap": "Heap",
             "littleFs": "LittleFS",
@@ -315,7 +317,7 @@
             "expire": "Expiration",
             "runtimeSummary": "Résumé de l'exécution",
             "connectionStatus": "Statut de la connexion",
-            "retain": "",
+            "retain": "Retain",
             "individualPanels": "Panneaux individuels"
         },
         "changelog": {
@@ -348,7 +350,7 @@
             "configurationSummary": "Résumé de la configuration",
             "ntpServer": "Serveur NTP",
             "ntpTimezone": "Fuseau horaire NTP",
-            "ntpTimezoneDescription": "Description du fuseau horaire NTP",
+            "ntpTimezoneDescription": "Nom du fuseau horaire NTP",
             "status": "Statut",
             "currentTime": "Heure actuelle",
             "localTime": "Heure locale",
@@ -585,7 +587,7 @@
     },
     "clear": "Vider",
     "confirm": "Confirmer",
-    "fetchedWithTime": "Récupéré le {{time}}",
+    "fetchedWithTime": "Vérifié {{time}}",
     "producing": "Produire {{power}}",
     "producedToday": "Aujourd'hui {{energy}} produit",
     "copy": "Copie",
@@ -603,5 +605,6 @@
         "info": "Information",
         "warn": "Avertissement",
         "error": "Erreur"
-    }
+    },
+    "goBack": "Précédent"
 }
