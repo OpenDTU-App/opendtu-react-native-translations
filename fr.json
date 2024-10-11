@@ -606,5 +606,6 @@
         "warn": "Avertissement",
         "error": "Erreur"
     },
-    "goBack": "Précédent"
+    "goBack": "Précédent",
+    "apply": "Appliquer"
 }
