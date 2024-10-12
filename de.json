@@ -607,5 +607,10 @@
         "error": "Fehler"
     },
     "goBack": "Zurück",
-    "apply": "Anwenden"
+    "apply": "Anwenden",
+    "acknowledge": "Akzeptieren",
+    "appChangelogModal": {
+        "fetchingReleaseNotes": "Versionshinweise werden abgerufen ...",
+        "newAppVersionInstalled": "Neue App-Version {{appVersion}} installiert!"
+    }
 }
