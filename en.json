@@ -607,5 +607,10 @@
         "error": "Error"
     },
     "goBack": "Go back",
-    "apply": "Apply"
+    "apply": "Apply",
+    "acknowledge": "Acknowledge",
+    "appChangelogModal": {
+        "fetchingReleaseNotes": "Fetching release notes...",
+        "newAppVersionInstalled": "New app version {{appVersion}} installed!"
+    }
 }
