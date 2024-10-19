@@ -607,5 +607,6 @@
         "error": "Erreur"
     },
     "goBack": "Précédent",
-    "apply": "Appliquer"
+    "apply": "Appliquer",
+    "unknown": "Inconnu"
 }
