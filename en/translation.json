@@ -189,7 +189,31 @@
         },
         "ntpSettings": {
             "title": "NTP Settings",
-            "description": "Timezone • NTP Server • Location • Time Sync"
+            "description": "Timezone • NTP Server • Location • Time Sync",
+            "sunsetType": {
+                "OFFICIAL": "Standard dawn (90.8°)",
+                "NAUTICAL": "Nautical dawn (102°)",
+                "CIVIL": "Civil dawn (96°)",
+                "ASTONOMICAL": "Astronomical dawn (108°)"
+            },
+          "search": "Search",
+            "ntpConfiguration": "NTP Configuration",
+            "timeServer": "Time Server",
+            "timezone": "Timezone",
+            "timezoneConfig": "Timezone Config",
+            "locationConfiguration": "Location Configuration",
+            "latitude": "Latitude",
+            "longitude": "Longitude",
+            "sunsetType": "Sunset Type",
+            "syncTimeWithPhone": "Sync time with phone",
+            "changeTimeServer": "Change Time Server",
+            "changeTimeServerDescription": "The default value is fine as long as OpenDTU has direct access to the internet.",
+            "changeLatitude": "Change Latitude",
+            "changeLatitudeDescription": "Latitude of the OpenDTU device.",
+            "changeLongitude": "Change Longitude",
+            "changeSunsetType": "Change Sunset Type",
+            "changeSunsetTypeDescription": "The type of sunset to use for the OpenDTU device.",
+            "changeLongitudeDescription": "Longitude of the OpenDTU device."
         },
         "mqttSettings": {
             "title": "MQTT Settings",
@@ -428,6 +452,7 @@
     "enabled": "Enabled",
     "disabled": "Disabled",
     "unavailable": "Unavailable",
+    "unknown": "Unknown",
     "synced": "Synced",
     "notSynced": "Not synced",
     "n_seconds": "{{n}} seconds",
