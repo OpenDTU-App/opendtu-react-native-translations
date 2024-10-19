@@ -612,5 +612,6 @@
     "appChangelogModal": {
         "fetchingReleaseNotes": "Versionshinweise werden abgerufen ...",
         "newAppVersionInstalled": "Neue App-Version {{appVersion}} installiert!"
-    }
+    },
+    "unknown": "Unbekannt"
 }
