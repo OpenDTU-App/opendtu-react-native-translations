@@ -131,7 +131,25 @@
         "activateInappUpdates": "Activer les mises à jour dans l'application",
         "ntpSettings": {
             "title": "Paramètres NTP",
-            "description": "Fuseau horaire • Serveur NTP • Localisation • Synchronisation de l'heure"
+            "description": "Fuseau horaire • Serveur NTP • Localisation • Synchronisation de l'heure",
+            "timeServer": "Serveur de temps",
+            "timezone": "Fuseau horaire",
+            "timezoneConfig": "Configuration du fuseau horaire",
+            "locationConfiguration": "Configuration de l'emplacement géographique",
+            "latitude": "Latitude",
+            "longitude": "Longitude",
+            "changeTimeServer": "Changer le serveur de temps",
+            "changeTimeServerDescription": "La valeur par défaut est correcte tant qu'OpenDTU a directement accès à internet.",
+            "changeLatitude": "Changer la latitude",
+            "changeLongitude": "Changer la longitude",
+            "changeSunsetType": "Changer le type de coucher de soleil",
+            "changeSunsetTypeDescription": "Le type de coucher de soleil à utiliser pour OpenDTU.",
+            "changeLongitudeDescription": "Longitude de l'OpenDTU.",
+            "sunsetType": "Type de coucher de soleil",
+            "search": "Rechercher",
+            "ntpConfiguration": "Configuration NTP",
+            "syncTimeWithPhone": "Synchroniser l'heure avec le téléphone",
+            "changeLatitudeDescription": "Latitude de l'OpenDTU."
         },
         "mqttSettings": {
             "title": "Paramètres MQTT",
@@ -608,5 +626,9 @@
     },
     "goBack": "Précédent",
     "apply": "Appliquer",
-    "unknown": "Inconnu"
+    "unknown": "Inconnu",
+    "appChangelogModal": {
+        "fetchingReleaseNotes": "Récupération des notes de version...",
+        "newAppVersionInstalled": "Nouvellement version {{appVersion}} installée !"
+    }
 }
