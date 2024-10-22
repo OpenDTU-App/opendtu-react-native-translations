@@ -185,7 +185,16 @@
             "locationConfiguration": "Standort-Konfiguration",
             "changeLatitude": "Breitengrad ändern",
             "changeTimeServerDescription": "Der Standardwert ist in Ordnung, solange die OpenDTU direkten Zugriff auf das Internet hat.",
-            "changeSunsetTypeDescription": "Der für die OpenDTU zu verwendende Dämmerungstyp."
+            "changeSunsetTypeDescription": "Der für die OpenDTU zu verwendende Dämmerungstyp.",
+            "sunsetTypeObject": {
+                "OFFICIAL": "Standard Dämmerung (90.8°)",
+                "NAUTICAL": "Nautische Dämmerung (102°)",
+                "CIVIL": "Bürgerliche Dämmerung (96°)",
+                "ASTONOMICAL": "Astronomische Dämmerung (108°)"
+            },
+            "manualTimeSync": "Manuelle Zeitsynchronisierung",
+            "currentOpenDtuTime": "Aktuelle OpenDTU-Uhrzeit",
+            "currentPhoneTime": "Aktuelle Telefon-Uhrzeit"
         },
         "mqttSettings": {
             "title": "MQTT-Einstellungen",
@@ -203,7 +212,25 @@
             "title": "DTU-Einstellungen",
             "description": "Seriennummer • Polling-Interval • Sendeleistung",
             "serialNumber": "Seriennummer",
-            "frequency": "Frequenz"
+            "frequency": "Frequenz",
+            "cmtFrequencyDescription": "Stelle sicher, dass nur Frequenzen verwendet werden, welche im entsprechenden Land erlaubt sind! Nach einer Frequenzänderung kann es bis zu 15min dauern bis eine Verbindung hergestellt wird.",
+            "country-0": "Europa",
+            "country-1": "Nordamerika",
+            "country-2": "Brasilien",
+            "pollingIntervalDescription": "Bitte gib ein neues Polling-Intervall in Sekunden ein.",
+            "nrfConfig": "nRF24-Konfiguration",
+            "powerLevel": "Leistungsstufe",
+            "nrfPowerLevel": "nRF24 Leistungsstufe",
+            "nrfPowerLevelDescription": "Verwendet für HM-Wechselrichter. Stellen Sie sicher, dass Ihre Stromversorgung stabil genug ist, bevor Sie die Sendeleistung erhöhen.",
+            "cmtPowerLevel": "CMT2300A Leistungsstufe",
+            "cmtConfig": "CMT2300A-Konfiguration",
+            "country": "Land",
+            "cmtFrequency": "CMT2300A Frequenz",
+            "serialNumberDescription": "Sowohl der Wechselrichter als auch die DTU haben eine Seriennummer. Die DTU-Seriennummer wird beim ersten Start zufällig generiert und muss normalerweise nicht geändert werden.",
+            "cmtPowerLevelDescription": "Verwendet für HMS/HMT-Wechselrichter. Stellen Sie sicher, dass Ihre Stromversorgung stabil genug ist, bevor Sie die Sendeleistung erhöhen.",
+            "countryDescription": "Bitte wähle ein neues Land aus. Jedes Land hat eine andere Frequenzzuteilung.",
+            "dtuConfiguration": "DTU-Konfiguration",
+            "pollingInterval": "Abfrageintervall"
         },
         "hardwareSettings": {
             "title": "Hardware-Einstellungen",
@@ -630,8 +657,9 @@
     "apply": "Anwenden",
     "acknowledge": "Akzeptieren",
     "appChangelogModal": {
-        "fetchingReleaseNotes": "Versionshinweise werden abgerufen ...",
+        "fetchingReleaseNotes": "Versionshinweise werden abgerufen…",
         "newAppVersionInstalled": "Neue App-Version {{appVersion}} installiert!"
     },
-    "unknown": "Unbekannt"
+    "unknown": "Unbekannt",
+    "required": "Wert ist erforderlich"
 }
