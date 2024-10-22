@@ -201,7 +201,9 @@
         },
         "dtuSettings": {
             "title": "DTU-Einstellungen",
-            "description": "Seriennummer • Polling-Interval • Sendeleistung"
+            "description": "Seriennummer • Polling-Interval • Sendeleistung",
+            "serialNumber": "Seriennummer",
+            "frequency": "Frequenz"
         },
         "hardwareSettings": {
             "title": "Hardware-Einstellungen",
