@@ -190,13 +190,13 @@
         "ntpSettings": {
             "title": "NTP Settings",
             "description": "Timezone • NTP Server • Location • Time Sync",
-            "sunsetType": {
+            "sunsetTypeObject": {
                 "OFFICIAL": "Standard dawn (90.8°)",
                 "NAUTICAL": "Nautical dawn (102°)",
                 "CIVIL": "Civil dawn (96°)",
                 "ASTONOMICAL": "Astronomical dawn (108°)"
             },
-          "search": "Search",
+            "search": "Search",
             "ntpConfiguration": "NTP Configuration",
             "timeServer": "Time Server",
             "timezone": "Timezone",
@@ -213,7 +213,10 @@
             "changeLongitude": "Change Longitude",
             "changeSunsetType": "Change Sunset Type",
             "changeSunsetTypeDescription": "The type of sunset to use for the OpenDTU device.",
-            "changeLongitudeDescription": "Longitude of the OpenDTU device."
+            "changeLongitudeDescription": "Longitude of the OpenDTU device.",
+            "manualTimeSync": "Manual Time Synchronization",
+            "currentOpenDtuTime": "Current OpenDTU Time",
+            "currentPhoneTime": "Current Phone Time"
         },
         "mqttSettings": {
             "title": "MQTT Settings",
@@ -229,7 +232,27 @@
         },
         "dtuSettings": {
             "title": "DTU Settings",
-            "description": "Serial Number • Polling Interval • TX Power"
+            "description": "Serial Number • Polling Interval • TX Power",
+            "country_0": "Europe",
+            "country_1": "North America",
+            "country_2": "Brazil",
+            "dtuConfiguration": "DTU Configuration",
+            "serialNumber": "Serial number",
+            "serialNumberDescription": "Both the inverter and the DTU have a serial number. The DTU serial number is randomly generated at the first start and does not normally need to be changed.",
+            "pollingInterval": "Polling interval",
+            "pollingIntervalDescription": "Please enter the new poll interval in seconds",
+            "nrfConfig": "nRF24 Configuration",
+            "powerLevel": "Power level",
+            "nrfPowerLevel": "nRF24 Power level",
+            "nrfPowerLevelDescription": "Used for HM-Inverters. Make sure your power supply is stable enough before increasing the transmit power.",
+            "cmtPowerLevel": "CMT2300A Power level",
+            "cmtPowerLevelDescription": "Used for HMS/HMT-Inverters. Make sure your power supply is stable enough before increasing the transmit power.",
+            "cmtConfig": "CMT2300A Configuration",
+            "country": "Country",
+            "countryDescription": "Please select the new country. Each country has different frequency allocations.",
+            "frequency": "Frequency",
+            "cmtFrequency": "CMT2300A Frequency",
+            "cmtFrequencyDescription": "Make sure to only use frequencies that are allowed in the respective country! After a frequency change, it can take up to 15min until a connection is established."
         },
         "hardwareSettings": {
             "title": "Hardware Settings",
@@ -637,5 +660,6 @@
     "appChangelogModal": {
         "fetchingReleaseNotes": "Fetching release notes...",
         "newAppVersionInstalled": "New app version {{appVersion}} installed!"
-    }
+    },
+    "required": "Value is required"
 }
