@@ -240,7 +240,7 @@
             "serialNumber": "Serial number",
             "serialNumberDescription": "Both the inverter and the DTU have a serial number. The DTU serial number is randomly generated at the first start and does not normally need to be changed.",
             "pollingInterval": "Polling interval",
-            "pollingIntervalDescription": "Please enter the new poll interval in seconds",
+            "pollingIntervalDescription": "Please enter the new poll interval in seconds.",
             "nrfConfig": "nRF24 Configuration",
             "powerLevel": "Power level",
             "nrfPowerLevel": "nRF24 Power level",
@@ -322,7 +322,7 @@
             "radioProblem": "Could not connect to a configured radio module. Please check the wiring."
         },
         "details": "Details",
-        "configureDeviceName": "Device name",
+        "configureDeviceName": "Device Name",
         "configureServerUrl": "Server URL",
         "configureDatabase": "Database Config",
         "opendtuCredentials": "OpenDTU Credentials",
@@ -611,7 +611,7 @@
         "absolute": "Absolute (W)",
         "relative": "Relative (%)",
         "limitValue": "Limit Value ({{unit}})",
-        "valueError": "Invalid value",
+        "valueError": "Invalid Value",
         "valueRangeError": "Value must be between 0 and {{max}}"
     },
     "units": {
@@ -658,7 +658,7 @@
     "apply": "Apply",
     "acknowledge": "Acknowledge",
     "appChangelogModal": {
-        "fetchingReleaseNotes": "Fetching release notes...",
+        "fetchingReleaseNotes": "Fetching release notes…",
         "newAppVersionInstalled": "New app version {{appVersion}} installed!"
     },
     "required": "Value is required"
