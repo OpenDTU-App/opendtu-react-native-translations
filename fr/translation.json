@@ -165,7 +165,9 @@
         },
         "dtuSettings": {
             "title": "Paramètres DTU",
-            "description": "Numéro de série • Intervalle d'interrogation • Puissance d'émission"
+            "description": "Numéro de série • Intervalle d'interrogation • Puissance d'émission",
+            "serialNumber": "Numéro de série",
+            "frequency": "Fréquence"
         },
         "hardwareSettings": {
             "title": "Paramètres matériel",
