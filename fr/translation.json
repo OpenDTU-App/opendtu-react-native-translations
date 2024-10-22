@@ -630,7 +630,7 @@
     "apply": "Appliquer",
     "unknown": "Inconnu",
     "appChangelogModal": {
-        "fetchingReleaseNotes": "Récupération des notes de version...",
+        "fetchingReleaseNotes": "Récupération des notes de version…",
         "newAppVersionInstalled": "Nouvellement version {{appVersion}} installée !"
     }
 }
