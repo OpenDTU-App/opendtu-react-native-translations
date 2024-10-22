@@ -233,9 +233,9 @@
         "dtuSettings": {
             "title": "DTU Settings",
             "description": "Serial Number • Polling Interval • TX Power",
-            "country_0": "Europe",
-            "country_1": "North America",
-            "country_2": "Brazil",
+            "country-0": "Europe",
+            "country-1": "North America",
+            "country-2": "Brazil",
             "dtuConfiguration": "DTU Configuration",
             "serialNumber": "Serial number",
             "serialNumberDescription": "Both the inverter and the DTU have a serial number. The DTU serial number is randomly generated at the first start and does not normally need to be changed.",
