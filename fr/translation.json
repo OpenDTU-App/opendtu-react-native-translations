@@ -149,7 +149,10 @@
             "search": "Rechercher",
             "ntpConfiguration": "Configuration NTP",
             "syncTimeWithPhone": "Synchroniser l'heure avec le téléphone",
-            "changeLatitudeDescription": "Latitude de l'OpenDTU."
+            "changeLatitudeDescription": "Latitude de l'OpenDTU.",
+            "currentPhoneTime": "Heure du téléphone",
+            "currentOpenDtuTime": "Heure de l'OpenDTU",
+            "manualTimeSync": "Synchronisation manuelle de l'heure"
         },
         "mqttSettings": {
             "title": "Paramètres MQTT",
@@ -167,7 +170,25 @@
             "title": "Paramètres DTU",
             "description": "Numéro de série • Intervalle d'interrogation • Puissance d'émission",
             "serialNumber": "Numéro de série",
-            "frequency": "Fréquence"
+            "frequency": "Fréquence",
+            "cmtFrequencyDescription": "Merci de n'utiliser que les fréquences qui sont autorisées dans votre pays ! Après chaque changement, il peut être nécessaire d'attendre 15 minutes avant que la connexion soit établie.",
+            "country-0": "Europe",
+            "country-1": "Amérique du Nord",
+            "country-2": "Brésil",
+            "serialNumberDescription": "Les onduleurs et le DTU ont un numéro de série. Celui du DTU est généré aléatoirement au premier démarrage et n'a normalement pas besoin d'être changé.",
+            "pollingIntervalDescription": "Merci de saisir la nouvelle intervalle d'interrogation en secondes.",
+            "nrfConfig": "Configuration nRF24",
+            "nrfPowerLevelDescription": "Pour les onduleurs HM. Merci de vérifier que l'alimentation est suffisamment stable avant d'augmenter la puissance de transmission.",
+            "cmtPowerLevelDescription": "Pour les onduleurs HMS/HMT. Merci de vérifier que l'alimentation est suffisamment stable avant d'augmenter la puissance de transmission.",
+            "cmtConfig": "Configuration CMT2300A",
+            "country": "Pays",
+            "countryDescription": "Merci de sélectionner un nouveau pays. Chaque pays a différentes fréquences allouées.",
+            "cmtFrequency": "Fréquence CMT2300A",
+            "powerLevel": "Puissance d'émission",
+            "nrfPowerLevel": "Puissance d'émission nRF24",
+            "cmtPowerLevel": "Puissance d'émission CMT2300A",
+            "dtuConfiguration": "Configuration DTU",
+            "pollingInterval": "Intervalle d'interrogation"
         },
         "hardwareSettings": {
             "title": "Paramètres matériel",
@@ -632,5 +653,6 @@
     "appChangelogModal": {
         "fetchingReleaseNotes": "Récupération des notes de version…",
         "newAppVersionInstalled": "Nouvellement version {{appVersion}} installée !"
-    }
+    },
+    "required": "La valeur est requise"
 }
