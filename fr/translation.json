@@ -652,7 +652,8 @@
     "unknown": "Inconnu",
     "appChangelogModal": {
         "fetchingReleaseNotes": "Récupération des notes de version…",
-        "newAppVersionInstalled": "Nouvellement version {{appVersion}} installée !"
+        "newAppVersionInstalled": "Version {{appVersion}} installée !"
     },
-    "required": "La valeur est requise"
+    "required": "La valeur est requise",
+    "acknowledge": "Fermer"
 }
