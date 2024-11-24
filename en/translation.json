@@ -367,7 +367,7 @@
     },
     "opendtu": {
         "title": "OpenDTU",
-        "information": "OpenDTU Information1",
+        "information": "OpenDTU Information",
         "systemInformation": "System Information",
         "systemInformationDescription": "Firmware • Updates • Hardware • Memory • Radio",
         "systemInformationScreen": {
