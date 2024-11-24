@@ -49,6 +49,7 @@
     "charts": {
         "acPower": "AC Power",
         "dcVoltage": "DC Voltage",
+        "dcPower": "DC Power",
         "acVoltage": "AC Voltage",
         "acCurrent": "AC Current",
         "minMaxAvg": "min: {{min}} {{unit}} max: {{max}} {{unit}} avg: {{avg}} {{unit}}",
@@ -366,7 +367,7 @@
     },
     "opendtu": {
         "title": "OpenDTU",
-        "information": "OpenDTU Information",
+        "information": "OpenDTU Information1",
         "systemInformation": "System Information",
         "systemInformationDescription": "Firmware • Updates • Hardware • Memory • Radio",
         "systemInformationScreen": {

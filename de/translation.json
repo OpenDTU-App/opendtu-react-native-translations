@@ -45,6 +45,7 @@
         "noDatabaseConfiguredDescription": "Um Diagramme anzuzeigen, konfiguriere deine DTU und weise ihr eine Datenbank zu.",
         "acPower": "AC Leistung",
         "dcVoltage": "DC Spannung",
+        "dcPower": "DC Leistung",
         "acVoltage": "AC Spannung",
         "acCurrent": "AC Strom",
         "minMaxAvg": "min: {{min}} {{unit}} max: {{max}} {{unit}} avg: {{avg}} {{unit}}",
