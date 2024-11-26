@@ -441,6 +441,7 @@
     "charts": {
         "acPower": "",
         "dcVoltage": "",
+        "dcPower": "",
         "acVoltage": "",
         "acCurrent": "",
         "minMaxAvg": "",
