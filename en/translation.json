@@ -662,5 +662,6 @@
         "fetchingReleaseNotes": "Fetching release notes…",
         "newAppVersionInstalled": "New app version {{appVersion}} installed!"
     },
-    "required": "Value is required"
+    "required": "Value is required",
+    "cannotOpenUrl": "Cannot open URL"
 }
