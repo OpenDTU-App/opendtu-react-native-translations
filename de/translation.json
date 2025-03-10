@@ -421,7 +421,8 @@
             "dns1": "DNS 1",
             "dns2": "DNS 2",
             "macAddress": "MAC-Adresse",
-            "dBm": "{{rssi}} dBm"
+            "dBm": "{{rssi}} dBm",
+            "networkInterface": "Netzwerkinterface ({{interface}})"
         },
         "ntpInformationScreen": {
             "ntpTimezoneDescription": "NTP-Zeitzonenbeschreibung",
@@ -661,5 +662,6 @@
         "newAppVersionInstalled": "Neue App-Version {{appVersion}} installiert!"
     },
     "unknown": "Unbekannt",
-    "required": "Wert ist erforderlich"
+    "required": "Wert ist erforderlich",
+    "cannotOpenUrl": "URL kann nicht geöffnet werden"
 }
