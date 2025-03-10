@@ -411,7 +411,6 @@
         "networkInformationScreen": {
             "wifiStation": "WiFi Station",
             "wifiAccessPoint": "WiFi Access Point",
-            "wifiStationInterface": "WiFi Station Interface",
             "wifiAccessPointInterface": "WiFi Access Point Interface",
             "status": "Status",
             "ssid": "SSID",
@@ -426,7 +425,8 @@
             "dns1": "DNS 1",
             "dns2": "DNS 2",
             "macAddress": "MAC Address",
-            "dBm": "{{rssi}} dBm"
+            "dBm": "{{rssi}} dBm",
+            "networkInterface": "Network Interface ({{interface}})"
         },
         "ntpInformation": "NTP Information",
         "ntpInformationDescription": "NTP Configuration • NTP Status",

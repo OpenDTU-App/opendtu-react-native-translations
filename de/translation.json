@@ -408,7 +408,6 @@
             "wifiAccessPoint": "WLAN-Zugangspunkt",
             "quality": "Qualität",
             "wifiStation": "WLAN-Station",
-            "wifiStationInterface": "WLAN-Stationsinterface",
             "wifiAccessPointInterface": "WLAN-Zugangspunkt-Interface",
             "status": "Status",
             "ssid": "SSID",

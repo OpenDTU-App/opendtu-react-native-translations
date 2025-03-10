@@ -300,7 +300,6 @@
         "networkInformationScreen": {
             "wifiStation": "",
             "wifiAccessPoint": "",
-            "wifiStationInterface": "",
             "wifiAccessPointInterface": "",
             "status": "",
             "ssid": "",

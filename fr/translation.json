@@ -374,7 +374,6 @@
             "dns1": "DNS 1",
             "wifiStation": "Réseau WiFi",
             "wifiAccessPoint": "Point d'accès WiFi",
-            "wifiStationInterface": "Interface du réseau WiFi",
             "wifiAccessPointInterface": "Interface du point d'accès WiFi",
             "status": "Statut",
             "ssid": "SSID",
