@@ -116,6 +116,8 @@
         "changeOpendtuCredentials": "Change OpenDTU Credentials?",
         "weblateInfo": "This app is translated by volunteers on Weblate. You can help improving the translations or adding new languages by clicking the button below!",
         "openWeblate": "Go to Weblate",
+        "bugReporting": "Bug Reporting",
+        "bugReportingDescription": "Report bugs or request new features",
         "networkSettings": {
             "title": "Network Settings",
             "description": "WiFi • Ethernet • DHCP • mDNS",
@@ -663,5 +665,11 @@
         "newAppVersionInstalled": "New app version {{appVersion}} installed!"
     },
     "required": "Value is required",
-    "cannotOpenUrl": "Cannot open URL"
+    "cannotOpenUrl": "Cannot open URL",
+    "appInfos": {
+        "feedback": "Feedback",
+        "feedbackDescription": "If you have any feedback, I would love to hear from you! You can either write us a mail (you can find the address on github) or directly use the discussions feature.",
+        "bugReporting": "Bug Reporting",
+        "bugReportingDescription": "If you encounter any bugs, please report them on GitHub. You can find the link in the settings."
+    }
 }
