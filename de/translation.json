@@ -250,7 +250,9 @@
             "title": "Authentifizierung konfigurieren"
         },
         "clearFilter": "Filter löschen",
-        "extension": "Extension"
+        "extension": "Extension",
+        "bugReporting": "Fehlerbericht",
+        "bugReportingDescription": "Fehlerberichte und Feature-Anfragen"
     },
     "device": {
         "deviceName": "Gerätename",
@@ -663,5 +665,11 @@
     },
     "unknown": "Unbekannt",
     "required": "Wert ist erforderlich",
-    "cannotOpenUrl": "URL kann nicht geöffnet werden"
+    "cannotOpenUrl": "URL kann nicht geöffnet werden",
+    "appInfos": {
+        "feedback": "Feedback",
+        "feedbackDescription": "Falls du Feedback hast, würde ich das natürlich gerne hören! Du kannst entweder eine E-Mail schreiben (die Adresse findest du auf GitHub) oder uns im Repository über die Diskussionen etwas schreiben.",
+        "bugReporting": "Fehlerberichte",
+        "bugReportingDescription": "Bitte melde alle Fehler die du bemerkst auf GitHub. Den Link dazu findest du in den Einstellungen."
+    }
 }
