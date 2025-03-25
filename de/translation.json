@@ -177,7 +177,7 @@
             "timezoneConfig": "Zeitzonen-Konfiguration",
             "latitude": "Breitengrad",
             "longitude": "Längengrad",
-            "syncTimeWithPhone": "Zeit mit Handy syncen",
+            "syncTimeWithPhone": "Zeit mit Handy synchronisieren",
             "changeTimeServer": "Zeitserver ändern",
             "changeLatitudeDescription": "Breitengrad der OpenDTU.",
             "changeLongitude": "Längengrad ändern",
