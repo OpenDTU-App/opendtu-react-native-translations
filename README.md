@@ -6,3 +6,7 @@ You can find the main project [here](https://github.com/OpenDTU-App/opendtu-reac
 <a href="https://weblate.commanderred.xyz/engage/opendtu-react-native/">
 <img src="https://weblate.commanderred.xyz/widget/opendtu-react-native/multi-auto.svg" alt="Translation status" />
 </a>
+
+<a href="https://weblate.commanderred.xyz/engage/opendtu-react-native/">
+<img src="https://weblate.commanderred.xyz/widget/opendtu-react-native/open-graph.png" alt="Translation status" />
+</a>
