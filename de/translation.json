@@ -54,7 +54,10 @@
         "lastNMinutes": "Letzte {{n}} Minuten",
         "lastNHours": "Letzte {{n}} Stunden",
         "lastNDays": "Letzte {{n}} Tage",
-        "checkDatabase": "Überprüfe, ob die Datenbank gestartet und erreichbar ist."
+        "checkDatabase": "Überprüfe, ob die Datenbank gestartet und erreichbar ist.",
+        "errorFetchingData": "Beim Abfragen der Daten ist ein Fehler passiert.",
+        "errorFetchingDataDescription": "Bitte überprüfe die Datenbankkonfiguration und die Netzwerkverbindung.",
+        "errorsDuringFetchingData": "Beim Abholen der Daten ist ein Fehler passiert."
     },
     "settings": {
         "seconds": "Sekunden",
