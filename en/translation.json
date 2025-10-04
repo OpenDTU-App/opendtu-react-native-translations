@@ -62,7 +62,7 @@
         "checkDatabase": "Check if the database is running and reachable.",
         "errorFetchingData": "Error fetching data from the database.",
         "errorFetchingDataDescription": "Please check the database configuration and the network connection.",
-        "errorsDuringFetchingData": "Errors occurred during fetching data.",
+        "errorsDuringFetchingData": "Errors occurred during fetching data."
     },
     "setup": {
         "setupComplete": "Setup complete! 🎉",
