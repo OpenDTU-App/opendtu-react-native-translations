@@ -59,7 +59,10 @@
         "lastNMinutes": "Last {{n}} minutes",
         "lastNHours": "Last {{n}} hours",
         "lastNDays": "Last {{n}} days",
-        "checkDatabase": "Check if the database is running and reachable."
+        "checkDatabase": "Check if the database is running and reachable.",
+        "errorFetchingData": "Error fetching data from the database.",
+        "errorFetchingDataDescription": "Please check the database configuration and the network connection.",
+        "errorsDuringFetchingData": "Errors occurred during fetching data.",
     },
     "setup": {
         "setupComplete": "Setup complete! 🎉",
