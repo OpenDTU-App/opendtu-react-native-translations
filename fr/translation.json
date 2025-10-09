@@ -239,7 +239,7 @@
     "charts": {
         "acPower": "Puissance CA",
         "dcVoltage": "Tension CC",
-	"dcPower": "Puissance CC",
+        "dcPower": "Puissance CC",
         "acVoltage": "Tension AC",
         "acCurrent": "Courant AC",
         "minMaxAvg": "min : {{min}} {{unit}} max : {{max}} {{unit}} moy : {{avg}} {{unit}}",
