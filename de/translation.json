@@ -676,5 +676,6 @@
         "bugReportingDescription": "Bitte melde alle Fehler die du bemerkst auf GitHub. Den Link dazu findest du in den Einstellungen."
     },
     "unsavedDataTips": "Du hast ungespeicherte Änderungen. Bist du dir sicher, dass du ohne Speichern fortsetzen willst?",
-    "dismiss": "Dismiss"
+    "dismiss": "Dismiss",
+    "learnMore": "Mehr erfahren"
 }
