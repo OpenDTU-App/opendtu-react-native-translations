@@ -24,7 +24,7 @@
         "configureDeviceName": "Gerätename",
         "configureServerUrl": "Server-URL",
         "configureDatabase": "Datenbank Konfiguration",
-        "opendtuCredentials": "OpenDTU-Anmeldeinformationen",
+        "opendtuCredentials": "OpenDTU Anmeldedaten",
         "none": "Keine",
         "connect": "Verbinden",
         "alreadyConnected": "Bereits verbunden"
@@ -89,7 +89,7 @@
         "newOpenDtuRelease": "Neue Version!",
         "doYouWantToEnableOpenDtuUpdates": "Möchtest du Update-Benachrichtigungen für OpenDTU-Releases aktivieren?",
         "thisWillMakeRequestsToGithub": "Dadurch werden Anfragen an api.github.com gesendet",
-        "changeOpendtuCredentials": "OpenDTU-Anmeldeinformationen ändern?",
+        "changeOpendtuCredentials": "OpenDTU Anmeldedaten ändern?",
         "weblateInfo": "Diese App wird von Freiwilligen auf Weblate übersetzt. Du kannst helfen, die Übersetzungen zu verbessern oder neue Sprachen hinzuzufügen, indem du auf den Button klickst!",
         "openWeblate": "Weblate besuchen",
         "title": "Einstellungen",
@@ -507,7 +507,7 @@
         "toast": "Toast"
     },
     "offlineModal": {
-        "title": "Offline",
+        "title": "Du bist Offline!",
         "description": "Dein Gerät verfügt über keine Verbindung über WLAN oder mobile Daten. Bitte überprüfe deine Verbindung."
     },
     "inverter": {
@@ -675,5 +675,6 @@
         "bugReporting": "Fehlerberichte",
         "bugReportingDescription": "Bitte melde alle Fehler die du bemerkst auf GitHub. Den Link dazu findest du in den Einstellungen."
     },
-    "unsavedDataTips": "Du hast ungespeicherte Änderungen. Bist du dir sicher, dass du ohne Speichern fortsetzen willst?"
+    "unsavedDataTips": "Du hast ungespeicherte Änderungen. Bist du dir sicher, dass du ohne Speichern fortsetzen willst?",
+    "dismiss": "Dismiss"
 }
