@@ -674,5 +674,6 @@
         "feedbackDescription": "Falls du Feedback hast, würde ich das natürlich gerne hören! Du kannst entweder eine E-Mail schreiben (die Adresse findest du auf GitHub) oder uns im Repository über die Diskussionen etwas schreiben.",
         "bugReporting": "Fehlerberichte",
         "bugReportingDescription": "Bitte melde alle Fehler die du bemerkst auf GitHub. Den Link dazu findest du in den Einstellungen."
-    }
+    },
+    "unsavedDataTips": "Du hast ungespeicherte Änderungen. Bist du dir sicher, dass du ohne Speichern fortsetzen willst?"
 }
