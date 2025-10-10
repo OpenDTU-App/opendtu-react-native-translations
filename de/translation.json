@@ -269,7 +269,8 @@
         "name": "Name",
         "baseUrl": "URL-Basis",
         "username": "Benutzer",
-        "password": "Passwort"
+        "password": "Passwort",
+        "addANewDatabaseDescription": "Gib bitte die Details deiner Datenbank hier ein, um sie hinzuzufügen."
     },
     "add": "Hinzufügen",
     "setup": {
