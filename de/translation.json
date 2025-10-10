@@ -256,7 +256,8 @@
         "extension": "Extension",
         "bugReporting": "Fehlerbericht",
         "bugReportingDescription": "Fehlerberichte und Feature-Anfragen",
-        "thisActionIsIrreversible": "Diese Aktion ist irreversibel."
+        "thisActionIsIrreversible": "Diese Aktion ist irreversibel.",
+        "degrees": "*"
     },
     "device": {
         "deviceName": "Gerätename",
