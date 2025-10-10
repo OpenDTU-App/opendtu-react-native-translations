@@ -145,7 +145,7 @@
                 "description": "Gib ein neues Passwort der WiFi-Station ein."
             },
             "changeDhcpEnabled": {
-                "title": "DHCP aktivieren / deaktivieren",
+                "title": "DHCP aktivieren?",
                 "description": "Aktiviere oder deaktiviere DHCP für die WLAN-Station."
             },
             "changeStaticIpAddress": {
@@ -161,7 +161,7 @@
                 "description": "Gib einen neuen statischen DNS-Server 1 für deine OpenDTU ein."
             },
             "changeMdnsEnabled": {
-                "title": "mDNS aktivieren / deaktivieren",
+                "title": "mDNS aktivieren?",
                 "description": "Aktiviere oder deaktiviere mDNS für deine OpenDTU."
             }
         },
@@ -255,7 +255,8 @@
         "clearFilter": "Filter löschen",
         "extension": "Extension",
         "bugReporting": "Fehlerbericht",
-        "bugReportingDescription": "Fehlerberichte und Feature-Anfragen"
+        "bugReportingDescription": "Fehlerberichte und Feature-Anfragen",
+        "thisActionIsIrreversible": "Diese Aktion ist irreversibel."
     },
     "device": {
         "deviceName": "Gerätename",
@@ -270,7 +271,9 @@
         "baseUrl": "URL-Basis",
         "username": "Benutzer",
         "password": "Passwort",
-        "addANewDatabaseDescription": "Gib bitte die Details deiner Datenbank hier ein, um sie hinzuzufügen."
+        "addANewDatabaseDescription": "Gib bitte die Details deiner Datenbank hier ein, um sie hinzuzufügen.",
+        "clarificationTitle": "Wichtige Informationen",
+        "clarificationText": "Diese App ist keine Datenbank. Du musst eine Datenbank selber auf einem Server einrichten. Weitere Informationen findest du über einen Klick auf den Knopf."
     },
     "add": "Hinzufügen",
     "setup": {
@@ -678,5 +681,6 @@
     },
     "unsavedDataTips": "Du hast ungespeicherte Änderungen. Bist du dir sicher, dass du ohne Speichern fortsetzen willst?",
     "dismiss": "Dismiss",
-    "learnMore": "Mehr erfahren"
+    "learnMore": "Mehr erfahren",
+    "unsavedDataTitle": "Ungespeicherte Änderungen"
 }
