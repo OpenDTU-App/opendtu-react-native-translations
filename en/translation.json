@@ -125,6 +125,7 @@
         "openWeblate": "Go to Weblate",
         "bugReporting": "Bug Reporting",
         "bugReportingDescription": "Report bugs or request new features",
+        "degrees": "°",
         "networkSettings": {
             "title": "Network Settings",
             "description": "WiFi • Ethernet • DHCP • mDNS",
