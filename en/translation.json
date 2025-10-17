@@ -47,7 +47,8 @@
         "refreshModal": {
             "title": "Refresh newest app release?",
             "warningText": "If you refresh too often, the GitHub API rate limit of 60 requests per hour may be reached. The app will automatically get the latest release every 10 minutes."
-        }
+        },
+        "showAlertsAgain": "Show alerts again"
     },
     "charts": {
         "acPower": "AC Power",
