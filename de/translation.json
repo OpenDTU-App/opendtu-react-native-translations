@@ -39,7 +39,8 @@
         "refreshModal": {
             "title": "Neueste App-Version aktualisieren?",
             "warningText": "Wenn du zu oft aktualisierst, kann das GitHub-API-Ratelimit von 60 Anfragen pro Stunde erreicht werden. Die App lädt automatisch alle 10 Minuten die neueste Version."
-        }
+        },
+        "showAlertsAgain": "Alarme wieder anzeigen"
     },
     "charts": {
         "noDatabaseConfiguredDescription": "Um Diagramme anzuzeigen, konfiguriere deine DTU und weise ihr eine Datenbank zu.",
