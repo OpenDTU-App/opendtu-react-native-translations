@@ -4,7 +4,8 @@
         "configureGraphs": "Graphen konfigurieren",
         "hintsWarning": "Es gibt einige Probleme mit deiner OpenDTU! Klicke hier, um sie anzuzeigen.",
         "todaysYield": "Heutiger Ertrag",
-        "power": "Leistung"
+        "power": "Leistung",
+        "inverters": "Wechselrichter"
     },
     "deviceSettings": {
         "hint": {
