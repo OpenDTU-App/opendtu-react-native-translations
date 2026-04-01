@@ -459,8 +459,7 @@
     "navigation": {
         "livedata": "Données en direct",
         "settings": "Paramètres",
-        "graph": "Graphiques",
-        "inverterList": "Onduleurs"
+        "graph": "Graphiques"
     },
     "limitStatus": {
         "error": "Erreur lors de la définition de la limite",

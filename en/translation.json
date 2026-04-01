@@ -17,7 +17,8 @@
         "changeTimerangeAndRefreshInterval": "Change time-range and refresh interval",
         "hintsWarning": "There are some problems with your OpenDTU! Click here to view them.",
         "todaysYield": "Today's Yield",
-        "power": "Power"
+        "power": "Power",
+        "inverters": "Inverters"
     },
     "device": {
         "deviceName": "Device Name",
@@ -351,8 +352,7 @@
     "navigation": {
         "livedata": "Livedata",
         "settings": "Settings",
-        "graph": "Graphs",
-        "inverterList": "Inverter"
+        "graph": "Graphs"
     },
     "RNPaperDates": {
         "save": "Save",
