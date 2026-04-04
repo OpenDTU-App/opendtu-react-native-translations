@@ -685,5 +685,6 @@
     "unsavedDataTips": "You have unsaved changes. Are you sure you want to continue without saving?",
     "dismiss": "Dismiss",
     "learnMore": "Learn more",
-    "open": "Open"
+    "open": "Open",
+    "noValidDataReceivedYet": "No valid data received yet"
 }
