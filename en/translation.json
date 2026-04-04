@@ -684,5 +684,6 @@
     "unsavedDataTitle": "Unsaved changes",
     "unsavedDataTips": "You have unsaved changes. Are you sure you want to continue without saving?",
     "dismiss": "Dismiss",
-    "learnMore": "Learn more"
+    "learnMore": "Learn more",
+    "open": "Open"
 }
