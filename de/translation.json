@@ -684,5 +684,6 @@
     "unsavedDataTips": "Du hast ungespeicherte Änderungen. Bist du dir sicher, dass du ohne Speichern fortsetzen willst?",
     "dismiss": "Dismiss",
     "learnMore": "Mehr erfahren",
-    "unsavedDataTitle": "Ungespeicherte Änderungen"
+    "unsavedDataTitle": "Ungespeicherte Änderungen",
+    "open": "Öffnen"
 }
