@@ -685,5 +685,6 @@
     "dismiss": "Dismiss",
     "learnMore": "Mehr erfahren",
     "unsavedDataTitle": "Ungespeicherte Änderungen",
-    "open": "Öffnen"
+    "open": "Öffnen",
+    "noValidDataReceivedYet": "Noch keine validen Daten empfangen"
 }
