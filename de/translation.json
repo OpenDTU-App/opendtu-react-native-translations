@@ -411,8 +411,8 @@
             "biggestBlock": "Größter verwendeter Block",
             "fragmentation": "Grad der Fragmentierung",
             "maxUsage": "Maximale Nutzung seit Start",
-            "activateFetchFromGithub": "Aktiviere Datenabfrage an Github",
-            "activateFetchFromGithubDescription": "Dadurch werden Anfragen an api.github.com gesendet"
+            "activateFetchFromGithub": "Aktiviere Datenabfrage von GitHub",
+            "activateFetchFromGithubDescription": "Dadurch werden Anfragen an api.github.com gesendet."
         },
         "systemInformation": "Systeminformationen",
         "networkInformationScreen": {
