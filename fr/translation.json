@@ -222,7 +222,9 @@
         "name": "Nom",
         "baseUrl": "URL de base",
         "username": "Nom d'utilisateur",
-        "password": "Mot de passe"
+        "password": "Mot de passe",
+        "addANewDatabaseDescription": "Veuillez entrer les détails de la base de données que vous souhaitez ajouter.",
+        "clarificationTitle": "Information importante"
     },
     "add": "Ajouter",
     "aboutApp": {
