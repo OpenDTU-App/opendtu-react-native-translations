@@ -210,7 +210,8 @@
         "clearFilter": "Vider les filtres",
         "extension": "Extension",
         "bugReporting": "Reporter un bug",
-        "thisActionIsIrreversible": "Cette action est irréversible."
+        "thisActionIsIrreversible": "Cette action est irréversible.",
+        "bugReportingDescription": "Reporter des bugs ou demander de nouve"
     },
     "device": {
         "deviceName": "Nom de l'appareil",
