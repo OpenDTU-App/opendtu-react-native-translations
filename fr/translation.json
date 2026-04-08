@@ -673,5 +673,9 @@
         "bugReporting": "Rapporter un bug"
     },
     "unsavedDataTitle": "Modifications non enregistrées",
-    "unsavedDataTips": "Vous avez des modifications non enregistrées. Êtes-vous sûr·e de vouloir continuer sans enregistrer ?"
+    "unsavedDataTips": "Vous avez des modifications non enregistrées. Êtes-vous sûr·e de vouloir continuer sans enregistrer ?",
+    "open": "Ouvrir",
+    "noValidDataReceivedYet": "Pas encore de données valides reçues",
+    "dismiss": "Rejeter",
+    "learnMore": "En apprendre plus"
 }
