@@ -208,7 +208,9 @@
             "description": "Les paramètres nécessitent une authentification"
         },
         "clearFilter": "Vider les filtres",
-        "extension": "Extension"
+        "extension": "Extension",
+        "bugReporting": "Reporter un bug",
+        "thisActionIsIrreversible": "Cette action est irréversible."
     },
     "device": {
         "deviceName": "Nom de l'appareil",
