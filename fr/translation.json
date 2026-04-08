@@ -224,7 +224,8 @@
         "username": "Nom d'utilisateur",
         "password": "Mot de passe",
         "addANewDatabaseDescription": "Veuillez entrer les détails de la base de données que vous souhaitez ajouter.",
-        "clarificationTitle": "Information importante"
+        "clarificationTitle": "Information importante",
+        "clarificationText": "L'application n'inclus pas de base de données. Vous devez en installer une vous même. Pour plus d'information, voir le bouton ci-dessous."
     },
     "add": "Ajouter",
     "aboutApp": {
@@ -237,7 +238,8 @@
         "refreshModal": {
             "warningText": "Si vous actualisez trop souvent, la limite de 60 requêtes par heure de l'API GitHub pourrait être atteinte. L'application récupère automatiquement la dernière version de l'application toutes les 10 minutes.",
             "title": "Vérifier la dernière version de l'application ?"
-        }
+        },
+        "showAlertsAgain": "Montrer à nouveau les alertes"
     },
     "charts": {
         "acPower": "Puissance CA",
