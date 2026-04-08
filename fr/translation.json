@@ -73,11 +73,11 @@
                 "description": "Saisir une nouvelle adresse pour la passerelle de votre OpenDTU."
             },
             "changeMdnsEnabled": {
-                "title": "Changer l'activation du mDNS",
+                "title": "Activer mDNS ?",
                 "description": "Activer ou désactiver mDNS pour votre OpenDTU."
             },
             "changeDhcpEnabled": {
-                "title": "Changer l'activation du DHCP",
+                "title": "Activer DHCP ?",
                 "description": "Activer ou désactiver le DHCP pour la connexion WiFi."
             },
             "changeStaticIpAddress": {
@@ -211,7 +211,8 @@
         "extension": "Extension",
         "bugReporting": "Reporter un bug",
         "thisActionIsIrreversible": "Cette action est irréversible.",
-        "bugReportingDescription": "Reporter des bugs ou demander de nouve"
+        "bugReportingDescription": "Reporter des bugs ou demander de nouvelles fonctionalités",
+        "degrees": "°"
     },
     "device": {
         "deviceName": "Nom de l'appareil",
