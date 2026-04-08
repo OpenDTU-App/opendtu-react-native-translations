@@ -314,7 +314,7 @@
     },
     "opendtu": {
         "systemInformationScreen": {
-            "activateFetchFromGithub": "Activer la vérification depuis Github",
+            "activateFetchFromGithub": "Activer la vérification depuis GitHub",
             "hardwareInformation": "Informations sur le matériel",
             "radioInformation": "Informations radio",
             "totalFree": "Total disponible",
@@ -347,7 +347,7 @@
             "biggestBlock": "Plus grand bloc libre contigu",
             "fragmentation": "Niveau de fragmentation",
             "maxUsage": "Utilisation maximale depuis le démarrage",
-            "activateFetchFromGithubDescription": "Cela effectuera des requêtes sur api.github.com"
+            "activateFetchFromGithubDescription": "Cela effectuera des requêtes sur api.github.com."
         },
         "systemInformationDescription": "Firmware • Mises à jour • Matériel • Mémoire • Radio",
         "title": "OpenDTU",
@@ -394,7 +394,8 @@
             "numberOfStations": "Nombre de réseaux",
             "hostname": "Nom d'hôte",
             "ipAddress": "Adresse IP",
-            "subnetMask": "Masque de sous-réseau"
+            "subnetMask": "Masque de sous-réseau",
+            "networkInterface": "Interface réseau ({{interface}})"
         },
         "ntpInformation": "Informations NTP",
         "ntpInformationDescription": "Configuration NTP • Statut NTP",
