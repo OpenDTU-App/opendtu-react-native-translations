@@ -17,7 +17,8 @@
         "changeTimerangeAndRefreshInterval": "Changer la période et l'intervalle d'actualisation",
         "hintsWarning": "Il y a actuellement des problèmes avec votre OpenDTU ! Cliquez-ici pour en savoir plus.",
         "todaysYield": "Aujourd'hui",
-        "power": "Puissance"
+        "power": "Puissance",
+        "inverters": "Onduleurs"
     },
     "settings": {
         "networkSettings": {
