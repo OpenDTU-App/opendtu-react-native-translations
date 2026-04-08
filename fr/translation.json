@@ -254,7 +254,9 @@
         "lastNMinutes": "Dernières {{n}} minutes",
         "lastNHours": "Dernières {{n}} heures",
         "lastNDays": "Derniers {{n}} jours",
-        "checkDatabase": "Vérifier si la base de données est lancée et accessible."
+        "checkDatabase": "Vérifier si la base de données est lancée et accessible.",
+        "errorFetchingData": "Erreur lors de l'interrogation de la base de données.",
+        "errorFetchingDataDescription": "Veuillez vérifier la configuration de la base de données, et la connectivité réseau."
     },
     "setup": {
         "setupComplete": "Installation terminée ! 🎉",
