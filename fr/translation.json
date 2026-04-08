@@ -672,5 +672,6 @@
         "feedbackDescription": "Si vous avez des retours, j'aimerai les entendre ! Vous pouvez m'écrire un email (adresse sur GitHub) ou y ouvrir directement une discussion.",
         "bugReporting": "Rapporter un bug"
     },
-    "unsavedDataTitle": "Modifications non enregistrées"
+    "unsavedDataTitle": "Modifications non enregistrées",
+    "unsavedDataTips": "Vous avez des modifications non enregistrées. Êtes-vous sûr·e de vouloir continuer sans enregistrer ?"
 }
