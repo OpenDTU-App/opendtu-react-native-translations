@@ -634,7 +634,7 @@
     "notProducing": "Pas de production",
     "connected": "Connecté",
     "offlineModal": {
-        "title": "Hors ligne",
+        "title": "Vous êtes hors ligne",
         "description": "Votre appareil ne dispose pas de connexion via WiFi ou données mobiles. Veuillez vérifier votre connexion."
     },
     "clear": "Vider",
@@ -666,5 +666,6 @@
         "newAppVersionInstalled": "Version {{appVersion}} installée !"
     },
     "required": "La valeur est requise",
-    "acknowledge": "Fermer"
+    "acknowledge": "Fermer",
+    "cannotOpenUrl": "Impossible d'accéder à l'URL"
 }
