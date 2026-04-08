@@ -669,6 +669,8 @@
     "acknowledge": "Fermer",
     "cannotOpenUrl": "Impossible d'accéder à l'URL",
     "appInfos": {
-        "feedbackDescription": "Si vous avez des retours, j'aimerai les entendre ! Vous pouvez m'écrire un email (adresse sur GitHub) ou y ouvrir directement une discussion."
-    }
+        "feedbackDescription": "Si vous avez des retours, j'aimerai les entendre ! Vous pouvez m'écrire un email (adresse sur GitHub) ou y ouvrir directement une discussion.",
+        "bugReporting": "Rapporter un bug"
+    },
+    "unsavedDataTitle": "Modifications non enregistrées"
 }
