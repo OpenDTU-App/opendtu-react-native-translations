@@ -653,12 +653,13 @@
     "copy": "Copy",
     "invalidValue": "Invalid Value",
     "errors": {
-        "noLeadingOrTrailingSpaces": "No leading or trailing spaces",
-        "minLength": "Minimum length: {{n}}",
-        "maxLength": "Maximum length: {{n}}",
+        "noLeadingOrTrailingSpaces": "String may not have leading or trailing spaces!",
+        "minLength": "String must have at minimum length of {{n}}!",
+        "maxLength": "String must have at maximum length of {{n}}!",
         "required": "Required",
-        "invalidNumber": "Invalid number",
-        "invalidIpAddress": "Invalid IP address"
+        "invalidNumber": "Invalid number!",
+        "invalidNumberRange": "Invalid number. Must be between {{min}} and {{max}}!",
+        "invalidIpAddress": "Invalid IP address!"
     },
     "logLevels": {
         "debug": "Debug",
