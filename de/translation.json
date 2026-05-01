@@ -316,6 +316,19 @@
             "changeEnableHassDiscovery": {
                 "title": "Auto-Erkennung aktivieren?",
                 "description": "Ermöglicht automatische Erkennung durch Homeassistant."
+            },
+            "changeHassTopic": {
+                "title": "Auto-Erkennungs-Topic-Präfix ändern",
+                "description": "Typischerweise muss das nicht geändert werden."
+            },
+            "changeEnableRetainHass": {
+                "title": "Retainen von Auto-Erkennung aktivieren?"
+            },
+            "changeEnableExpireHass": {
+                "title": "Ablaufen von Auto-Entdeckung aktivieren?"
+            },
+            "changeEnableIndividualPanels": {
+                "title": "Als einzelne Paneele anzeigen?"
             }
         },
         "inverterSettings": {
@@ -769,7 +782,8 @@
         "maxLength": "Maximale Länge: {{n}}",
         "required": "Wert erforderlich",
         "invalidNumber": "Ungültige Nummer",
-        "invalidIpAddress": "Ungültige IP-Adresse"
+        "invalidIpAddress": "Ungültige IP-Adresse",
+        "invalidNumberRange": "Ungültige Nummer. Muss zwischen {{min}} und {{max}} sein!"
     },
     "logLevels": {
         "debug": "Debug",
