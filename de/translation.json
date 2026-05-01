@@ -222,6 +222,27 @@
                 "AtMostOnce": "Höchstens einmal",
                 "AtLeastOnce": "Mindestens einmal",
                 "ExactlyOnce": "Genau einmal"
+            },
+            "homeassistant": {
+                "enableAutodiscovery": "Auto-Erkennung aktivieren",
+                "title": "Homeassistant Autoerkennung",
+                "topicPrefix": "Topic-Präfix für Autoerkennung",
+                "enableRetainFlag": "Retain-Flag aktivieren"
+            },
+            "transportEncryption": {
+                "title": "Transport-Verschlüsselung",
+                "enableTls": "TLS aktivieren",
+                "caRootCert": "CA-Root-Zertifikat",
+                "enableTlsAuth": "TLS-Authentifizierung aktivieren",
+                "clientCert": "TLS Client-Zertifikat",
+                "clientKey": "TLS Client-Schlüssel"
+            },
+            "lwt": {
+                "title": "LWT",
+                "lwtTopic": "LWT-Topic",
+                "lwtOnlineMsg": "LWT-Online-Nachricht",
+                "lwtOfflineMsg": "LWT-Offline-Nachricht",
+                "lwtQos": "LWT-QoS"
             }
         },
         "inverterSettings": {
