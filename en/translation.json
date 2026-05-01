@@ -378,7 +378,20 @@
         },
         "securitySettings": {
             "title": "Security Settings",
-            "description": "Admin password • Permissions"
+            "description": "Admin password • Permissions",
+            "authentication": {
+                "title": "Authentication",
+                "password": "Admin password",
+                "enableReadonly": "Enable read-only access"
+            },
+            "changePassword": {
+                "title": "Change admin password",
+                "description": "This password is used to access authenticated parts of the Webui and to connect through the app. This will also automatically update the password stored in the app if successful."
+            },
+            "changeEnableReadonly": {
+                "title": "Enable read-only access?",
+                "description": "If enabled, read-only access for statuses is allowed. Settings will always require the admin password."
+            }
         },
         "dtuSettings": {
             "title": "DTU Settings",
