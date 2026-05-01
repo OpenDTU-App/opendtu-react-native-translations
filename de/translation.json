@@ -227,7 +227,9 @@
                 "enableAutodiscovery": "Auto-Erkennung aktivieren",
                 "title": "Homeassistant Autoerkennung",
                 "topicPrefix": "Topic-Präfix für Autoerkennung",
-                "enableRetainFlag": "Retain-Flag aktivieren"
+                "enableRetainFlag": "Retain-Flag aktivieren",
+                "enableExpiration": "Ablaufen aktivieren",
+                "publishIndividually": "Paneele einzeln veröffentlichen"
             },
             "transportEncryption": {
                 "title": "Transport-Verschlüsselung",
@@ -243,6 +245,30 @@
                 "lwtOnlineMsg": "LWT-Online-Nachricht",
                 "lwtOfflineMsg": "LWT-Offline-Nachricht",
                 "lwtQos": "LWT-QoS"
+            },
+            "changePassword": {
+                "description": "Das Passwort für authentifizierte Verbindungen.",
+                "title": "Passwort ändern"
+            },
+            "changeUsername": {
+                "description": "Der Benutzername für authentifizierte Verbindungen.",
+                "title": "Benutzername ändern"
+            },
+            "changeEnableMqtt": {
+                "title": "MQTT-Verbindung aktivieren?",
+                "description": "Verbindung zu einem MQTT-Broker aktivieren."
+            },
+            "changeBrokerHostname": {
+                "title": "Broker-Hostname ändern",
+                "description": "Die IP-Adresse oder Hostname des Brokers."
+            },
+            "changeBrokerPort": {
+                "title": "Broker-Port ändern",
+                "description": "Der Port an dem der MQTT-Broker hört."
+            },
+            "changeClientId": {
+                "title": "Client-ID ändern",
+                "description": "Die ID, die der MQTT-Client verwenden soll."
             }
         },
         "inverterSettings": {
