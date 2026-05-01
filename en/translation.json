@@ -233,7 +233,144 @@
         },
         "mqttSettings": {
             "title": "MQTT Settings",
-            "description": "MQTT Broker • Auto-Discovery • Topics"
+            "description": "MQTT Broker • Auto-Discovery • Topics",
+            "mqttQosObject": {
+                "AtMostOnce": "At most once",
+                "AtLeastOnce": "At least once",
+                "ExactlyOnce": "Exactly once"
+            },
+            "mqttConnection": {
+                "title": "MQTT Connection",
+                "enableMqtt": "Enable MQTT connection",
+                "brokerHost": "Broker hostname",
+                "brokerPort": "Broker port",
+                "clientId": "Client ID",
+                "username": "Username",
+                "password": "Password",
+                "baseTopic": "Base topic",
+                "publishInterval": "Publish interval",
+                "enableCleanSessionFlag": "Enable CleanSession flag",
+                "enableRetainFlag": "Enable Retain flag"
+            },
+            "transportEncryption": {
+                "title": "Transport encryption",
+                "enableTls": "Enable TLS",
+                "caRootCert": "CA-Root-Certificate",
+                "enableTlsAuth": "Enable TLS authentication",
+                "clientCert": "TLS client certificate",
+                "clientKey": "TLS client key"
+            },
+            "lwt": {
+                "title": "LWT",
+                "lwtTopic": "LWT topic",
+                "lwtOnlineMsg": "LWT online message",
+                "lwtOfflineMsg": "LWT offline message",
+                "lwtQos": "LWT QoS"
+            },
+            "homeassistant": {
+                "title": "Homeassistant auto-discovery",
+                "enableAutodiscovery": "Enable auto-discovery",
+                "topicPrefix": "Auto-discovery topic prefix",
+                "enableRetainFlag": "Enable Retain flag",
+                "enableExpiration": "Enable expiration",
+                "publishIndividually": "Publish panels individually"
+            },
+            "changeEnableMqtt": {
+                "title": "Enable MQTT connection?",
+                "description": "Enable connection to a MQTT broker."
+            },
+            "changeBrokerHostname": {
+                "title": "Change broker hostname",
+                "description": "The IP address or hostname of the broker."
+            },
+            "changeBrokerPort": {
+                "title": "Change broker port",
+                "description": "The port where the MQTT broker listens on."
+            },
+            "changeClientId": {
+                "title": "Change client ID",
+                "description": "The ID the MQTT client should use."
+            },
+            "changeUsername": {
+                "title": "Change username",
+                "description": "The username to use for authenticated connections."
+            },
+            "changePassword": {
+                "title": "Change password",
+                "description": "The password to use for authenticated connections."
+            },
+            "changeBaseTopic": {
+                "title": "Change base topic",
+                "description": "The base topic to use for all published statuses."
+            },
+            "changePublishInterval": {
+                "title": "Change publish interval",
+                "description": "The interval in which the statuses should be published."
+            },
+            "changeCleanSession": {
+                "title": "Enable CleanSession flag?",
+                "description": ""
+            },
+            "changeRetain": {
+                "title": "Enable retaining statuses?",
+                "description": ""
+            },
+            "changeEnableTls": {
+                "title": "Enable TLS?",
+                "description": ""
+            },
+            "changeCaRootCa": {
+                "title": "Change CA-Root-Certificate",
+                "description": ""
+            },
+            "changeEnableTlsAuth": {
+                "title": "Enable TLS authentication?",
+                "description": "Enable to use of a client certificate/key pair."
+            },
+            "changeClientCert": {
+                "title": "Change client certificate",
+                "description": ""
+            },
+            "changeClientKey": {
+                "title": "Change client key",
+                "description": ""
+            },
+            "changeLwtTopic": {
+                "title": "Change LWT topic",
+                "description": "The topic for the LWT message."
+            },
+            "changeLwtOnline": {
+                "title": "Change LWT online message",
+                "description": ""
+            },
+            "changeLwtOffline": {
+                "title": "Change LWT offline message",
+                "description": ""
+            },
+            "changeLwtQos": {
+                "title": "Change LWT QoS",
+                "description": ""
+            },
+            "changeEnableHassDiscovery": {
+                "title": "Enable auto-discovery?",
+                "description": "Enable publishing auto-discovery messages for homeassistant."
+            },
+            "changeHassTopic": {
+                "title": "Change auto-discovery topic prefix",
+                "description": "Typically this doesn't need to be changed."
+            },
+            "changeEnableRetainHass": {
+                "title": "Enable retaining auto-discovery?",
+                "description": ""
+            },
+            "changeEnableExpireHass": {
+                "title": "Enable expiring auto-discovery?",
+                "description": ""
+            },
+            "changeEnableIndividualPanels": {
+                "title": "Publish as individual panels?",
+                "description": ""
+            }
         },
         "inverterSettings": {
             "title": "Inverter Settings",
