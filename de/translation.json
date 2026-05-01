@@ -269,6 +269,23 @@
             "changeClientId": {
                 "title": "Client-ID ändern",
                 "description": "Die ID, die der MQTT-Client verwenden soll."
+            },
+            "changePublishInterval": {
+                "description": "Das Intervall, in dem die Status veröffentlicht werden sollten.",
+                "title": "Veröffentlichungsintervall ändern"
+            },
+            "changeBaseTopic": {
+                "title": "Basis-Topic ändern",
+                "description": "Das Basis-Topic für alle veröffentlichten Status."
+            },
+            "changeCleanSession": {
+                "title": "CleanSession-Flag aktivieren?"
+            },
+            "changeRetain": {
+                "title": "Status-Retaining aktivieren?"
+            },
+            "changeEnableTls": {
+                "title": "TLS aktivieren?"
             }
         },
         "inverterSettings": {
