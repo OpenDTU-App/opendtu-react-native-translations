@@ -209,7 +209,19 @@
                 "password": "Passwort",
                 "username": "Benutzer",
                 "baseTopic": "Basis-Topic",
-                "publishInterval": "Veröffentlichungsintervall"
+                "publishInterval": "Veröffentlichungsintervall",
+                "title": "MQTT-Verbindung",
+                "enableMqtt": "MQTT-Verbindung aktivieren",
+                "brokerHost": "Broker-Hostname",
+                "brokerPort": "Broker-Port",
+                "clientId": "Client-ID",
+                "enableCleanSessionFlag": "CleanSession-Flag aktivieren",
+                "enableRetainFlag": "Retain-Flag aktivieren"
+            },
+            "mqttQosObject": {
+                "AtMostOnce": "Höchstens einmal",
+                "AtLeastOnce": "Mindestens einmal",
+                "ExactlyOnce": "Genau einmal"
             }
         },
         "inverterSettings": {
