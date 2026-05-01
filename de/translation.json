@@ -286,6 +286,36 @@
             },
             "changeEnableTls": {
                 "title": "TLS aktivieren?"
+            },
+            "changeCaRootCa": {
+                "title": "CA-Root-Zertifikat ändern"
+            },
+            "changeEnableTlsAuth": {
+                "title": "TLS-Authentifizierung aktivieren?",
+                "description": "Ermöglicht die Verwendung eines Client-Zertifikats/Schlüsselpaars."
+            },
+            "changeClientCert": {
+                "title": "Client-Zertifikat ändern"
+            },
+            "changeClientKey": {
+                "title": "Client-Schlüssel ändern"
+            },
+            "changeLwtTopic": {
+                "title": "LWT-Topic ändern",
+                "description": "Das Topic für die LWT-Nachricht."
+            },
+            "changeLwtOnline": {
+                "title": "LWT Online-Nachricht ändern"
+            },
+            "changeLwtOffline": {
+                "title": "LWT Offline-Nachricht ändern"
+            },
+            "changeLwtQos": {
+                "title": "LWT QoS ändern"
+            },
+            "changeEnableHassDiscovery": {
+                "title": "Auto-Erkennung aktivieren?",
+                "description": "Ermöglicht automatische Erkennung durch Homeassistant."
             }
         },
         "inverterSettings": {
