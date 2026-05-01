@@ -157,7 +157,13 @@
         },
         "mqttSettings": {
             "title": "Paramètres MQTT",
-            "description": "Broker MQTT • Découverte automatique • Sujets"
+            "description": "Broker MQTT • Découverte automatique • Sujets",
+            "mqttConnection": {
+                "password": "Mot de passe",
+                "username": "Nom d'utilisateur",
+                "baseTopic": "Sujet de base",
+                "publishInterval": "Intervalle de publication"
+            }
         },
         "inverterSettings": {
             "title": "Paramètres de l'onduleur",
