@@ -187,7 +187,11 @@
         },
         "mqttSettings": {
             "title": "",
-            "description": ""
+            "description": "",
+            "mqttConnection": {
+                "username": "Nome utente",
+                "password": "Password"
+            }
         },
         "inverterSettings": {
             "title": "",
