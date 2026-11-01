@@ -222,7 +222,7 @@
         "install_firmware_on_device": "",
         "outdatedReleases": "",
         "releases": "",
-        "noReleases": "",
+        "noReleases": "Nuova release dell'app disponibile!",
         "publishedAgo": "",
         "install": "",
         "installing": "",
