@@ -163,6 +163,9 @@
                 "username": "Nom d'utilisateur",
                 "baseTopic": "Sujet de base",
                 "publishInterval": "Intervalle de publication"
+            },
+            "homeassistant": {
+                "title": "Découverte automatique de Home Assistant"
             }
         },
         "inverterSettings": {
