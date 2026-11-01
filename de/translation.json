@@ -337,7 +337,10 @@
         },
         "securitySettings": {
             "title": "Sicherheitseinstellungen",
-            "description": "Admin-Password • Berechtigungen"
+            "description": "Admin-Password • Berechtigungen",
+            "changePassword": {
+                "title": "Passwort ändern"
+            }
         },
         "dtuSettings": {
             "title": "DTU-Einstellungen",
